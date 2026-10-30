@@ -2,7 +2,7 @@
 
 Apresentação de **Artur Teixeira, João Henrique e Pedro Mafra** sobre gestão da informação e de banco de dados. Data: 04/11/2026.
 
-São 12 slides com conceitos, exemplos de supermercado e demonstração interativa.
+São 12 slides com conceitos, exemplos de supermercado, demonstração interativa, aprofundamentos e perguntas para discussão.
 
 ## Apresentação
 
@@ -54,3 +54,18 @@ Para hospedar: Settings → Pages → Deploy from a branch → main → / (root)
 - [IBM — Data management](https://www.ibm.com/think/topics/data-management)
 - [IBM — Database](https://www.ibm.com/think/topics/database)
 - [PostgreSQL — Conceitos relacionais](https://www.postgresql.org/docs/current/tutorial-concepts.html)
+
+## Edição profissional
+
+- Seções **Aprofundar** em todos os slides: conceitos adicionais e pergunta com resposta.
+- Referências por slide e bibliografia ao final.
+- Modelo com Produtos, Vendas e Itens de venda, com relações e preservação do preço histórico.
+- Painel com quantidade, preço, receita e resultado bruto do arroz.
+- Consulta SQL que acompanha a semana selecionada.
+- Navegação sempre acessível e ajustes de leitura para celular e projeção.
+
+### Preço, custo e resultado no caso fictício
+
+Na semana 1, o preço do arroz é R$ 25 e o custo de aquisição é R$ 18: 80 unidades geram R$ 2.000 de receita e R$ 560 de resultado bruto simplificado. Na semana 2, o preço cai para R$ 22 e o custo é mantido: 120 unidades geram R$ 2.640 de receita e R$ 480 de resultado bruto. A receita cresce 32%, mas o resultado bruto diminui cerca de 14,3%. Despesas e tributos não foram considerados; esse valor não é lucro líquido.
+
+As seções Aprofundar ficam ocultas no modo Apresentar. Saia desse modo para consultá-las. O roteiro completo continua disponível pelo botão Roteiro.

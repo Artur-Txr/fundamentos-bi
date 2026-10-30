@@ -12,6 +12,15 @@ Imagine um gerente que precisa decidir o que comprar para a próxima semana. Se 
 
 Nossa exposição está dividida em três partes: primeiro, os fundamentos da inteligência de negócios; depois, a gestão da informação; por fim, os bancos de dados e uma demonstração prática. Não estamos estudando apenas um programa de computador, mas todo o caminho que torna uma decisão mais bem informada.
 
+PARA APROFUNDAR
+Investigar como dados podem apoiar decisões gerenciais. Ao final, devemos conseguir diferenciar dados e informação, reconhecer critérios de qualidade e explicar como tabelas e consultas alimentam uma análise.
+
+O trabalho segue um único caso: um supermercado precisa planejar compras sem provocar falta de produtos nem excesso de estoque. A decisão depende de vendas, saldo disponível, preço, custo e prazo de entrega.
+
+PERGUNTA POSSÍVEL
+Por que usar um mesmo caso?
+Porque ele mostra como os três temas se conectam em uma situação concreta.
+
 **Ideia central:** Dados só geram valor quando respondem a uma pergunta.
 
 ---
@@ -25,6 +34,15 @@ Os dados ganham valor quando deixam de ser registros isolados e passam a respond
 Podemos pensar em três perguntas: o que foi registrado, o que isso significa e o que podemos fazer com esse entendimento? O número 120, sem produto, período ou unidade de medida, informa muito pouco. Quando sabemos que representa vendas de arroz em uma semana e comparamos com outra semana, ele se torna útil.
 
 Mesmo assim, a interpretação depende do contexto. Uma promoção pode explicar o crescimento, e a semana seguinte pode voltar ao normal. Por isso, conhecimento envolve relacionar o resultado com a experiência e com outras informações. Mais dados não substituem uma pergunta bem formulada.
+
+PARA APROFUNDAR
+Para comparar números, precisamos fixar produto, período e unidade de medida. Um crescimento de vendas pode refletir uma promoção, uma mudança de preço ou uma alteração no cadastro; o número sozinho não identifica a causa.
+
+Aumento absoluto: 120 − 80 = 40 unidades. Aumento relativo: 40 ÷ 80 × 100 = 50%. O percentual usa a primeira semana como base. Uma alta de 50% seguida de uma queda de 50% não retorna ao valor inicial.
+
+PERGUNTA POSSÍVEL
+Informação e conhecimento são a mesma coisa?
+Não. Informação organiza e contextualiza registros; conhecimento envolve interpretação, experiência e aplicação.
 
 **Ideia central:** Registro + contexto + interpretação = apoio à ação.
 
@@ -40,6 +58,15 @@ Um gestor pode perguntar quais produtos estão vendendo menos, em qual unidade o
 
 Também precisamos definir os indicadores com cuidado. Faturamento mostra o valor das vendas; lucro depende também de custos e despesas. Uma empresa pode vender mais e ganhar menos. O indicador deve refletir o objetivo que se deseja avaliar, evitando conclusões baseadas em um único número.
 
+PARA APROFUNDAR
+Um KPI é um indicador associado a um objetivo relevante. Precisa de definição, fórmula, fonte, periodicidade e responsável. Um total de vendas sem período ou critério de cálculo dificulta a avaliação.
+
+Para avaliar uma promoção, compare quantidade, receita e resultado bruto. Para acompanhar atendimento ao cliente, avalie também a disponibilidade dos produtos. Um único indicador pode esconder uma piora em outra dimensão.
+
+PERGUNTA POSSÍVEL
+BI é apenas um painel?
+Não. O painel é uma forma de visualizar resultados de um processo que também envolve integração, preparação e análise.
+
 **Ideia central:** Uma métrica precisa de definição, objetivo e contexto.
 
 ---
@@ -53,6 +80,15 @@ A análise começa muito antes de um gráfico aparecer na tela. É preciso conec
 Na integração, dados de diferentes sistemas precisam conversar: o código de um produto no caixa deve corresponder ao usado no estoque. Na preparação, podemos padronizar datas, corrigir categorias e investigar registros duplicados. Isso evita comparar informações que parecem iguais, mas foram registradas de formas diferentes.
 
 Depois, o histórico permite comparar períodos. A equipe usa o painel para decidir e observa o resultado da ação, fechando um ciclo de melhoria. Uma compra planejada pode reduzir a falta de produtos, mas isso deve ser medido. Agora, João Henrique vai explicar por que a gestão da informação é essencial para esse processo.
+
+PARA APROFUNDAR
+ETL significa extrair, transformar e carregar. Em ELT, a carga ocorre antes da transformação. A escolha depende da arquitetura; o ponto comum é definir regras de qualidade e integração.
+
+Uma base operacional registra vendas do dia a dia. Uma base analítica pode reunir o histórico de diversas fontes para comparar períodos, produtos e lojas. A decisão é acompanhada para verificar se atingiu o objetivo.
+
+PERGUNTA POSSÍVEL
+Toda empresa precisa de um data warehouse?
+Não. É uma arquitetura útil em determinados contextos, mas um projeto menor pode começar com uma estrutura mais simples.
 
 **Ideia central:** A decisão fecha um ciclo: preparar, analisar, agir e medir.
 
@@ -68,6 +104,15 @@ A gestão da informação busca dar sentido e utilidade ao que a organização c
 
 Pense em dois setores que calculam vendas de maneiras diferentes: um desconta devoluções e outro não. Ambos podem executar suas fórmulas corretamente e chegar a resultados incompatíveis. Um dicionário de dados, com definições dos campos e indicadores, ajuda a criar uma linguagem comum e evita discussões sobre qual número usar.
 
+PARA APROFUNDAR
+Governança estabelece políticas, responsabilidades e critérios. A gestão executa rotinas de coleta, organização, acesso e uso. Um dicionário de dados ajuda a documentar significado, formato e origem dos campos.
+
+Exemplo de definição: quantidade_vendida = soma das unidades registradas no período, considerando a regra adotada para cancelamentos e devoluções. Essa definição deve ser compartilhada pelos setores.
+
+PERGUNTA POSSÍVEL
+Quem é responsável pela informação?
+A responsabilidade é compartilhada: a área de negócio define o significado e o uso; equipes técnicas apoiam sistemas, segurança e manutenção.
+
 **Ideia central:** Governança define regras e quem responde por elas.
 
 ---
@@ -81,6 +126,15 @@ A informação percorre um caminho desde o registro até sua revisão ou descart
 No caixa, a coleta registra produto, quantidade, data e preço. A organização classifica a venda e relaciona o produto à sua categoria. O armazenamento preserva os registros. Na utilização, a equipe consulta o histórico para planejar reposições ou avaliar o desempenho.
 
 Com o tempo, certas informações precisam ser corrigidas, arquivadas ou descartadas conforme os critérios da organização. Manter dados sem propósito pode dificultar buscas e ampliar o esforço de proteção. A gestão acompanha todo o ciclo: não basta coletar bem e abandonar os registros depois.
+
+PARA APROFUNDAR
+Cada etapa do ciclo deve ter finalidade e critérios. Na coleta, verificar campos obrigatórios; na organização, classificar; no armazenamento, preservar; no uso, controlar acesso; na revisão, corrigir e avaliar retenção.
+
+Um cadastro antigo pode exigir atualização sem perder o histórico das transações. Alterar o preço atual de um produto não deve reescrever o preço praticado em uma venda passada.
+
+PERGUNTA POSSÍVEL
+Guardar mais dados sempre é melhor?
+Não. Sem finalidade e organização, o acúmulo aumenta a dificuldade de localizar, manter e proteger a informação.
 
 **Ideia central:** A qualidade precisa acompanhar todo o ciclo de vida.
 
@@ -96,6 +150,15 @@ Considere uma venda registrada duas vezes. O total será maior que a venda real,
 
 Para reduzir esses problemas, a organização pode exigir campos essenciais, validar formatos, usar identificadores únicos e acompanhar atualizações. Também deve investigar a origem dos erros para evitar que se repitam. A frequência necessária depende da decisão: um relatório anual e uma reposição imediata não exigem a mesma atualização.
 
+PARA APROFUNDAR
+Qualidade precisa ser observável. É possível acompanhar a proporção de campos preenchidos, a quantidade de duplicidades e o tempo desde a última atualização. Os limites aceitáveis dependem do uso.
+
+Se 8 de 200 cadastros não têm categoria, a incompletude nesse campo é 4%. O indicador revela um problema, mas a equipe ainda precisa identificar a causa e corrigir o processo de cadastro.
+
+PERGUNTA POSSÍVEL
+Um dado válido pode estar errado?
+Sim. Uma data pode respeitar o formato exigido e representar o dia incorreto. Validade e precisão são critérios diferentes.
+
 **Ideia central:** Corrigir a origem do erro é melhor que repetir o ajuste.
 
 ---
@@ -109,6 +172,15 @@ Informações confiáveis precisam estar protegidas de acesso indevido, alteraç
 Confidencialidade significa restringir o acesso a quem está autorizado. Integridade significa preservar a correção e a consistência dos registros. Disponibilidade significa permitir acesso quando a atividade precisa da informação. Esses objetivos se complementam: bloquear tudo protege o acesso, mas inviabiliza o trabalho.
 
 No supermercado, permissões por função evitam expor informações desnecessárias. Registros de alterações ajudam a investigar um preço modificado. Backups e testes de restauração permitem preparar a recuperação após falhas. Agora, Pedro Mafra vai explicar como os bancos de dados dão estrutura a esses registros.
+
+PARA APROFUNDAR
+Permissões por função reduzem acessos desnecessários. Contas individuais e registros de alterações ajudam na responsabilização. Backup e teste de restauração fazem parte da preparação para incidentes.
+
+Uma cópia de segurança não substitui o controle de acesso; o controle de acesso não substitui a recuperação. É necessário combinar medidas e definir quem age quando ocorre uma falha.
+
+PERGUNTA POSSÍVEL
+Ter backup garante recuperação?
+Não por si só. É preciso verificar integridade das cópias, procedimentos e capacidade de restaurar os dados necessários.
 
 **Ideia central:** Proteger e recuperar são responsabilidades complementares.
 
@@ -124,6 +196,15 @@ O banco de dados é o conjunto organizado; o SGBD é o software que permite gere
 
 Um sistema operacional de vendas registra muitas transações pequenas e frequentes. Uma análise histórica pode ler grandes volumes para comparar meses ou categorias. Essa diferença ajuda a entender por que organizações podem separar bases operacionais e analíticas. O importante é adequar a estrutura ao uso pretendido.
 
+PARA APROFUNDAR
+Uma venda pode exigir registrar os itens e atualizar o estoque. Uma transação agrupa operações que precisam ser tratadas como uma unidade: concluir o conjunto ou desfazê-lo quando necessário.
+
+Se o sistema registra a venda e falha antes de atualizar o estoque, uma implementação sem tratamento adequado pode deixar dados inconsistentes. Transações ajudam a preservar as regras definidas pela aplicação.
+
+PERGUNTA POSSÍVEL
+Qual é a diferença entre banco e SGBD?
+O banco é o conjunto organizado de dados; o SGBD é o software que permite defini-lo, consultá-lo e administrá-lo.
+
 **Ideia central:** A estrutura deve acompanhar o tipo de uso.
 
 ---
@@ -137,6 +218,15 @@ Em um modelo relacional, as informações são distribuídas em tabelas que se c
 Na tabela Produtos, cada produto recebe um identificador. Na tabela Itens de venda, esse identificador faz a ligação com o cadastro. Assim, o nome e a categoria do produto não precisam ser repetidos em cada linha de venda. Uma alteração no cadastro pode ser gerenciada de forma mais organizada.
 
 A chave primária identifica o registro; a estrangeira estabelece a ligação. Com uma restrição adequada, o banco impede que um item aponte para um produto inexistente. Esse exemplo introduz a integridade referencial. O modelo apresentado é simplificado: uma aplicação completa também precisaria representar a venda, a data e o preço praticado.
+
+PARA APROFUNDAR
+A chave primária identifica cada linha. A chave estrangeira referencia um registro relacionado. Separar cadastros e movimentos reduz repetições e ajuda a preservar consistência; esse cuidado está ligado à normalização.
+
+O preço de cadastro pode mudar. Por isso, o item de venda deve preservar o preço praticado na transação. O relatório histórico não deve recalcular a receita usando o preço atual do produto.
+
+PERGUNTA POSSÍVEL
+O que acontece com um código de produto inexistente?
+Com a restrição de chave estrangeira configurada, a inserção pode ser rejeitada para preservar a integridade referencial.
 
 **Ideia central:** Relações bem definidas ajudam a preservar a consistência.
 
@@ -152,6 +242,15 @@ Na semana 1, o arroz teve 80 unidades vendidas. Na semana 2, foram 120: a difere
 
 Na consulta, SELECT define o resultado, SUM soma quantidades, WHERE filtra a semana, GROUP BY reúne os registros de cada produto e ORDER BY organiza o ranking. A consulta é ilustrativa: este site usa dados locais. Antes de aumentar a compra, o gerente deve verificar o estoque disponível, a duração da promoção, a margem e o prazo do fornecedor.
 
+PARA APROFUNDAR
+O caso agora compara também preço e custo do arroz. Na semana 1, 80 unidades a R$ 25 geram R$ 2.000 de receita. Na semana 2, 120 unidades a R$ 22 geram R$ 2.640. O custo de aquisição é de R$ 18 por unidade em ambas.
+
+Resultado bruto simplificado: receita menos custo de aquisição. Ele passa de R$ 560 para R$ 480, queda de aproximadamente 14,3%, apesar da alta de 50% nas unidades. Não representa lucro líquido: despesas e tributos não foram considerados.
+
+PERGUNTA POSSÍVEL
+Qual decisão o painel recomenda?
+Ele apoia a investigação. Avaliar margem, duração da promoção, estoque e prazo de entrega é necessário antes de alterar a compra.
+
 **Ideia central:** O painel evidencia uma mudança; o contexto orienta a decisão.
 
 ---
@@ -165,5 +264,14 @@ A tecnologia gera valor quando os registros são confiáveis e a análise respon
 A mensagem central é que uma boa decisão depende de uma cadeia inteira. O banco organiza registros; a gestão garante significado, qualidade e acesso; o BI permite analisar e acompanhar resultados. Se qualquer elo falhar, um painel pode transmitir confiança sem representar bem a realidade.
 
 Para encerrar, pergunte à turma se uma recomendação de compra seria confiável com o estoque desatualizado. A resposta mostra por que não podemos avaliar apenas o gráfico final. As referências permitem aprofundar os conceitos; nossos números são fictícios e foram criados para demonstrar o raciocínio. Agradeçam e abram espaço para perguntas.
+
+PARA APROFUNDAR
+Um banco organizado não garante que os registros estejam corretos; dados corretos não garantem interpretação adequada. A confiança surge da combinação entre estrutura, qualidade, contexto e análise.
+
+Uma implantação pode começar com uma pergunta de negócio bem definida, poucas fontes confiáveis e indicadores simples. Depois de medir o resultado, a equipe ajusta o processo e amplia a análise.
+
+PERGUNTA POSSÍVEL
+Qual é a principal ideia do trabalho?
+Decisões melhores dependem de dados organizados, informação confiável e análise conectada a um objetivo.
 
 **Ideia central:** Organizar → confiar → analisar → decidir.
