@@ -1,12 +1,10 @@
 # Roteiro de apresentação
 
-12 slides · 4 por integrante · aproximadamente 20–25 minutos, conforme o ritmo.
+18 slides · 6 por integrante · Artur Teixeira, João Henrique e Pedro Mafra.
 
-## Slide 1 — Da informação à decisão.
+## 1. Abertura
 
-**Inteligência de negócios**
-
-
+**Artur Teixeira** · Inteligência de negócios
 
 Imagine um gerente que precisa decidir o que comprar para a próxima semana. Se ele olhar apenas para a prateleira, terá uma visão limitada. Se reunir vendas, estoque e prazo dos fornecedores, poderá justificar melhor sua escolha. É essa passagem de registros dispersos para uma visão organizada que guia nossa apresentação.
 
@@ -24,15 +22,21 @@ Porque ele mostra como os três temas se conectam em uma situação concreta.
 SUGESTÃO PARA APRESENTAR
 Uma forma de abrir a apresentação é perguntar: “Como vocês decidiriam quais produtos comprar para uma loja?” Ouça uma resposta e conecte com a necessidade de dados. Nosso objetivo é explicar o raciocínio e mostrar que o sistema ajuda, mas a decisão continua dependendo das pessoas.
 
-**Ideia central:** Dados só geram valor quando respondem a uma pergunta.
+---
+
+## 2. A pergunta de negócio
+
+**Artur Teixeira** · Inteligência de negócios
+
+Nosso ponto de partida é uma pergunta de negócio: como comprar melhor? Explique que uma compra pequena demais pode deixar produtos em falta; uma compra excessiva pode provocar desperdício. As três perguntas deste slide serão respondidas em conjunto, pois disponibilidade, volume e resultado representam objetivos diferentes.
+
+O exemplo é fictício e será usado para conectar as três partes do trabalho. Antes de escolher qualquer ferramenta, precisamos definir a decisão que queremos melhorar. Dados de vendas, estoque, custo e prazo podem contribuir, mas precisam ser confiáveis e comparáveis.
 
 ---
 
-## Slide 2 — O mesmo fato. Três níveis de valor.
+## 3. Dados e informação
 
-**Inteligência de negócios**
-
-O contexto transforma um registro em informação útil.
+**Artur Teixeira** · Inteligência de negócios
 
 Podemos pensar em três perguntas: o que foi registrado, o que isso significa e o que podemos fazer com esse entendimento? O número 120, sem produto, período ou unidade de medida, informa muito pouco. Quando sabemos que representa vendas de arroz em uma semana e comparamos com outra semana, ele se torna útil.
 
@@ -50,15 +54,11 @@ Não. Informação organiza e contextualiza registros; conhecimento envolve inte
 SUGESTÃO PARA APRESENTAR
 Para exemplificar fora do supermercado, pense nas notas de uma turma. Uma nota é um dado; a média por disciplina é uma informação; identificar dificuldades e planejar uma revisão usa essa informação para orientar uma ação. O exemplo mostra que o conceito também aparece fora das empresas.
 
-**Ideia central:** Registro + contexto + interpretação = apoio à ação.
-
 ---
 
-## Slide 3 — BI: responder perguntas com dados.
+## 4. O que é BI
 
-**Inteligência de negócios**
-
-Do entendimento do negócio à escolha dos indicadores.
+**Artur Teixeira** · Inteligência de negócios
 
 Um gestor pode perguntar quais produtos estão vendendo menos, em qual unidade ocorreu uma queda ou se a meta mensal foi atingida. O BI organiza o acesso a essas respostas. Um dashboard é um painel que reúne indicadores; já o processo de BI inclui definir o problema, preparar os dados, analisar e acompanhar o que aconteceu depois da decisão.
 
@@ -76,15 +76,21 @@ Não. O painel é uma forma de visualizar resultados de um processo que também 
 SUGESTÃO PARA APRESENTAR
 Antes de falar nos indicadores, leia a definição de BI em linguagem simples: usar dados para compreender o negócio e apoiar decisões. Depois mostre que as perguntas mudam conforme o objetivo: vender mais, reduzir faltas ou melhorar resultado. É por isso que a seleção de métricas vem depois da pergunta.
 
-**Ideia central:** Uma métrica precisa de definição, objetivo e contexto.
+---
+
+## 5. Indicadores
+
+**Artur Teixeira** · Inteligência de negócios
+
+Um indicador precisa ter uma pergunta por trás. Volume mede unidades, receita mede o valor vendido e resultado bruto, neste caso simplificado, desconta o custo de aquisição dos produtos. Nenhum desses números representa sozinho o lucro líquido.
+
+Apresente as fórmulas e explique que uma promoção pode aumentar a quantidade, mas reduzir o valor que resta por unidade. Um KPI é um indicador associado a um objetivo relevante. Definir fórmula, fonte, período e responsável permite que diferentes pessoas interpretem o mesmo resultado de maneira consistente.
 
 ---
 
-## Slide 4 — Da venda registrada à ação do gestor.
+## 6. Da fonte à decisão
 
-**Inteligência de negócios**
-
-Uma análise confiável começa antes do gráfico.
+**Artur Teixeira** · Inteligência de negócios
 
 Na integração, dados de diferentes sistemas precisam conversar: o código de um produto no caixa deve corresponder ao usado no estoque. Na preparação, podemos padronizar datas, corrigir categorias e investigar registros duplicados. Isso evita comparar informações que parecem iguais, mas foram registradas de formas diferentes.
 
@@ -102,15 +108,11 @@ Não. É uma arquitetura útil em determinados contextos, mas um projeto menor p
 SUGESTÃO PARA APRESENTAR
 Na prática, integração também exige acertar identificadores: o mesmo código precisa se referir ao mesmo produto nas diferentes fontes. Documentar a transformação permite explicar de onde veio um número apresentado no painel.
 
-**Ideia central:** A decisão fecha um ciclo: preparar, analisar, agir e medir.
-
 ---
 
-## Slide 5 — Informação útil exige organização.
+## 7. Gestão da informação
 
-**Gestão da informação**
-
-Pessoas, processos e tecnologia trabalham juntos.
+**João Henrique** · Gestão da informação
 
 A gestão da informação busca dar sentido e utilidade ao que a organização conhece e registra. Pessoas precisam saber suas responsabilidades; processos precisam definir como cadastrar e atualizar; a tecnologia precisa apoiar a recuperação e o compartilhamento. Se um desses elementos falhar, a informação perde valor.
 
@@ -128,15 +130,11 @@ A responsabilidade é compartilhada: a área de negócio define o significado e 
 SUGESTÃO PARA APRESENTAR
 Explique a diferença entre governança e gestão com um exemplo. A regra diz que nenhum produto entra sem categoria; a rotina de cadastro verifica e aplica essa exigência. A primeira estabelece a responsabilidade; a segunda executa o procedimento.
 
-**Ideia central:** Governança define regras e quem responde por elas.
-
 ---
 
-## Slide 6 — O ciclo de vida da informação.
+## 8. Ciclo de vida
 
-**Gestão da informação**
-
-Da coleta à revisão, cada etapa exige cuidado.
+**João Henrique** · Gestão da informação
 
 No caixa, a coleta registra produto, quantidade, data e preço. A organização classifica a venda e relaciona o produto à sua categoria. O armazenamento preserva os registros. Na utilização, a equipe consulta o histórico para planejar reposições ou avaliar o desempenho.
 
@@ -154,15 +152,11 @@ Não. Sem finalidade e organização, o acúmulo aumenta a dificuldade de locali
 SUGESTÃO PARA APRESENTAR
 O ciclo de vida não é apenas uma sequência técnica. Em cada fase alguém precisa assumir uma responsabilidade: quem registra, quem verifica, quem autoriza acesso e quem revisa a necessidade de manter a informação. Isso evita que o registro seja abandonado depois da coleta.
 
-**Ideia central:** A qualidade precisa acompanhar todo o ciclo de vida.
-
 ---
 
-## Slide 7 — Qualidade começa na origem.
+## 9. Qualidade dos dados
 
-**Gestão da informação**
-
-A confiança na análise depende da qualidade dos registros.
+**João Henrique** · Gestão da informação
 
 Considere uma venda registrada duas vezes. O total será maior que a venda real, e o gestor poderá interpretar que a demanda aumentou. Outro problema aparece quando o estoque usa caixas e o relatório interpreta unidades: os dados existem, mas a comparação está errada.
 
@@ -180,15 +174,21 @@ Sim. Uma data pode respeitar o formato exigido e representar o dia incorreto. Va
 SUGESTÃO PARA APRESENTAR
 Não trate todo número negativo como erro automaticamente. Ele pode representar uma devolução. A qualidade depende de conhecer o significado do registro e a regra do processo. O exemplo de 8 cadastros sem categoria em um total de 200 mostra como transformar uma falha em indicador observável.
 
-**Ideia central:** Corrigir a origem do erro é melhor que repetir o ajuste.
+---
+
+## 10. Do erro à consequência
+
+**João Henrique** · Gestão da informação
+
+Aqui mostramos uma forma de tornar a qualidade observável. Se oito de duzentos cadastros estão sem categoria, a incompletude nesse campo é de quatro por cento. O número identifica a dimensão do problema, mas não revela sozinho a causa.
+
+O processo precisa identificar o problema, investigar a origem e corrigir a rotina que o produziu. Uma venda duplicada pode aumentar artificialmente a demanda aparente. Não classifique todo número negativo como erro: ele pode representar uma devolução, dependendo das regras adotadas. A qualidade depende do contexto e do significado do registro.
 
 ---
 
-## Slide 8 — Proteger e conseguir recuperar.
+## 11. Segurança
 
-**Gestão da informação**
-
-Proteger os dados também significa conseguir recuperá-los.
+**João Henrique** · Gestão da informação
 
 Confidencialidade significa restringir o acesso a quem está autorizado. Integridade significa preservar a correção e a consistência dos registros. Disponibilidade significa permitir acesso quando a atividade precisa da informação. Esses objetivos se complementam: bloquear tudo protege o acesso, mas inviabiliza o trabalho.
 
@@ -206,15 +206,21 @@ Não por si só. É preciso verificar integridade das cópias, procedimentos e c
 SUGESTÃO PARA APRESENTAR
 Os três princípios são complementares. Um arquivo inacessível para todos teria pouca utilidade para a operação. Um sistema aberto sem controle exporia os registros. A proteção deve permitir que cada função trabalhe com os acessos adequados e com capacidade de recuperação.
 
-**Ideia central:** Proteger e recuperar são responsabilidades complementares.
+---
+
+## 12. Boas práticas
+
+**João Henrique** · Gestão da informação
+
+Este slide transforma os conceitos em uma rotina: padronizar o cadastro, controlar os acessos, preservar o histórico e testar a recuperação. Explique uma prática de cada vez, usando o supermercado como exemplo. Um código único evita cadastros duplicados; permissões por função limitam a exposição; o preço da venda precisa permanecer histórico.
+
+O backup só é útil quando conseguimos restaurar os dados necessários. Por isso, procedimentos, cópias e responsáveis devem ser verificados. A gestão depende de rotinas que as pessoas consigam executar, acompanhar e melhorar. Em seguida, Pedro Mafra mostrará como os bancos de dados sustentam essa organização.
 
 ---
 
-## Slide 9 — A estrutura por trás da informação.
+## 13. Banco e SGBD
 
-**Banco de dados**
-
-A estrutura acompanha a finalidade dos dados.
+**Pedro Mafra** · Banco de dados
 
 O banco de dados é o conjunto organizado; o SGBD é o software que permite gerenciá-lo. Ele pode controlar permissões, executar consultas e aplicar restrições. A escolha depende do volume, do tipo de informação e das operações necessárias. Não há um modelo universalmente melhor.
 
@@ -232,15 +238,11 @@ O banco é o conjunto organizado de dados; o SGBD é o software que permite defi
 SUGESTÃO PARA APRESENTAR
 Para explicar uma transação, use a venda e a baixa do estoque: essas alterações precisam ser coordenadas. Esse cuidado ajuda a evitar que uma parte da operação seja concluída e outra fique pendente, quebrando as regras da aplicação.
 
-**Ideia central:** A estrutura deve acompanhar o tipo de uso.
-
 ---
 
-## Slide 10 — Tabelas conectadas, registros consistentes.
+## 14. Modelo relacional
 
-**Banco de dados**
-
-Tabelas relacionadas preservam a organização e o histórico.
+**Pedro Mafra** · Banco de dados
 
 Na tabela Produtos, cada produto recebe um identificador. Na tabela Itens de venda, esse identificador faz a ligação com o cadastro. Assim, o nome e a categoria do produto não precisam ser repetidos em cada linha de venda. Uma alteração no cadastro pode ser gerenciada de forma mais organizada.
 
@@ -258,15 +260,21 @@ Com a restrição de chave estrangeira configurada, a inserção pode ser rejeit
 SUGESTÃO PARA APRESENTAR
 Peça que a turma acompanhe as duas relações. Uma venda reúne vários itens. Um produto pode aparecer em itens de muitas vendas. Guardar o preço praticado no item preserva o histórico mesmo que o cadastro seja atualizado depois.
 
-**Ideia central:** Relações bem definidas ajudam a preservar a consistência.
+---
+
+## 15. A consulta SQL
+
+**Pedro Mafra** · Banco de dados
+
+A pergunta é: quais produtos tiveram mais unidades vendidas na semana dois? SELECT define o que será exibido; FROM indica a tabela; WHERE seleciona o período; GROUP BY agrupa os produtos; SUM soma suas quantidades; ORDER BY coloca o maior total primeiro.
+
+Mostre o resultado esperado: arroz 120, feijão 75 e café 35. A tabela vendas_demo é didática e independente do modelo relacional anterior. Esta consulta é ilustrativa; o site calcula o painel seguinte em JavaScript, sem conexão com um banco real. O objetivo é explicar como registros podem ser resumidos em informação útil.
 
 ---
 
-## Slide 11 — Do banco ao painel: uma decisão em prática.
+## 16. Painel interativo
 
-**Banco de dados**
-
-Compare as semanas e observe volume, receita e resultado.
+**Pedro Mafra** · Banco de dados
 
 Na semana 1, o arroz teve 80 unidades vendidas. Na semana 2, foram 120: a diferença é 40, que dividida por 80 resulta em 50%. O feijão também aumentou, enquanto o café caiu. O painel permite enxergar esse comportamento rapidamente e levantar perguntas para investigar.
 
@@ -284,15 +292,21 @@ Ele apoia a investigação. Avaliar margem, duração da promoção, estoque e p
 SUGESTÃO PARA APRESENTAR
 Apresente primeiro a semana de referência, depois a promoção. Pergunte se a alta de 50% nas unidades permite concluir que o negócio ganhou mais. Em seguida revele a receita e o resultado bruto. A surpresa ajuda a explicar por que indicadores precisam ser analisados em conjunto.
 
-**Ideia central:** O painel evidencia uma mudança; o contexto orienta a decisão.
+---
+
+## 17. Da análise à decisão
+
+**Pedro Mafra** · Banco de dados
+
+Retome os três resultados da promoção. As unidades sobem cinquenta por cento; a receita sobe trinta e dois por cento; o resultado bruto simplificado cai aproximadamente quatorze vírgula três por cento. Isso acontece porque o preço do arroz caiu de vinte e cinco para vinte e dois reais, enquanto o custo de aquisição permaneceu em dezoito reais por unidade.
+
+A promoção pode ter outros objetivos, mas esses dados não permitem declarar sucesso apenas pelo volume. Antes de alterar a compra, o gestor deve avaliar saldo em estoque, duração da promoção, validade e prazo do fornecedor. A decisão deve ser acompanhada para verificar seu efeito. Nenhum número deste exemplo representa lucro líquido.
 
 ---
 
-## Slide 12 — A decisão começa antes do gráfico.
+## 18. Conclusão
 
-**Conclusão e referências**
-
-Estrutura, confiança e análise sustentam a decisão.
+**Pedro Mafra** · Banco de dados
 
 A mensagem central é que uma boa decisão depende de uma cadeia inteira. O banco organiza registros; a gestão garante significado, qualidade e acesso; o BI permite analisar e acompanhar resultados. Se qualquer elo falhar, um painel pode transmitir confiança sem representar bem a realidade.
 
@@ -309,5 +323,3 @@ Decisões melhores dependem de dados organizados, informação confiável e aná
 
 SUGESTÃO PARA APRESENTAR
 Encerre propondo um caminho viável: começar com uma pergunta, escolher dados confiáveis, definir métricas e acompanhar a ação. A maturidade não depende apenas do tamanho do sistema, mas da capacidade de repetir esse ciclo com consistência.
-
-**Ideia central:** Organizar → confiar → analisar → decidir.

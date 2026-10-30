@@ -1,36 +1,41 @@
 # Fundamentos da inteligência de negócios
 
-Apresentação de **Artur Teixeira, João Henrique e Pedro Mafra** sobre gestão da informação e de banco de dados. Data: 04/11/2026.
+Apresentação de **Artur Teixeira, João Henrique e Pedro Mafra**, em 04/11/2026.
 
-São 12 slides com conceitos, exemplos de supermercado, demonstração interativa, aprofundamentos e perguntas para discussão.
+[Abrir apresentação](https://artur-txr.github.io/fundamentos-bi/)
 
-## Apresentação
+## Organização
 
-[Abrir os slides](https://artur-txr.github.io/fundamentos-bi/)
+18 slides, com 6 para cada integrante:
 
-Também é possível baixar os arquivos e abrir index.html diretamente no navegador. Não precisa instalar programas nem bibliotecas.
-
-| Integrante | Slides | Tema |
+| Integrante | Slides | Conteúdo |
 | --- | --- | --- |
-| Artur Teixeira | 1–4 | Dados, informação e inteligência de negócios |
-| João Henrique | 5–8 | Gestão da informação, qualidade e segurança |
-| Pedro Mafra | 9–12 | Bancos de dados, relações, exemplo e conclusão |
+| Artur Teixeira | 1–6 | Abertura, problema de negócio, dados e informação, BI, indicadores e processo |
+| João Henrique | 7–12 | Gestão da informação, ciclo de vida, qualidade, erros, segurança e boas práticas |
+| Pedro Mafra | 13–18 | Bancos de dados, modelo relacional, SQL, painel, decisão e conclusão |
 
-## Controles
+A duração depende do ensaio. Como ponto de partida, reservem cerca de 20–30 minutos e ajustem ao tempo do professor. O [ROTEIRO.md](ROTEIRO.md) reúne as falas de cada slide.
 
-- Setas: avançar e voltar.
-- P ou Apresentar: ocultar o índice lateral e ampliar a apresentação.
-- N ou Roteiro: mostrar as falas na mesma tela. Feche o roteiro antes de projetar, se não quiser que a turma veja.
-- F: tela cheia. Se necessário, use F11.
-- Home / End: primeiro e último slides.
-- Integrantes: personalizar nomes neste navegador.
-- Imprimir / PDF: imprimir os slides com as falas. Confira orientação e paginação na prévia.
+## Design e temas
 
-O arquivo [ROTEIRO.md](ROTEIRO.md) reúne as falas para estudo. A duração depende do ritmo; reservem cerca de 20–25 minutos e ajustem ao tempo do professor.
+Quatro temas: Azul noturno, Claro editorial, Verde profundo e Violeta. Use **Cores** no topo para trocar; a preferência fica salva neste navegador. Todos os temas preservam o conteúdo e os cálculos.
 
-## Exemplo prático
+A nova capa usa uma ilustração conceitual de integração de fontes. O desenho não representa dados estatísticos.
 
-Os dados são fictícios e servem para explicar o raciocínio.
+## Usar
+
+- Setas ou Page Up/Down: navegar.
+- Home / End: capa e último slide.
+- P ou Apresentar: ampliar a área útil e reduzir controles auxiliares.
+- N ou Roteiro: consultar a fala na mesma tela. Feche antes da projeção se não quiser mostrar o roteiro ao público.
+- F: tela cheia; F11 é uma alternativa do navegador.
+- Índice: saltar para qualquer slide.
+- Menu •••: tela cheia, impressão/PDF e glossário.
+- Escape: fechar os diálogos.
+
+Para usar offline, abra index.html no navegador. Os links das fontes precisam de internet. Não há dependências externas nem banco de dados conectado.
+
+## Caso fictício
 
 | Produto | Semana 1 | Semana 2 |
 | --- | --- | --- |
@@ -38,46 +43,26 @@ Os dados são fictícios e servem para explicar o raciocínio.
 | Feijão | 60 | 75 |
 | Café | 40 | 35 |
 
-Arroz: (120 − 80) / 80 × 100 = 50% de aumento nas unidades. Isso não demonstra aumento de lucro e não determina automaticamente a reposição.
+O preço do arroz muda de R$ 25 para R$ 22; o custo de aquisição permanece em R$ 18 por unidade. A receita passa de R$ 2.000 para R$ 2.640 (+32%). O resultado bruto simplificado passa de R$ 560 para R$ 480 (−14,3%). Despesas e tributos não foram considerados: não é lucro líquido.
 
-O painel funciona em JavaScript local, sem conexão com um banco de dados. A consulta SQL exibida é ilustrativa e usa uma tabela didática, separada das tabelas do slide anterior.
+O painel é calculado localmente em JavaScript. A consulta SQL é ilustrativa e utiliza vendas_demo, uma tabela didática separada do modelo relacional apresentado. Os números não são dados de uma empresa real.
 
-## Tecnologias
+## Arquivos e publicação
 
-HTML, CSS e JavaScript puro. Sem dependências externas. O site funciona offline, exceto pelos links de referência. Nomes personalizados ficam apenas no armazenamento local do navegador.
+- index.html: estrutura da página.
+- deck.js: conteúdo dos 18 slides e falas.
+- player.js: navegação, temas, diálogos e painel.
+- design.css: identidade visual, responsividade e impressão.
+- ROTEIRO.md: material de ensaio.
+- .nojekyll: publicação estática.
 
-Para hospedar: Settings → Pages → Deploy from a branch → main → / (root).
+No GitHub Pages, use a branch main e a pasta / (root). A prévia de impressão depende do navegador; confira a paginação antes de salvar como PDF.
 
 ## Referências
 
 - [IBM — Business intelligence](https://www.ibm.com/think/topics/business-intelligence)
 - [IBM — Data management](https://www.ibm.com/think/topics/data-management)
-- [IBM — Database](https://www.ibm.com/think/topics/database)
+- [IBM — Data quality](https://www.ibm.com/think/topics/data-quality)
 - [PostgreSQL — Conceitos relacionais](https://www.postgresql.org/docs/current/tutorial-concepts.html)
-
-## Edição profissional
-
-- Conceitos adicionais e perguntas com respostas no roteiro.
-- Referências por slide e bibliografia ao final.
-- Modelo com Produtos, Vendas e Itens de venda, com relações e preservação do preço histórico.
-- Painel com quantidade, preço, receita e resultado bruto do arroz.
-- Consulta SQL que acompanha a semana selecionada.
-- Navegação sempre acessível e ajustes de leitura para celular e projeção.
-
-### Preço, custo e resultado no caso fictício
-
-Na semana 1, o preço do arroz é R$ 25 e o custo de aquisição é R$ 18: 80 unidades geram R$ 2.000 de receita e R$ 560 de resultado bruto simplificado. Na semana 2, o preço cai para R$ 22 e o custo é mantido: 120 unidades geram R$ 2.640 de receita e R$ 480 de resultado bruto. A receita cresce 32%, mas o resultado bruto diminui cerca de 14,3%. Despesas e tributos não foram considerados; esse valor não é lucro líquido.
-
-O roteiro completo continua disponível pelo botão Roteiro.
-## Recursos para estudo e ensaio
-
-O glossário integrado reúne BI, KPI, dashboard, ETL, SGBD, SQL, chaves e outros conceitos. Pode ser aberto pelo botão Glossário e fechado por Escape. O roteiro reúne perguntas e respostas, sugestões de fala, transições e exemplos complementares.
-
-O slide 3 apresenta a definição explícita de Business Intelligence antes dos indicadores. Os slides 5–8 detalham responsabilidades, ciclo de vida, qualidade e os três princípios de segurança. O caso do supermercado integra o conteúdo e distingue volume, receita e resultado bruto.
-## Tema clean
-
-A apresentação usa fundo claro, hierarquia tipográfica e cor discreta. Os exemplos ficam recolhidos e podem ser abertos no próprio slide; controles auxiliares ficam em Opções. O conteúdo detalhado permanece no roteiro.
-
-## Revisão visual
-
-A seção Aprofundar foi removida dos slides. As referências foram preservadas e as explicações completas continuam no roteiro de fala. A apresentação utiliza uma superfície branca sobre fundo neutro, navegação discreta e diagramas revisados.
+- [PostgreSQL — Chaves estrangeiras](https://www.postgresql.org/docs/current/tutorial-fk.html)
+- [PostgreSQL — Transações](https://www.postgresql.org/docs/current/tutorial-transactions.html)
