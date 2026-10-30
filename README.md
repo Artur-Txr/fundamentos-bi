@@ -94,3 +94,6 @@ extras.js (conteúdo das interações), interactions.js (controles), sync.js (co
 ### Créditos técnicos
 
 O QR foi gerado durante a preparação com a biblioteca [Project Nayuki QR Code generator](https://www.nayuki.io/page/qr-code-generator-library), sob licença MIT. A decodificação de teste utilizou [jsQR](https://github.com/cozmo/jsQR). As bibliotecas de geração e teste não são carregadas pelo site.
+## Coerência entre roteiro e telas
+
+O caso central é um **supermercado fictício**, identificado na capa, na apresentação do problema e no painel. O roteiro acompanha os controles atuais. No modelo relacional, a explicação segue a revelação Produtos → Itens de venda → Vendas. No encerramento, a retomada do caso e o QR code aparecem antes do agradecimento. O tempo da simulação de duplicidade é de 1 min 30 s tanto no roteiro quanto na janela do apresentador.

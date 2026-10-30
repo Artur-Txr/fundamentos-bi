@@ -1,10 +1,10 @@
-# Roteiro de apresentação — edição interativa
+# Roteiro de apresentação — revisado com as telas
 
-Artur Teixeira (1–6), João Henrique (7–12) e Pedro Mafra (13–18).
+**18 slides · 6 por integrante.** Artur Teixeira (1–6), João Henrique (7–12) e Pedro Mafra (13–18).
 
-Use Roteiro ou N nos slides. Para conduzir sem projetar as falas, use **••• → Janela do apresentador** e mova a nova janela para a tela de quem apresenta. Inicie o cronômetro manualmente. O tempo de ensaio continua próximo de 24 minutos, mas reserve mais tempo se houver participação da turma.
+O estudo de caso é um **supermercado fictício**, usado para conectar BI, gestão da informação e banco de dados. Os números são didáticos, não correspondem a dados de uma empresa real. As falas e orientações abaixo acompanham as interações da apresentação.
 
-Nas telas 6, 8 e 14, revele uma etapa de cada vez. Na tela 10, alterne a duplicidade. Na tela 16, compare as duas semanas. Na tela 17, faça a pergunta antes de revelar a análise. Na tela 18, retome a decisão e apresente o QR code.
+Use Roteiro ou N. Para conduzir sem projetar as falas, use **••• → Janela do apresentador** e mantenha essa janela na sua tela. Nas telas 6, 8 e 14, revele as etapas conforme a explicação. Na tela 10, alterne a duplicidade; na 16, compare as semanas; na 17, faça a pergunta antes da análise; na 18, mostre o QR code antes de agradecer. O tempo de referência é de aproximadamente 24 minutos, com tempo adicional para a participação da turma.
 
 ## 1. Abertura
 
@@ -32,7 +32,7 @@ Artur Teixeira · SLIDE 2 / 18
 TEMPO SUGERIDO: 1 min 10 s
 
 FALA SUGERIDA
-Antes de pensar em um sistema ou em um gráfico, precisamos definir qual problema queremos resolver. No nosso exemplo, a pergunta é: como o supermercado pode comprar melhor?
+Antes de pensar em um sistema ou em um gráfico, precisamos definir qual problema queremos resolver. Nosso estudo de caso é um supermercado fictício. A pergunta é: como esse supermercado pode comprar melhor?
 
 O primeiro objetivo é evitar a falta de produtos. Se o cliente procura arroz e não encontra, a loja pode perder a venda. O segundo é controlar o excesso: comprar além da demanda ocupa espaço e pode provocar perdas. O terceiro é avaliar o resultado, porque vender mais unidades não significa necessariamente ganhar mais.
 
@@ -298,16 +298,18 @@ Pedro Mafra · SLIDE 14 / 18
 TEMPO SUGERIDO: 1 min 30 s
 
 FALA SUGERIDA
-Neste modelo simplificado, temos três tabelas: Produtos, Itens de venda e Vendas. Produtos guarda informações do cadastro, como nome, categoria e preço atual. Vendas registra o evento, com data, forma de pagamento e status. Itens de venda conecta cada produto à venda e guarda quantidade e preço praticado.
+Neste modelo simplificado do supermercado fictício, temos três tabelas. Vou apresentá-las na ordem em que aparecem. Primeiro, Produtos guarda o cadastro, com identificador, nome, categoria e preço atual.
 
-A relação funciona assim: uma venda pode ter vários itens, e um produto pode aparecer em itens de muitas vendas. A chave primária, indicada por PK, identifica cada linha. A chave estrangeira, indicada por FK, referencia um registro relacionado.
+Depois, Itens de venda registra o produto vendido, sua quantidade e o preço praticado. Essa tabela faz a ligação entre o produto e a venda à qual ele pertence.
 
-Quando a restrição de chave estrangeira está configurada, ela pode impedir que um item aponte para um produto inexistente.
+Por último, Vendas registra o evento da compra, com identificador, data, forma de pagamento e status. Uma venda pode ter vários itens; um produto pode aparecer em itens de muitas vendas.
 
-Também preservamos o preço no item da venda. Se o preço atual do cadastro mudar, a receita de uma venda passada não deve ser recalculada usando o novo valor. Essa separação reduz repetições desnecessárias e protege o histórico.
+A chave primária, indicada por PK, identifica cada linha. A chave estrangeira, indicada por FK, referencia um registro relacionado. Quando a restrição está configurada, ela pode impedir que um item aponte para um produto inexistente.
+
+Também preservamos o preço praticado no item. Se o preço atual do cadastro mudar, a receita de uma venda passada não deve ser recalculada com o novo valor. Isso mantém o histórico coerente.
 
 O QUE MOSTRAR NA TELA
-Aponte as três tabelas e siga as relações 1 para N. Mostre o campo preco_praticado e diferencie-o de preco_atual.
+Comece pela tabela Produtos, à esquerda. Ao terminar de explicar seu cadastro, clique em Próxima etapa para revelar Itens de venda, no centro. Explique a ligação com o produto e revele Vendas, à direita. Com as três tabelas visíveis, siga as duas relações 1 para N, aponte PK e FK e compare preco_atual com preco_praticado. A ordem de revelação é Produtos → Itens de venda → Vendas.
 
 TRANSIÇÃO
 Com os registros organizados, podemos fazer uma consulta para resumir as vendas.
@@ -401,17 +403,17 @@ TEMPO SUGERIDO: 1 min 10 s
 FALA SUGERIDA
 Para concluir, os três temas deste trabalho se complementam. O banco de dados organiza os registros, as relações e o histórico. A gestão da informação cuida do significado, da qualidade, do acesso e das responsabilidades. O BI usa esses dados para analisar o desempenho e acompanhar decisões.
 
-No exemplo do supermercado, vimos que uma informação isolada pode levar a uma interpretação incompleta. Vender mais não significa necessariamente obter um resultado melhor, e um painel só será útil se os registros e os critérios forem confiáveis.
+No estudo de caso do supermercado fictício, vimos que vender mais não significa necessariamente obter um resultado melhor. Para comprar melhor, o gerente precisa conferir vendas e estoque, analisar preço e custo, considerar validade e prazo do fornecedor e acompanhar o efeito da ação. O exemplo mostra quais informações sustentam a decisão; não determina uma quantidade de compra.
 
 A pergunta final é: com o estoque desatualizado, vocês confiariam na recomendação de compra? Isso mostra que a confiança precisa existir desde o registro até a análise.
 
-Uma empresa pode começar com uma pergunta delimitada, fontes confiáveis e indicadores bem definidos. As referências estão disponíveis nesta tela para quem quiser consultar. Obrigado pela atenção. Podemos responder às perguntas.
+As referências estão nesta tela, e o QR code permite acessar a apresentação pelo celular, sem cadastro. Quem quiser pode consultar o material depois. Obrigado pela atenção. Podemos responder às perguntas.
 
 O QUE MOSTRAR NA TELA
-Retome os três cartões. Faça a pergunta final e dê alguns segundos para a turma pensar. Se necessário, abra as referências. Não há transição para outro slide.
+Retome os três cartões. Faça a pergunta sobre o estoque e dê alguns segundos para a turma pensar. Percorra as quatro verificações do encerramento do caso. Mostre o QR code e indique as referências antes de agradecer e abrir para perguntas.
 
 ENCERRAMENTO
-Encerramento: agradecer e abrir para perguntas.
+Agradecer e abrir para perguntas.
 
 RECURSO INTERATIVO DESTA TELA
 ENCERRAMENTO DO CASO
