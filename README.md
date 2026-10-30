@@ -1,41 +1,46 @@
 # Fundamentos da inteligência de negócios
 
-Apresentação de **Artur Teixeira, João Henrique e Pedro Mafra**, em 04/11/2026.
+Apresentação de **Artur Teixeira, João Henrique e Pedro Mafra** em 04/11/2026.
 
-[Abrir apresentação](https://artur-txr.github.io/fundamentos-bi/)
+[Abrir apresentação](https://artur-txr.github.io/fundamentos-bi/?v=14#1)
 
 ## Organização
 
-18 slides, com 6 para cada integrante:
+17 telas. O caso central é um **supermercado fictício**, com dados didáticos.
 
-| Integrante | Slides | Conteúdo |
+| Integrante | Telas | Assunto |
 | --- | --- | --- |
-| Artur Teixeira | 1–6 | Abertura, problema de negócio, dados e informação, BI, indicadores e processo |
-| João Henrique | 7–12 | Gestão da informação, ciclo de vida, qualidade, erros, segurança e boas práticas |
-| Pedro Mafra | 13–18 | Bancos de dados, modelo relacional, SQL, painel, decisão e conclusão |
+| Artur Teixeira | 1–6 | BI, dados e informação, indicadores e processo de análise |
+| João Henrique | 7–12 | Gestão da informação, ciclo de vida, qualidade e segurança |
+| Pedro Mafra | 13–17 | Bancos de dados, modelo relacional, SQL, painel e conclusão |
 
-A duração depende do ensaio. Como ponto de partida, reservem cerca de 20–30 minutos e ajustem ao tempo do professor. O [ROTEIRO.md](ROTEIRO.md) reúne as falas de cada slide.
+A antiga tela 17, com a pergunta sobre o sucesso da promoção, foi removida. A interpretação é feita no painel da tela 16; a conclusão passa a ser a tela 17. Blocos que repetiam definições, fórmulas ou orientações já presentes foram retirados. O [roteiro](ROTEIRO.md) acompanha a nova sequência.
 
-## Design e temas
+## Controles
 
-Quatro temas: Azul noturno, Claro editorial, Verde profundo e Violeta. Use **Cores** no topo para trocar; a preferência fica salva neste navegador. Todos os temas preservam o conteúdo e os cálculos.
+- Setas ou Page Up/Down: navegar. Nos diagramas das telas 6, 8 e 14, as setas percorrem as etapas antes de mudar de tela.
+- Home / End: capa e conclusão.
+- P ou Apresentar: reduzir os controles auxiliares.
+- N ou Roteiro: consultar a fala na mesma tela.
+- Cores: escolher azul, claro, verde ou violeta. A preferência fica salva neste navegador.
+- Índice: abrir qualquer tela diretamente.
+- Menu •••: janela do apresentador, tela cheia, impressão/PDF e glossário.
 
-A nova capa usa uma ilustração conceitual de integração de fontes. O desenho não representa dados estatísticos.
+## Recursos mantidos
 
-## Usar
+- Tela 10: simulação de venda duplicada. Com erro: 140 unidades e R$ 3.080; corrigido: 120 unidades e R$ 2.640.
+- Tela 16: comparação das semanas lado a lado, com foco opcional em cada período.
+- Tela 17: conclusão ligada ao caso, referências e QR code.
+- Termos destacados: definições breves.
+- Diagramas: revelação por etapas ou Mostrar tudo.
 
-- Setas ou Page Up/Down: navegar.
-- Home / End: capa e último slide.
-- P ou Apresentar: ampliar a área útil e reduzir controles auxiliares.
-- N ou Roteiro: consultar a fala na mesma tela. Feche antes da projeção se não quiser mostrar o roteiro ao público.
-- F: tela cheia; F11 é uma alternativa do navegador.
-- Índice: saltar para qualquer slide.
-- Menu •••: tela cheia, impressão/PDF e glossário.
-- Escape: fechar os diálogos.
+## Janela do apresentador
 
-Para usar offline, abra index.html no navegador. Os links das fontes precisam de internet. Não há dependências externas nem banco de dados conectado.
+Abra ••• → Janela do apresentador. Mantenha os slides projetados e o roteiro na sua tela. Se a janela não aparecer, use o link alternativo exibido na apresentação. As janelas precisam permanecer abertas no mesmo navegador e no mesmo domínio.
 
-## Caso fictício
+A janela mostra roteiro, próxima tela, controles e cronômetro manual. O tempo do slide reinicia ao mudar de tela. Teste a configuração das telas antes de apresentar. Em arquivos locais, as políticas do navegador podem limitar a sincronização; prefira o endereço publicado.
+
+## Números do supermercado fictício
 
 | Produto | Semana 1 | Semana 2 |
 | --- | --- | --- |
@@ -43,22 +48,17 @@ Para usar offline, abra index.html no navegador. Os links das fontes precisam de
 | Feijão | 60 | 75 |
 | Café | 40 | 35 |
 
-O preço do arroz muda de R$ 25 para R$ 22; o custo de aquisição permanece em R$ 18 por unidade. A receita passa de R$ 2.000 para R$ 2.640 (+32%). O resultado bruto simplificado passa de R$ 560 para R$ 480 (−14,3%). Despesas e tributos não foram considerados: não é lucro líquido.
+O arroz custa R$ 25 na semana 1 e R$ 22 na semana 2. O custo de aquisição é de R$ 18 em ambas. A receita passa de R$ 2.000 para R$ 2.640; o resultado bruto simplificado passa de R$ 560 para R$ 480. Despesas e tributos não foram considerados: não é lucro líquido.
 
-O painel é calculado localmente em JavaScript. A consulta SQL é ilustrativa e utiliza vendas_demo, uma tabela didática separada do modelo relacional apresentado. Os números não são dados de uma empresa real.
+O painel usa JavaScript local. A consulta SQL é ilustrativa e utiliza vendas_demo, uma tabela didática separada do modelo relacional. As respostas e interações não são enviadas a um servidor.
 
-## Arquivos e publicação
+## Arquivos
 
-- index.html: estrutura da página.
-- deck.js: conteúdo dos 18 slides e falas.
-- player.js: navegação, temas, diálogos e painel.
-- design.css: identidade visual, responsividade e impressão.
-- ROTEIRO.md: material de ensaio.
-- .nojekyll: publicação estática.
+index.html, deck.js, player.js, design.css, interactions.js, sync.js, presenter.html, presenter.js, acesso.svg, ROTEIRO.md e .nojekyll.
 
-No GitHub Pages, use a branch main e a pasta / (root). A prévia de impressão depende do navegador; confira a paginação antes de salvar como PDF.
+Abra index.html para uso offline (exceto links externos); para publicar no GitHub Pages, use main e / (root). Confira a prévia antes de imprimir ou salvar como PDF.
 
-## Referências
+## Referências e créditos
 
 - [IBM — Business intelligence](https://www.ibm.com/think/topics/business-intelligence)
 - [IBM — Data management](https://www.ibm.com/think/topics/data-management)
@@ -66,34 +66,5 @@ No GitHub Pages, use a branch main e a pasta / (root). A prévia de impressão d
 - [PostgreSQL — Conceitos relacionais](https://www.postgresql.org/docs/current/tutorial-concepts.html)
 - [PostgreSQL — Chaves estrangeiras](https://www.postgresql.org/docs/current/tutorial-fk.html)
 - [PostgreSQL — Transações](https://www.postgresql.org/docs/current/tutorial-transactions.html)
-## Capa e conteúdo ampliados
 
-A capa utiliza uma ilustração vetorial de painel analítico, integração e fontes de dados, adaptada aos quatro temas. O desenho é conceitual e não representa dados reais.
-
-Os slides de conteúdo incluem blocos de explicação e aplicação visíveis. O exemplo da promoção também mostra que, ao preço de R$ 22 e custo de aquisição de R$ 18, seriam necessárias 140 unidades para igualar o resultado bruto simplificado de R$ 560 da semana de referência. O cálculo não inclui despesas e tributos.
-## Roteiro por tela
-
-O roteiro foi reescrito para acompanhar os 18 slides. Cada tela inclui fala sugerida, indicação do que mostrar e transição. Há tempos de referência por slide e integrante, totalizando aproximadamente 24 minutos, sem perguntas adicionais. O slide 16 orienta começar pela Semana 1 e depois mudar para a Semana 2. As falas podem ser adaptadas durante o ensaio.
-## Recursos da edição interativa
-
-- **Etapas**: nos diagramas das telas 6, 8 e 14, Próxima etapa (ou seta para a direita) revela a próxima parte; após a última, a seta avança de slide. Mostrar tudo revela o conjunto. A seta para a esquerda retorna pelas etapas.
-- **Comparação**: a tela 16 mostra as semanas lado a lado. As opções de semana dão foco a um período.
-- **Qualidade**: a tela 10 simula uma repetição de V203. Com erro: 140 unidades e R$ 3.080; corrigido: 120 unidades e R$ 2.640. Não é uma nova venda.
-- **Pergunta**: a tela 17 recebe uma escolha local e revela a análise por botão. Não há coleta de votos nem transmissão das respostas.
-- **Conceitos**: termos destacados abrem uma definição curta; o glossário completo permanece no menu.
-- **Apresentador**: menu ••• → Janela do apresentador. Mantenha a janela dos slides projetada e arraste a janela com roteiro para outra tela. A janela do apresentador mostra a fala atual, a próxima tela, controles e cronômetro com início, pausa e reinício manuais. O tempo deste slide reinicia ao trocar de tela. As duas janelas precisam estar no mesmo navegador e abertas pelo mesmo domínio. Navegadores podem bloquear o pop-up; nesse caso, permita-o para este site e tente novamente.
-- **Conclusão**: a tela 18 retoma a pergunta do supermercado e as verificações necessárias para decidir.
-- **QR code**: aponta para https://artur-txr.github.io/fundamentos-bi/ e é um SVG local, legível sem serviços externos. Foi decodificado em verificação independente.
-
-O apresentador sincroniza por BroadcastChannel, com alternativa por eventos de armazenamento local. A janela separada deve ser testada no computador e nas telas usados na apresentação. No modo de arquivos locais, as políticas do navegador podem limitar a comunicação; prefira o endereço publicado.
-
-### Novos arquivos
-
-extras.js (conteúdo das interações), interactions.js (controles), sync.js (comunicação entre janelas), presenter.html e presenter.js (janela do apresentador), acesso.svg (QR code).
-
-### Créditos técnicos
-
-O QR foi gerado durante a preparação com a biblioteca [Project Nayuki QR Code generator](https://www.nayuki.io/page/qr-code-generator-library), sob licença MIT. A decodificação de teste utilizou [jsQR](https://github.com/cozmo/jsQR). As bibliotecas de geração e teste não são carregadas pelo site.
-## Coerência entre roteiro e telas
-
-O caso central é um **supermercado fictício**, identificado na capa, na apresentação do problema e no painel. O roteiro acompanha os controles atuais. No modelo relacional, a explicação segue a revelação Produtos → Itens de venda → Vendas. No encerramento, a retomada do caso e o QR code aparecem antes do agradecimento. O tempo da simulação de duplicidade é de 1 min 30 s tanto no roteiro quanto na janela do apresentador.
+O QR code foi gerado com [Project Nayuki QR Code generator](https://www.nayuki.io/page/qr-code-generator-library), sob licença MIT, e decodificado em teste independente com [jsQR](https://github.com/cozmo/jsQR). Essas bibliotecas não são carregadas pelo site.

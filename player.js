@@ -5,19 +5,19 @@ const initials=['AT','JH','PM'];
 const allowedThemes=['midnight','paper','forest','violet'];
 let current=0,notesOpen=false;
 try{const saved=localStorage.getItem('bi-theme');if(allowedThemes.includes(saved))document.documentElement.dataset.theme=saved;}catch{}
-function selectedIndex(){const n=Number(location.hash.slice(1));return Number.isInteger(n)&&n>=1&&n<=deck.length?n-1:0;}
+function selectedIndex(){const n=Number(location.hash.slice(1));return Number.isInteger(n)&&n>=1?Math.min(n,deck.length)-1:0;}
 function setTheme(theme){if(!allowedThemes.includes(theme))return;document.documentElement.dataset.theme=theme;try{localStorage.setItem('bi-theme',theme);}catch{}document.querySelectorAll('[data-theme]').forEach(b=>{if(b.tagName==='BUTTON')b.setAttribute('aria-pressed',String(b.dataset.theme===theme));});$('theme-picker').open=false;publishState();}
 function supportBlock(s){if(!s.support)return '';return '<section class="support-section" aria-label="Explicação e aplicação">'+s.support.map(x=>'<article><h3>'+x.title+'</h3><p>'+x.text+'</p></article>').join('')+'</section>';}
 function render(){current=selectedIndex();const s=deck[current];const isCover=current===0;
 $('stage').innerHTML=isCover?`<section class="slide cover" aria-label="Slide 1">${s.body}</section>`:`<section class="slide" aria-label="Slide ${current+1}"><div class="slide-heading"><span class="overline">${String(s.id).padStart(2,'0')} / ${s.label}</span><span class="slide-chapter">${String(s.speaker+1).padStart(2,'0')}</span></div><h1 class="slide-title">${s.title}</h1><p class="slide-intro">${s.intro}</p>${termBlock(s)}<div class="slide-body">${s.body}</div>${supportBlock(s)}</section>`;
 if(isCover)$('cover-people').textContent=presenters.join(' / ');
 $('chapter-label').innerHTML=`<span class="chapter-dot"></span> CAPÍTULO 0${s.speaker+1} <b>/</b> ${s.chapter}`;
-$('presenter-name').textContent=presenters[s.speaker];$('avatar').textContent=initials[s.speaker];$('presenter-range').textContent=`${current%6+1} de 6 slides · ${s.chapter}`;
+$('presenter-name').textContent=presenters[s.speaker];$('avatar').textContent=initials[s.speaker];$('presenter-range').textContent=`${deck.filter(x=>x.speaker===s.speaker).findIndex(x=>x.id===s.id)+1} de ${deck.filter(x=>x.speaker===s.speaker).length} slides · ${s.chapter}`;
 $('page-count').innerHTML=`<strong>${String(current+1).padStart(2,'0')}</strong><span>/ ${deck.length}</span>`;
 $('prev').disabled=current===0;$('next').disabled=current===deck.length-1;
 $('reading-progress').style.width=`${(current+1)/deck.length*100}%`;
 $('chapter-progress').innerHTML=['Inteligência de negócios','Gestão da informação','Banco de dados'].map((label,i)=>`<button data-chapter="${i}" class="${i===s.speaker?'active':''}" aria-label="Ir para ${label}"><span>${String(i+1).padStart(2,'0')}</span>${label}</button>`).join('');
-$('chapter-progress').querySelectorAll('button').forEach(b=>b.onclick=()=>go(Number(b.dataset.chapter)*6));
+$('chapter-progress').querySelectorAll('button').forEach(b=>b.onclick=()=>go(deck.findIndex(x=>x.speaker===Number(b.dataset.chapter))));
 $('speaker-notes').hidden=!notesOpen;$('notes-title').textContent=`${presenters[s.speaker]} · ${s.label}`;$('notes-text').textContent=s.notes;
 $('notes-button').setAttribute('aria-pressed',String(notesOpen));
 $('index-list').querySelectorAll('[data-slide]').forEach(b=>b.setAttribute('aria-current',Number(b.dataset.slide)===current?'step':'false'));
@@ -35,7 +35,7 @@ function toggleNotes(){notesOpen=!notesOpen;render();}
 function togglePresentation(){const active=document.body.classList.toggle('presentation-mode');$('present-button').setAttribute('aria-pressed',String(active));$('present-button').firstChild.textContent=active?'Sair ':'Apresentar ';}
 async function toggleFullscreen(){try{if(document.fullscreenElement)await document.exitFullscreen();else await document.documentElement.requestFullscreen();}catch{alert('Use F11 ou a opção de tela cheia do navegador.');}}
 $('prev').onclick=retreat;$('next').onclick=advance;$('notes-button').onclick=toggleNotes;$('notes-close').onclick=()=>{notesOpen=false;render();};$('present-button').onclick=togglePresentation;$('full-button').onclick=toggleFullscreen;
-$('index-list').innerHTML=[0,1,2].map(c=>`<section><h3>0${c+1} / ${deck[c*6].chapter}<small>${presenters[c]}</small></h3>${deck.slice(c*6,c*6+6).map(s=>`<button data-slide="${s.id-1}"><span>${String(s.id).padStart(2,'0')}</span>${s.label}<i>↗</i></button>`).join('')}</section>`).join('');
+$('index-list').innerHTML=[0,1,2].map(c=>`<section><h3>0${c+1} / ${deck.find(x=>x.speaker===c).chapter}<small>${presenters[c]}</small></h3>${deck.filter(x=>x.speaker===c).map(s=>`<button data-slide="${s.id-1}"><span>${String(s.id).padStart(2,'0')}</span>${s.label}<i>↗</i></button>`).join('')}</section>`).join('');
 $('index-list').querySelectorAll('button').forEach(b=>b.onclick=()=>{go(Number(b.dataset.slide));$('index-dialog').close();});
 $('presenter-open').onclick=openPresenter;
 $('index-open').onclick=()=>$('index-dialog').showModal();$('index-close').onclick=()=>$('index-dialog').close();

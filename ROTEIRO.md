@@ -1,14 +1,14 @@
-# Roteiro de apresentação — revisado com as telas
+# Roteiro de apresentação — versão enxuta
 
-**18 slides · 6 por integrante.** Artur Teixeira (1–6), João Henrique (7–12) e Pedro Mafra (13–18).
+**17 slides.** Artur Teixeira: 1–6; João Henrique: 7–12; Pedro Mafra: 13–17.
 
-O estudo de caso é um **supermercado fictício**, usado para conectar BI, gestão da informação e banco de dados. Os números são didáticos, não correspondem a dados de uma empresa real. As falas e orientações abaixo acompanham as interações da apresentação.
+O estudo de caso é um supermercado fictício. A antiga tela 17, que repetia a análise da promoção, foi removida. A comparação fica na tela 16 e a conclusão passa a ser a tela 17.
 
-Use Roteiro ou N. Para conduzir sem projetar as falas, use **••• → Janela do apresentador** e mantenha essa janela na sua tela. Nas telas 6, 8 e 14, revele as etapas conforme a explicação. Na tela 10, alterne a duplicidade; na 16, compare as semanas; na 17, faça a pergunta antes da análise; na 18, mostre o QR code antes de agradecer. O tempo de referência é de aproximadamente 24 minutos, com tempo adicional para a participação da turma.
+Use Roteiro ou N. Para consultar a fala em outra tela, abra ••• → Janela do apresentador. Nas telas 6, 8 e 14, avance por etapas. Na tela 10, demonstre a duplicidade; na 16, compare as semanas; na 17, conclua o caso e mostre o QR code.
 
 ## 1. Abertura
 
-Artur Teixeira · SLIDE 1 / 18
+Artur Teixeira · SLIDE 1 / 17
 TEMPO SUGERIDO: 50 segundos
 
 FALA SUGERIDA
@@ -28,7 +28,7 @@ Vamos começar pela decisão que esse supermercado precisa tomar.
 
 ## 2. A pergunta de negócio
 
-Artur Teixeira · SLIDE 2 / 18
+Artur Teixeira · SLIDE 2 / 17
 TEMPO SUGERIDO: 1 min 10 s
 
 FALA SUGERIDA
@@ -48,7 +48,7 @@ Para responder a essas perguntas, precisamos primeiro distinguir dado, informaç
 
 ## 3. Dados e informação
 
-Artur Teixeira · SLIDE 3 / 18
+Artur Teixeira · SLIDE 3 / 17
 TEMPO SUGERIDO: 1 min 10 s
 
 FALA SUGERIDA
@@ -70,7 +70,7 @@ TRANSIÇÃO
 
 ## 4. O que é BI
 
-Artur Teixeira · SLIDE 4 / 18
+Artur Teixeira · SLIDE 4 / 17
 TEMPO SUGERIDO: 1 min 20 s
 
 FALA SUGERIDA
@@ -83,7 +83,7 @@ Ele envolve três atividades que aparecem nos cartões. Primeiro, compreender o 
 Imagine que uma loja vende menos que outra. O BI ajuda a explorar estoque, mix de produtos e período, mas a diferença não prova automaticamente uma causa. A análise apoia o julgamento do gestor, que conhece o processo e precisa verificar as hipóteses.
 
 O QUE MOSTRAR NA TELA
-Comece pela definição destacada. Depois explique os cartões Compreender, Investigar e Acompanhar. Use o exemplo das duas lojas para conectar os textos inferiores.
+Comece pela definição destacada. Depois explique os cartões Compreender, Investigar e Acompanhar. Use o exemplo das duas lojas como explicação oral, sem procurar um bloco adicional na tela.
 
 TRANSIÇÃO
 Para acompanhar esse desempenho, precisamos escolher os indicadores adequados.
@@ -92,7 +92,7 @@ Para acompanhar esse desempenho, precisamos escolher os indicadores adequados.
 
 ## 5. Indicadores
 
-Artur Teixeira · SLIDE 5 / 18
+Artur Teixeira · SLIDE 5 / 17
 TEMPO SUGERIDO: 1 min 30 s
 
 FALA SUGERIDA
@@ -105,7 +105,7 @@ Essas medidas não são equivalentes. Uma promoção pode aumentar a quantidade 
 Para que o indicador seja confiável, todos precisam conhecer a fórmula, a fonte, o período e o responsável. Também é necessário combinar como serão tratadas devoluções e vendas canceladas, para evitar comparações entre números calculados de formas diferentes.
 
 O QUE MOSTRAR NA TELA
-Aponte cada fórmula. Enfatize a diferença entre volume, receita e resultado bruto. O exemplo com valores será demonstrado por Pedro Mafra nos slides 16 e 17.
+Aponte cada fórmula. Enfatize a diferença entre volume, receita e resultado bruto. O exemplo com valores será demonstrado por Pedro Mafra no slide 16.
 
 TRANSIÇÃO
 Agora vamos ver o caminho que os registros percorrem até se tornarem esses indicadores.
@@ -114,7 +114,7 @@ Agora vamos ver o caminho que os registros percorrem até se tornarem esses indi
 
 ## 6. Da fonte à decisão
 
-Artur Teixeira · SLIDE 6 / 18
+Artur Teixeira · SLIDE 6 / 17
 TEMPO SUGERIDO: 1 min 25 s
 
 FALA SUGERIDA
@@ -139,7 +139,7 @@ A primeira etapa aparece ao abrir a tela. Use Próxima etapa ou a seta para a di
 
 ## 7. Gestão da informação
 
-João Henrique · SLIDE 7 / 18
+João Henrique · SLIDE 7 / 17
 TEMPO SUGERIDO: 1 min 20 s
 
 FALA SUGERIDA
@@ -161,7 +161,7 @@ Esse cuidado acompanha a informação ao longo de todo o seu ciclo de vida.
 
 ## 8. Ciclo de vida
 
-João Henrique · SLIDE 8 / 18
+João Henrique · SLIDE 8 / 17
 TEMPO SUGERIDO: 1 min 15 s
 
 FALA SUGERIDA
@@ -186,7 +186,7 @@ A primeira etapa aparece ao abrir a tela. Use Próxima etapa ou a seta para a di
 
 ## 9. Qualidade dos dados
 
-João Henrique · SLIDE 9 / 18
+João Henrique · SLIDE 9 / 17
 TEMPO SUGERIDO: 1 min 25 s
 
 FALA SUGERIDA
@@ -208,7 +208,7 @@ Vamos ver agora como uma falha pode ser medida e como ela afeta uma decisão.
 
 ## 10. Do erro à consequência
 
-João Henrique · SLIDE 10 / 18
+João Henrique · SLIDE 10 / 17
 TEMPO SUGERIDO: 1 min 30 s
 
 FALA SUGERIDA
@@ -228,7 +228,7 @@ Além de corretas, as informações precisam estar protegidas e disponíveis.
 
 ## 11. Segurança
 
-João Henrique · SLIDE 11 / 18
+João Henrique · SLIDE 11 / 17
 TEMPO SUGERIDO: 1 min 15 s
 
 FALA SUGERIDA
@@ -250,7 +250,7 @@ Esses princípios precisam aparecer em práticas simples que a equipe consiga ex
 
 ## 12. Boas práticas
 
-João Henrique · SLIDE 12 / 18
+João Henrique · SLIDE 12 / 17
 TEMPO SUGERIDO: 1 min 15 s
 
 FALA SUGERIDA
@@ -272,7 +272,7 @@ Agora o Pedro Mafra vai mostrar como os bancos de dados dão estrutura a esses r
 
 ## 13. Banco e SGBD
 
-Pedro Mafra · SLIDE 13 / 18
+Pedro Mafra · SLIDE 13 / 17
 TEMPO SUGERIDO: 1 min 20 s
 
 FALA SUGERIDA
@@ -294,7 +294,7 @@ No modelo relacional, essa organização aparece em tabelas que se conectam.
 
 ## 14. Modelo relacional
 
-Pedro Mafra · SLIDE 14 / 18
+Pedro Mafra · SLIDE 14 / 17
 TEMPO SUGERIDO: 1 min 30 s
 
 FALA SUGERIDA
@@ -321,7 +321,7 @@ A primeira etapa aparece ao abrir a tela. Use Próxima etapa ou a seta para a di
 
 ## 15. A consulta SQL
 
-Pedro Mafra · SLIDE 15 / 18
+Pedro Mafra · SLIDE 15 / 17
 TEMPO SUGERIDO: 1 min 30 s
 
 FALA SUGERIDA
@@ -343,7 +343,7 @@ Agora vamos transformar esse resumo em um painel e comparar as duas semanas.
 
 ## 16. Painel interativo
 
-Pedro Mafra · SLIDE 16 / 18
+Pedro Mafra · SLIDE 16 / 17
 TEMPO SUGERIDO: 1 min 50 s
 
 FALA SUGERIDA
@@ -359,45 +359,13 @@ O QUE MOSTRAR NA TELA
 Comece na vista Comparar. Mostre a Semana 1 no cartão esquerdo e a Semana 2 no direito. As opções de semana permitem dar foco a um período. A comparação financeira se refere apenas ao arroz; o gráfico também exibe feijão e café.
 
 TRANSIÇÃO
-No próximo slide, vamos reunir as três variações e discutir como interpretar esse resultado.
-
-RECURSO INTERATIVO DESTA TELA
-COMPARAÇÃO DAS SEMANAS
-Comece em Comparar e mostre os dois cartões lado a lado. Semana 1: 80 unidades, preço R$ 25, receita R$ 2.000, resultado bruto R$ 560. Semana 2: 120 unidades, preço R$ 22, receita R$ 2.640, resultado bruto R$ 480. Use Semana 1 ou Semana 2 para dar foco a um período; volte a Comparar antes de concluir. O custo permanece R$ 18 por unidade.
+A comparação mostra que vender mais não garante um resultado melhor. Vamos concluir retomando como os três fundamentos ajudam o supermercado a decidir.
 
 ---
 
-## 17. Da análise à decisão
+## 17. Conclusão
 
-Pedro Mafra · SLIDE 17 / 18
-TEMPO SUGERIDO: 1 min 40 s
-
-FALA SUGERIDA
-Antes de ler os indicadores, pergunte à turma se o aumento do volume é suficiente para declarar sucesso. Aguarde respostas, escolha uma alternativa e use Revelar análise. Só então apresente a explicação a seguir.
-
-Aqui temos o resumo da promoção do arroz. A quantidade vendida aumentou 50%, a receita aumentou 32% e o resultado bruto simplificado caiu aproximadamente 14,3%. O custo por unidade ficou igual, mas o preço de venda caiu.
-
-Por isso, o aumento de volume não comprova sozinho o sucesso da promoção. Ela pode ter outros objetivos, como girar estoque ou atrair clientes, mas os dados deste caso não demonstram esses outros efeitos. Precisamos comparar o resultado com o objetivo definido.
-
-Uma conta adicional ajuda a visualizar a diferença: a 22 reais de preço e 18 reais de custo, restam quatro reais por unidade antes das despesas e tributos. Para igualar os 560 reais de resultado bruto da primeira semana, seriam necessárias 140 unidades.
-
-Antes de alterar a compra, o gestor também precisa verificar estoque, duração da promoção, validade e prazo do fornecedor. A ação escolhida deve ser acompanhada para avaliar seu efeito.
-
-O QUE MOSTRAR NA TELA
-Percorra os três percentuais. Depois aponte os quatro fatores antes da compra. Na conta das 140 unidades, explique 560 ÷ 4 = 140; trata-se de igualdade de resultado bruto, não de lucro líquido ou de ponto de equilíbrio completo da empresa.
-
-TRANSIÇÃO
-Esse exemplo reúne os três fundamentos que estudamos. Vamos fechar retomando essa conexão.
-
-RECURSO INTERATIVO DESTA TELA
-INTERAÇÃO COM A TURMA
-Leia a pergunta antes de mostrar os resultados e aguarde algumas respostas. Clique na alternativa escolhida para comentar a interpretação, depois em Revelar análise. O volume não comprova sucesso e a queda do resultado bruto não permite afirmar fracasso sem conhecer o objetivo. Destaque +50% em unidades, +32% em receita e −14,3% em resultado bruto. As respostas não são enviadas a um servidor.
-
----
-
-## 18. Conclusão
-
-Pedro Mafra · SLIDE 18 / 18
+Pedro Mafra · SLIDE 17 / 17
 TEMPO SUGERIDO: 1 min 10 s
 
 FALA SUGERIDA
@@ -405,16 +373,10 @@ Para concluir, os três temas deste trabalho se complementam. O banco de dados o
 
 No estudo de caso do supermercado fictício, vimos que vender mais não significa necessariamente obter um resultado melhor. Para comprar melhor, o gerente precisa conferir vendas e estoque, analisar preço e custo, considerar validade e prazo do fornecedor e acompanhar o efeito da ação. O exemplo mostra quais informações sustentam a decisão; não determina uma quantidade de compra.
 
-A pergunta final é: com o estoque desatualizado, vocês confiariam na recomendação de compra? Isso mostra que a confiança precisa existir desde o registro até a análise.
-
 As referências estão nesta tela, e o QR code permite acessar a apresentação pelo celular, sem cadastro. Quem quiser pode consultar o material depois. Obrigado pela atenção. Podemos responder às perguntas.
 
 O QUE MOSTRAR NA TELA
-Retome os três cartões. Faça a pergunta sobre o estoque e dê alguns segundos para a turma pensar. Percorra as quatro verificações do encerramento do caso. Mostre o QR code e indique as referências antes de agradecer e abrir para perguntas.
+Retome os três cartões e as quatro verificações do encerramento do caso. Mostre o QR code e indique as referências antes de agradecer e abrir para perguntas.
 
 ENCERRAMENTO
 Agradecer e abrir para perguntas.
-
-RECURSO INTERATIVO DESTA TELA
-ENCERRAMENTO DO CASO
-Retome a pergunta inicial: como comprar melhor? Percorra as quatro verificações e explique que o caso mostra informações necessárias, sem determinar uma quantidade de compra. Convide a turma a acessar os slides e referências pelo QR code. Ele abre a mesma apresentação, sem cadastro.
