@@ -21,6 +21,9 @@ PERGUNTA POSSÍVEL
 Por que usar um mesmo caso?
 Porque ele mostra como os três temas se conectam em uma situação concreta.
 
+SUGESTÃO PARA APRESENTAR
+Uma forma de abrir a apresentação é perguntar: “Como vocês decidiriam quais produtos comprar para uma loja?” Ouça uma resposta e conecte com a necessidade de dados. Nosso objetivo é explicar o raciocínio e mostrar que o sistema ajuda, mas a decisão continua dependendo das pessoas.
+
 **Ideia central:** Dados só geram valor quando respondem a uma pergunta.
 
 ---
@@ -44,6 +47,9 @@ PERGUNTA POSSÍVEL
 Informação e conhecimento são a mesma coisa?
 Não. Informação organiza e contextualiza registros; conhecimento envolve interpretação, experiência e aplicação.
 
+SUGESTÃO PARA APRESENTAR
+Para exemplificar fora do supermercado, pense nas notas de uma turma. Uma nota é um dado; a média por disciplina é uma informação; identificar dificuldades e planejar uma revisão usa essa informação para orientar uma ação. O exemplo mostra que o conceito também aparece fora das empresas.
+
 **Ideia central:** Registro + contexto + interpretação = apoio à ação.
 
 ---
@@ -52,7 +58,7 @@ Não. Informação organiza e contextualiza registros; conhecimento envolve inte
 
 **Inteligência de negócios**
 
-O objetivo do BI é tornar o desempenho compreensível. Ao reunir fontes e apresentar indicadores, a empresa consegue identificar mudanças, comparar resultados e avaliar suas prioridades.
+BI significa Business Intelligence, em português Inteligência de Negócios. Seu propósito é ajudar a entender o desempenho da empresa e decidir com base em evidências.
 
 Um gestor pode perguntar quais produtos estão vendendo menos, em qual unidade ocorreu uma queda ou se a meta mensal foi atingida. O BI organiza o acesso a essas respostas. Um dashboard é um painel que reúne indicadores; já o processo de BI inclui definir o problema, preparar os dados, analisar e acompanhar o que aconteceu depois da decisão.
 
@@ -66,6 +72,9 @@ Para avaliar uma promoção, compare quantidade, receita e resultado bruto. Para
 PERGUNTA POSSÍVEL
 BI é apenas um painel?
 Não. O painel é uma forma de visualizar resultados de um processo que também envolve integração, preparação e análise.
+
+SUGESTÃO PARA APRESENTAR
+Antes de falar nos indicadores, leia a definição de BI em linguagem simples: usar dados para compreender o negócio e apoiar decisões. Depois mostre que as perguntas mudam conforme o objetivo: vender mais, reduzir faltas ou melhorar resultado. É por isso que a seleção de métricas vem depois da pergunta.
 
 **Ideia central:** Uma métrica precisa de definição, objetivo e contexto.
 
@@ -90,6 +99,9 @@ PERGUNTA POSSÍVEL
 Toda empresa precisa de um data warehouse?
 Não. É uma arquitetura útil em determinados contextos, mas um projeto menor pode começar com uma estrutura mais simples.
 
+SUGESTÃO PARA APRESENTAR
+Na prática, integração também exige acertar identificadores: o mesmo código precisa se referir ao mesmo produto nas diferentes fontes. Documentar a transformação permite explicar de onde veio um número apresentado no painel.
+
 **Ideia central:** A decisão fecha um ciclo: preparar, analisar, agir e medir.
 
 ---
@@ -112,6 +124,9 @@ Exemplo de definição: quantidade_vendida = soma das unidades registradas no pe
 PERGUNTA POSSÍVEL
 Quem é responsável pela informação?
 A responsabilidade é compartilhada: a área de negócio define o significado e o uso; equipes técnicas apoiam sistemas, segurança e manutenção.
+
+SUGESTÃO PARA APRESENTAR
+Explique a diferença entre governança e gestão com um exemplo. A regra diz que nenhum produto entra sem categoria; a rotina de cadastro verifica e aplica essa exigência. A primeira estabelece a responsabilidade; a segunda executa o procedimento.
 
 **Ideia central:** Governança define regras e quem responde por elas.
 
@@ -136,6 +151,9 @@ PERGUNTA POSSÍVEL
 Guardar mais dados sempre é melhor?
 Não. Sem finalidade e organização, o acúmulo aumenta a dificuldade de localizar, manter e proteger a informação.
 
+SUGESTÃO PARA APRESENTAR
+O ciclo de vida não é apenas uma sequência técnica. Em cada fase alguém precisa assumir uma responsabilidade: quem registra, quem verifica, quem autoriza acesso e quem revisa a necessidade de manter a informação. Isso evita que o registro seja abandonado depois da coleta.
+
 **Ideia central:** A qualidade precisa acompanhar todo o ciclo de vida.
 
 ---
@@ -158,6 +176,9 @@ Se 8 de 200 cadastros não têm categoria, a incompletude nesse campo é 4%. O i
 PERGUNTA POSSÍVEL
 Um dado válido pode estar errado?
 Sim. Uma data pode respeitar o formato exigido e representar o dia incorreto. Validade e precisão são critérios diferentes.
+
+SUGESTÃO PARA APRESENTAR
+Não trate todo número negativo como erro automaticamente. Ele pode representar uma devolução. A qualidade depende de conhecer o significado do registro e a regra do processo. O exemplo de 8 cadastros sem categoria em um total de 200 mostra como transformar uma falha em indicador observável.
 
 **Ideia central:** Corrigir a origem do erro é melhor que repetir o ajuste.
 
@@ -182,6 +203,9 @@ PERGUNTA POSSÍVEL
 Ter backup garante recuperação?
 Não por si só. É preciso verificar integridade das cópias, procedimentos e capacidade de restaurar os dados necessários.
 
+SUGESTÃO PARA APRESENTAR
+Os três princípios são complementares. Um arquivo inacessível para todos teria pouca utilidade para a operação. Um sistema aberto sem controle exporia os registros. A proteção deve permitir que cada função trabalhe com os acessos adequados e com capacidade de recuperação.
+
 **Ideia central:** Proteger e recuperar são responsabilidades complementares.
 
 ---
@@ -204,6 +228,9 @@ Se o sistema registra a venda e falha antes de atualizar o estoque, uma implemen
 PERGUNTA POSSÍVEL
 Qual é a diferença entre banco e SGBD?
 O banco é o conjunto organizado de dados; o SGBD é o software que permite defini-lo, consultá-lo e administrá-lo.
+
+SUGESTÃO PARA APRESENTAR
+Para explicar uma transação, use a venda e a baixa do estoque: essas alterações precisam ser coordenadas. Esse cuidado ajuda a evitar que uma parte da operação seja concluída e outra fique pendente, quebrando as regras da aplicação.
 
 **Ideia central:** A estrutura deve acompanhar o tipo de uso.
 
@@ -228,6 +255,9 @@ PERGUNTA POSSÍVEL
 O que acontece com um código de produto inexistente?
 Com a restrição de chave estrangeira configurada, a inserção pode ser rejeitada para preservar a integridade referencial.
 
+SUGESTÃO PARA APRESENTAR
+Peça que a turma acompanhe as duas relações. Uma venda reúne vários itens. Um produto pode aparecer em itens de muitas vendas. Guardar o preço praticado no item preserva o histórico mesmo que o cadastro seja atualizado depois.
+
 **Ideia central:** Relações bem definidas ajudam a preservar a consistência.
 
 ---
@@ -251,6 +281,9 @@ PERGUNTA POSSÍVEL
 Qual decisão o painel recomenda?
 Ele apoia a investigação. Avaliar margem, duração da promoção, estoque e prazo de entrega é necessário antes de alterar a compra.
 
+SUGESTÃO PARA APRESENTAR
+Apresente primeiro a semana de referência, depois a promoção. Pergunte se a alta de 50% nas unidades permite concluir que o negócio ganhou mais. Em seguida revele a receita e o resultado bruto. A surpresa ajuda a explicar por que indicadores precisam ser analisados em conjunto.
+
 **Ideia central:** O painel evidencia uma mudança; o contexto orienta a decisão.
 
 ---
@@ -273,5 +306,8 @@ Uma implantação pode começar com uma pergunta de negócio bem definida, pouca
 PERGUNTA POSSÍVEL
 Qual é a principal ideia do trabalho?
 Decisões melhores dependem de dados organizados, informação confiável e análise conectada a um objetivo.
+
+SUGESTÃO PARA APRESENTAR
+Encerre propondo um caminho viável: começar com uma pergunta, escolher dados confiáveis, definir métricas e acompanhar a ação. A maturidade não depende apenas do tamanho do sistema, mas da capacidade de repetir esse ciclo com consistência.
 
 **Ideia central:** Organizar → confiar → analisar → decidir.
