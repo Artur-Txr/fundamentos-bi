@@ -32,6 +32,11 @@ Nosso ponto de partida é uma pergunta de negócio: como comprar melhor? Expliqu
 
 O exemplo é fictício e será usado para conectar as três partes do trabalho. Antes de escolher qualquer ferramenta, precisamos definir a decisão que queremos melhorar. Dados de vendas, estoque, custo e prazo podem contribuir, mas precisam ser confiáveis e comparáveis.
 
+EXPLICAÇÃO COMPLEMENTAR
+A pergunta orienta quais dados precisam ser reunidos. Se o objetivo é reduzir a falta de produtos, o histórico de vendas precisa ser analisado junto com o estoque e o prazo de entrega.
+
+Uma compra baseada apenas no que vendeu mais ignora produtos parados, validade e o saldo que ainda está disponível. O gestor precisa combinar essas informações.
+
 ---
 
 ## 3. Dados e informação
@@ -53,6 +58,11 @@ Não. Informação organiza e contextualiza registros; conhecimento envolve inte
 
 SUGESTÃO PARA APRESENTAR
 Para exemplificar fora do supermercado, pense nas notas de uma turma. Uma nota é um dado; a média por disciplina é uma informação; identificar dificuldades e planejar uma revisão usa essa informação para orientar uma ação. O exemplo mostra que o conceito também aparece fora das empresas.
+
+EXPLICAÇÃO COMPLEMENTAR
+“120” não explica produto, período nem unidade. Quando sabemos que são unidades de arroz vendidas em uma semana e comparamos com outra, o registro passa a responder a uma pergunta.
+
+O aumento pode estar ligado a uma promoção. Observar duas semanas mostra uma mudança, mas não demonstra sozinho uma tendência permanente ou sua causa.
 
 ---
 
@@ -76,6 +86,11 @@ Não. O painel é uma forma de visualizar resultados de um processo que também 
 SUGESTÃO PARA APRESENTAR
 Antes de falar nos indicadores, leia a definição de BI em linguagem simples: usar dados para compreender o negócio e apoiar decisões. Depois mostre que as perguntas mudam conforme o objetivo: vender mais, reduzir faltas ou melhorar resultado. É por isso que a seleção de métricas vem depois da pergunta.
 
+EXPLICAÇÃO COMPLEMENTAR
+O BI facilita o acesso à informação e a investigação de resultados. Ele apoia o julgamento de quem conhece o processo, sem decidir automaticamente qual ação a empresa deve adotar.
+
+Se uma loja vende menos que outra, a análise pode comparar mix de produtos, estoque e período. A diferença levanta hipóteses que precisam ser verificadas.
+
 ---
 
 ## 5. Indicadores
@@ -85,6 +100,11 @@ Antes de falar nos indicadores, leia a definição de BI em linguagem simples: u
 Um indicador precisa ter uma pergunta por trás. Volume mede unidades, receita mede o valor vendido e resultado bruto, neste caso simplificado, desconta o custo de aquisição dos produtos. Nenhum desses números representa sozinho o lucro líquido.
 
 Apresente as fórmulas e explique que uma promoção pode aumentar a quantidade, mas reduzir o valor que resta por unidade. Um KPI é um indicador associado a um objetivo relevante. Definir fórmula, fonte, período e responsável permite que diferentes pessoas interpretem o mesmo resultado de maneira consistente.
+
+EXPLICAÇÃO COMPLEMENTAR
+Quantidade mostra o volume; receita relaciona volume e preço; resultado bruto desconta o custo de aquisição. Uma melhoria em um indicador pode acontecer junto com uma piora em outro.
+
+Antes de comparar relatórios, é preciso definir período, unidade de medida e tratamento de cancelamentos e devoluções. Sem isso, os setores podem apresentar totais diferentes.
 
 ---
 
@@ -108,6 +128,11 @@ Não. É uma arquitetura útil em determinados contextos, mas um projeto menor p
 SUGESTÃO PARA APRESENTAR
 Na prática, integração também exige acertar identificadores: o mesmo código precisa se referir ao mesmo produto nas diferentes fontes. Documentar a transformação permite explicar de onde veio um número apresentado no painel.
 
+EXPLICAÇÃO COMPLEMENTAR
+É necessário relacionar o mesmo produto nas diversas fontes, padronizar formatos e verificar duplicidades. O processo deve permitir explicar de onde veio cada indicador.
+
+Depois da análise, a equipe age e mede o efeito da decisão. Se o resultado não atende ao objetivo, as regras e a ação precisam ser revistas.
+
 ---
 
 ## 7. Gestão da informação
@@ -129,6 +154,11 @@ A responsabilidade é compartilhada: a área de negócio define o significado e 
 
 SUGESTÃO PARA APRESENTAR
 Explique a diferença entre governança e gestão com um exemplo. A regra diz que nenhum produto entra sem categoria; a rotina de cadastro verifica e aplica essa exigência. A primeira estabelece a responsabilidade; a segunda executa o procedimento.
+
+EXPLICAÇÃO COMPLEMENTAR
+Uma política pode exigir que nenhum produto seja cadastrado sem categoria. A rotina de gestão aplica essa regra, verifica o preenchimento e encaminha correções ao responsável.
+
+Um dicionário de dados documenta o significado, o formato e a origem dos campos. Assim, “venda líquida” e “estoque disponível” têm a mesma interpretação entre as áreas.
 
 ---
 
@@ -152,6 +182,11 @@ Não. Sem finalidade e organização, o acúmulo aumenta a dificuldade de locali
 SUGESTÃO PARA APRESENTAR
 O ciclo de vida não é apenas uma sequência técnica. Em cada fase alguém precisa assumir uma responsabilidade: quem registra, quem verifica, quem autoriza acesso e quem revisa a necessidade de manter a informação. Isso evita que o registro seja abandonado depois da coleta.
 
+EXPLICAÇÃO COMPLEMENTAR
+Alguém precisa registrar, validar, autorizar acesso e revisar a informação. Sem responsáveis definidos, erros podem permanecer mesmo quando o sistema oferece recursos de controle.
+
+A revisão considera a finalidade e as regras aplicáveis à organização. Atualizar um cadastro não deve apagar o histórico necessário para compreender transações passadas.
+
 ---
 
 ## 9. Qualidade dos dados
@@ -174,6 +209,11 @@ Sim. Uma data pode respeitar o formato exigido e representar o dia incorreto. Va
 SUGESTÃO PARA APRESENTAR
 Não trate todo número negativo como erro automaticamente. Ele pode representar uma devolução. A qualidade depende de conhecer o significado do registro e a regra do processo. O exemplo de 8 cadastros sem categoria em um total de 200 mostra como transformar uma falha em indicador observável.
 
+EXPLICAÇÃO COMPLEMENTAR
+Um relatório mensal pode funcionar com atualização diária. Uma decisão de reposição imediata pode exigir outra frequência. O critério adequado depende da necessidade do processo.
+
+Uma data pode respeitar o formato exigido e representar o dia errado. Validar a estrutura e verificar a correspondência com o fato são cuidados diferentes.
+
 ---
 
 ## 10. Do erro à consequência
@@ -183,6 +223,11 @@ Não trate todo número negativo como erro automaticamente. Ele pode representar
 Aqui mostramos uma forma de tornar a qualidade observável. Se oito de duzentos cadastros estão sem categoria, a incompletude nesse campo é de quatro por cento. O número identifica a dimensão do problema, mas não revela sozinho a causa.
 
 O processo precisa identificar o problema, investigar a origem e corrigir a rotina que o produziu. Uma venda duplicada pode aumentar artificialmente a demanda aparente. Não classifique todo número negativo como erro: ele pode representar uma devolução, dependendo das regras adotadas. A qualidade depende do contexto e do significado do registro.
+
+EXPLICAÇÃO COMPLEMENTAR
+O indicador de 4% mostra a proporção de cadastros sem categoria. A equipe ainda precisa investigar por que o campo ficou vazio e se o erro afeta a análise pretendida.
+
+Preencher os oito campos resolve o problema imediato. Revisar a rotina de cadastro ajuda a evitar que novos registros sejam criados com a mesma falha.
 
 ---
 
@@ -206,6 +251,11 @@ Não por si só. É preciso verificar integridade das cópias, procedimentos e c
 SUGESTÃO PARA APRESENTAR
 Os três princípios são complementares. Um arquivo inacessível para todos teria pouca utilidade para a operação. Um sistema aberto sem controle exporia os registros. A proteção deve permitir que cada função trabalhe com os acessos adequados e com capacidade de recuperação.
 
+EXPLICAÇÃO COMPLEMENTAR
+Permissões por função limitam a exposição. Contas individuais e registros de mudanças ajudam a investigar alterações. Nenhuma dessas medidas substitui a preparação para recuperação.
+
+Bloquear todo acesso prejudica o trabalho; liberar tudo amplia a exposição. Cada pessoa deve ter os recursos necessários à sua função e responsabilidades claras.
+
 ---
 
 ## 12. Boas práticas
@@ -215,6 +265,11 @@ Os três princípios são complementares. Um arquivo inacessível para todos ter
 Este slide transforma os conceitos em uma rotina: padronizar o cadastro, controlar os acessos, preservar o histórico e testar a recuperação. Explique uma prática de cada vez, usando o supermercado como exemplo. Um código único evita cadastros duplicados; permissões por função limitam a exposição; o preço da venda precisa permanecer histórico.
 
 O backup só é útil quando conseguimos restaurar os dados necessários. Por isso, procedimentos, cópias e responsáveis devem ser verificados. A gestão depende de rotinas que as pessoas consigam executar, acompanhar e melhorar. Em seguida, Pedro Mafra mostrará como os bancos de dados sustentam essa organização.
+
+EXPLICAÇÃO COMPLEMENTAR
+Defina quem executa cada atividade, quando ela acontece e como será verificada. Uma regra que ninguém acompanha dificilmente garante qualidade por muito tempo.
+
+Além da existência das cópias, é necessário testar os procedimentos e confirmar que a equipe consegue restaurar as informações necessárias à operação.
 
 ---
 
@@ -238,6 +293,11 @@ O banco é o conjunto organizado de dados; o SGBD é o software que permite defi
 SUGESTÃO PARA APRESENTAR
 Para explicar uma transação, use a venda e a baixa do estoque: essas alterações precisam ser coordenadas. Esse cuidado ajuda a evitar que uma parte da operação seja concluída e outra fique pendente, quebrando as regras da aplicação.
 
+EXPLICAÇÃO COMPLEMENTAR
+O banco reúne os registros. O sistema gerenciador permite definir estruturas, fazer consultas, aplicar restrições e controlar acessos conforme a configuração adotada.
+
+Ao vender, o sistema pode registrar itens e atualizar o estoque. Uma transação ajuda a concluir ou desfazer operações relacionadas quando isso é necessário às regras da aplicação.
+
 ---
 
 ## 14. Modelo relacional
@@ -260,6 +320,11 @@ Com a restrição de chave estrangeira configurada, a inserção pode ser rejeit
 SUGESTÃO PARA APRESENTAR
 Peça que a turma acompanhe as duas relações. Uma venda reúne vários itens. Um produto pode aparecer em itens de muitas vendas. Guardar o preço praticado no item preserva o histórico mesmo que o cadastro seja atualizado depois.
 
+EXPLICAÇÃO COMPLEMENTAR
+Uma venda possui vários itens; um produto pode aparecer em itens de muitas vendas. A chave estrangeira, quando configurada, pode impedir referências a registros inexistentes.
+
+Nome e categoria ficam no cadastro de produtos. O item guarda as informações próprias da transação, como quantidade e preço praticado, preservando o histórico.
+
 ---
 
 ## 15. A consulta SQL
@@ -269,6 +334,11 @@ Peça que a turma acompanhe as duas relações. Uma venda reúne vários itens. 
 A pergunta é: quais produtos tiveram mais unidades vendidas na semana dois? SELECT define o que será exibido; FROM indica a tabela; WHERE seleciona o período; GROUP BY agrupa os produtos; SUM soma suas quantidades; ORDER BY coloca o maior total primeiro.
 
 Mostre o resultado esperado: arroz 120, feijão 75 e café 35. A tabela vendas_demo é didática e independente do modelo relacional anterior. Esta consulta é ilustrativa; o site calcula o painel seguinte em JavaScript, sem conexão com um banco real. O objetivo é explicar como registros podem ser resumidos em informação útil.
+
+EXPLICAÇÃO COMPLEMENTAR
+A tabela pode ter muitos registros do mesmo produto. GROUP BY reúne essas linhas, e SUM calcula o total de unidades do grupo no período selecionado.
+
+O ranking mostra quantidade, não receita nem lucro. Para avaliar esses resultados, seriam necessários preço, custo e critérios de cálculo adicionais.
 
 ---
 
@@ -292,6 +362,11 @@ Ele apoia a investigação. Avaliar margem, duração da promoção, estoque e p
 SUGESTÃO PARA APRESENTAR
 Apresente primeiro a semana de referência, depois a promoção. Pergunte se a alta de 50% nas unidades permite concluir que o negócio ganhou mais. Em seguida revele a receita e o resultado bruto. A surpresa ajuda a explicar por que indicadores precisam ser analisados em conjunto.
 
+EXPLICAÇÃO COMPLEMENTAR
+Semana 1: 80 unidades de arroz a R$ 25. Semana 2: 120 unidades a R$ 22. O custo de aquisição permanece em R$ 18 por unidade nas duas semanas.
+
+Receita = quantidade × preço. Resultado bruto simplificado = quantidade × (preço − custo de aquisição). Alterne o período para conferir os valores.
+
 ---
 
 ## 17. Da análise à decisão
@@ -301,6 +376,11 @@ Apresente primeiro a semana de referência, depois a promoção. Pergunte se a a
 Retome os três resultados da promoção. As unidades sobem cinquenta por cento; a receita sobe trinta e dois por cento; o resultado bruto simplificado cai aproximadamente quatorze vírgula três por cento. Isso acontece porque o preço do arroz caiu de vinte e cinco para vinte e dois reais, enquanto o custo de aquisição permaneceu em dezoito reais por unidade.
 
 A promoção pode ter outros objetivos, mas esses dados não permitem declarar sucesso apenas pelo volume. Antes de alterar a compra, o gestor deve avaliar saldo em estoque, duração da promoção, validade e prazo do fornecedor. A decisão deve ser acompanhada para verificar seu efeito. Nenhum número deste exemplo representa lucro líquido.
+
+EXPLICAÇÃO COMPLEMENTAR
+Ao preço de R$ 22 e custo de R$ 18, restam R$ 4 por unidade antes das despesas e tributos. Seriam necessárias 140 unidades para igualar os R$ 560 de resultado bruto da semana 1.
+
+Uma promoção pode buscar giro de estoque ou atrair clientes. O painel ajuda a avaliar o objetivo definido, mas os dados deste caso não comprovam efeitos sobre outras compras.
 
 ---
 
@@ -323,3 +403,8 @@ Decisões melhores dependem de dados organizados, informação confiável e aná
 
 SUGESTÃO PARA APRESENTAR
 Encerre propondo um caminho viável: começar com uma pergunta, escolher dados confiáveis, definir métricas e acompanhar a ação. A maturidade não depende apenas do tamanho do sistema, mas da capacidade de repetir esse ciclo com consistência.
+
+EXPLICAÇÃO COMPLEMENTAR
+Definir a pergunta, verificar as fontes, escolher indicadores e acompanhar a ação. Um projeto pode começar com um problema delimitado e crescer conforme a equipe aprende.
+
+Dados organizados permitem consultar; qualidade permite confiar; análise permite interpretar. A decisão depende da conexão entre esses três fundamentos.

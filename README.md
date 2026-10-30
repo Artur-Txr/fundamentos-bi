@@ -66,3 +66,8 @@ No GitHub Pages, use a branch main e a pasta / (root). A prévia de impressão d
 - [PostgreSQL — Conceitos relacionais](https://www.postgresql.org/docs/current/tutorial-concepts.html)
 - [PostgreSQL — Chaves estrangeiras](https://www.postgresql.org/docs/current/tutorial-fk.html)
 - [PostgreSQL — Transações](https://www.postgresql.org/docs/current/tutorial-transactions.html)
+## Capa e conteúdo ampliados
+
+A capa utiliza uma ilustração vetorial de painel analítico, integração e fontes de dados, adaptada aos quatro temas. O desenho é conceitual e não representa dados reais.
+
+Os slides de conteúdo incluem blocos de explicação e aplicação visíveis. O exemplo da promoção também mostra que, ao preço de R$ 22 e custo de aquisição de R$ 18, seriam necessárias 140 unidades para igualar o resultado bruto simplificado de R$ 560 da semana de referência. O cálculo não inclui despesas e tributos.
