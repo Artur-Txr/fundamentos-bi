@@ -1,77 +1,57 @@
-# Roteiro de apresentação — versão para ensaio
+# Roteiro de apresentação — edição interativa
 
-**Artur Teixeira, João Henrique e Pedro Mafra** · 18 slides · 6 por integrante.
+Artur Teixeira (1–6), João Henrique (7–12) e Pedro Mafra (13–18).
 
-As falas são sugestões: ensaiem, entendam os conceitos e adaptem as palavras ao jeito de vocês. O tempo abaixo é uma referência, não um cronômetro obrigatório. No site, abra Roteiro ou pressione N; a fala acompanha o slide selecionado. O roteiro aparece na mesma tela da apresentação.
+Use Roteiro ou N nos slides. Para conduzir sem projetar as falas, use **••• → Janela do apresentador** e mova a nova janela para a tela de quem apresenta. Inicie o cronômetro manualmente. O tempo de ensaio continua próximo de 24 minutos, mas reserve mais tempo se houver participação da turma.
 
-| Integrante | Slides | Tempo sugerido |
-| --- | --- | --- |
-| Artur Teixeira | 1–6 | 7 min 25 s |
-| João Henrique | 7–12 | 7 min 45 s |
-| Pedro Mafra | 13–18 | 9 min |
+Nas telas 6, 8 e 14, revele uma etapa de cada vez. Na tela 10, alterne a duplicidade. Na tela 16, compare as duas semanas. Na tela 17, faça a pergunta antes de revelar a análise. Na tela 18, retome a decisão e apresente o QR code.
 
-**Total sugerido: 24 min 10 s**, sem contar perguntas e pausas adicionais. Confirmem o tempo disponível com o professor.
+## 1. Abertura
 
-## Antes de apresentar
+Artur Teixeira · SLIDE 1 / 18
+TEMPO SUGERIDO: 50 segundos
 
-- Ensaiar as trocas de fala nos slides 6 e 12.
-- No slide 16, começar pela Semana 1 e depois selecionar a Semana 2.
-- Distinguir unidades, receita, resultado bruto e lucro líquido.
-- Lembrar que o supermercado e seus números são fictícios.
-- Se o tempo for menor, resumir exemplos complementares e manter conceito, exemplo central e conclusão.
-
----
-
-## Slide 1 — Abertura
-
-**Artur Teixeira · 0 min 50 s**
-
-### Fala sugerida
-
+FALA SUGERIDA
 Bom dia, pessoal. Eu sou Artur Teixeira e vou apresentar este trabalho com João Henrique e Pedro Mafra. Nosso tema é fundamentos da inteligência de negócios, com foco na gestão da informação e dos bancos de dados.
 
 A ideia central é entender como os registros de uma empresa podem ajudar a tomar decisões. A ilustração da capa resume esse caminho: temos fontes como vendas e estoque, uma estrutura que organiza os dados e uma análise que ajuda a compreender o negócio.
 
 Para tornar o assunto mais concreto, vamos acompanhar o exemplo fictício de um supermercado. Eu começo pelos conceitos de BI e pelos indicadores; João Henrique explica a gestão da informação; e Pedro Mafra apresenta os bancos de dados e a análise prática.
 
-### O que mostrar na tela
-
+O QUE MOSTRAR NA TELA
 Apresente os três integrantes. Aponte na ilustração as fontes na parte inferior, a integração no centro e o painel no alto. Ela é conceitual; não contém resultados reais.
 
-### Transição
-
+TRANSIÇÃO
 Vamos começar pela decisão que esse supermercado precisa tomar.
 
 ---
 
-## Slide 2 — A pergunta de negócio
+## 2. A pergunta de negócio
 
-**Artur Teixeira · 1 min 10 s**
+Artur Teixeira · SLIDE 2 / 18
+TEMPO SUGERIDO: 1 min 10 s
 
-### Fala sugerida
-
+FALA SUGERIDA
 Antes de pensar em um sistema ou em um gráfico, precisamos definir qual problema queremos resolver. No nosso exemplo, a pergunta é: como o supermercado pode comprar melhor?
 
 O primeiro objetivo é evitar a falta de produtos. Se o cliente procura arroz e não encontra, a loja pode perder a venda. O segundo é controlar o excesso: comprar além da demanda ocupa espaço e pode provocar perdas. O terceiro é avaliar o resultado, porque vender mais unidades não significa necessariamente ganhar mais.
 
 Esses objetivos precisam ser analisados juntos. Olhar só para o produto que mais vendeu pode levar a uma compra desnecessária, caso ainda exista bastante estoque. Por isso, precisamos combinar histórico de vendas, saldo disponível, preço, custo e prazo de entrega. A pergunta de negócio orienta quais dados serão úteis.
 
-### O que mostrar na tela
-
+O QUE MOSTRAR NA TELA
 Percorra os três cartões: falta, excesso e resultado. Relacione a pergunta de cada cartão com uma decisão do gerente.
 
-### Transição
-
+TRANSIÇÃO
 Para responder a essas perguntas, precisamos primeiro distinguir dado, informação e conhecimento.
 
 ---
 
-## Slide 3 — Dados e informação
+## 3. Dados e informação
 
-**Artur Teixeira · 1 min 10 s**
+Artur Teixeira · SLIDE 3 / 18
+TEMPO SUGERIDO: 1 min 10 s
 
-### Fala sugerida
-
+FALA SUGERIDA
 Esses três conceitos estão relacionados, mas representam coisas diferentes. Dado é o registro de um fato. Aqui, o registro é que foram vendidas 120 unidades de arroz na semana dois.
 
 Quando comparamos esse registro com as 80 unidades da semana um, passamos a ter uma informação: houve aumento de 40 unidades, equivalente a 50%. O cálculo usa a primeira semana como base: a diferença de 40 dividida por 80, multiplicada por cem.
@@ -80,22 +60,20 @@ O conhecimento aparece na interpretação. O gerente relaciona esse aumento com 
 
 A comparação revela uma mudança, mas não explica sua causa sozinha. Se houve uma promoção, por exemplo, o aumento pode não continuar na semana seguinte. Por isso, registrar, comparar e interpretar são etapas diferentes.
 
-### O que mostrar na tela
-
+O QUE MOSTRAR NA TELA
 Siga a ordem dos três cartões. Aponte o cálculo de 50% e explique que a base é 80, não 120.
 
-### Transição
-
+TRANSIÇÃO
 É justamente nessa transformação dos dados em apoio à decisão que entra o BI.
 
 ---
 
-## Slide 4 — O que é BI
+## 4. O que é BI
 
-**Artur Teixeira · 1 min 20 s**
+Artur Teixeira · SLIDE 4 / 18
+TEMPO SUGERIDO: 1 min 20 s
 
-### Fala sugerida
-
+FALA SUGERIDA
 BI é a sigla de Business Intelligence, ou Inteligência de Negócios. Podemos resumir como o uso dos dados da empresa para compreender o desempenho e tomar decisões mais bem fundamentadas.
 
 Ele envolve três atividades que aparecem nos cartões. Primeiro, compreender o que aconteceu: comparar vendas por período, produto ou loja. Depois, investigar as diferenças para levantar hipóteses. Por fim, acompanhar se a ação adotada trouxe o resultado esperado.
@@ -104,22 +82,20 @@ Ele envolve três atividades que aparecem nos cartões. Primeiro, compreender o 
 
 Imagine que uma loja vende menos que outra. O BI ajuda a explorar estoque, mix de produtos e período, mas a diferença não prova automaticamente uma causa. A análise apoia o julgamento do gestor, que conhece o processo e precisa verificar as hipóteses.
 
-### O que mostrar na tela
-
+O QUE MOSTRAR NA TELA
 Comece pela definição destacada. Depois explique os cartões Compreender, Investigar e Acompanhar. Use o exemplo das duas lojas para conectar os textos inferiores.
 
-### Transição
-
+TRANSIÇÃO
 Para acompanhar esse desempenho, precisamos escolher os indicadores adequados.
 
 ---
 
-## Slide 5 — Indicadores
+## 5. Indicadores
 
-**Artur Teixeira · 1 min 30 s**
+Artur Teixeira · SLIDE 5 / 18
+TEMPO SUGERIDO: 1 min 30 s
 
-### Fala sugerida
-
+FALA SUGERIDA
 Um indicador é uma medida que ajuda a acompanhar uma situação. Quando ele está associado a um objetivo importante do negócio, pode ser usado como KPI, ou indicador-chave de desempenho.
 
 Neste trabalho usamos três medidas. Volume indica quantas unidades foram vendidas. Receita representa o valor dessas vendas, calculado pela quantidade multiplicada pelo preço. O resultado bruto do nosso exemplo desconta o custo de aquisição dos produtos da receita.
@@ -128,22 +104,20 @@ Essas medidas não são equivalentes. Uma promoção pode aumentar a quantidade 
 
 Para que o indicador seja confiável, todos precisam conhecer a fórmula, a fonte, o período e o responsável. Também é necessário combinar como serão tratadas devoluções e vendas canceladas, para evitar comparações entre números calculados de formas diferentes.
 
-### O que mostrar na tela
-
+O QUE MOSTRAR NA TELA
 Aponte cada fórmula. Enfatize a diferença entre volume, receita e resultado bruto. O exemplo com valores será demonstrado por Pedro Mafra nos slides 16 e 17.
 
-### Transição
-
+TRANSIÇÃO
 Agora vamos ver o caminho que os registros percorrem até se tornarem esses indicadores.
 
 ---
 
-## Slide 6 — Da fonte à decisão
+## 6. Da fonte à decisão
 
-**Artur Teixeira · 1 min 25 s**
+Artur Teixeira · SLIDE 6 / 18
+TEMPO SUGERIDO: 1 min 25 s
 
-### Fala sugerida
-
+FALA SUGERIDA
 O gráfico é o resultado de um processo que começa nas fontes. No supermercado, podemos ter registros do caixa, do cadastro de produtos e do estoque. Para analisar essas informações em conjunto, precisamos relacionar o mesmo produto nas diferentes fontes.
 
 Na preparação, verificamos formatos, duplicidades e regras. ETL significa extrair, transformar e carregar. Em ELT, a carga ocorre antes da transformação. A ordem depende da arquitetura adotada.
@@ -152,22 +126,23 @@ Em seguida, o histórico organizado permite comparar períodos. Um data warehous
 
 Depois vêm a análise, a ação e o acompanhamento. Se o gerente altera a reposição, deve verificar se a falta de produtos diminuiu. Esse ciclo precisa de informações bem gerenciadas.
 
-### O que mostrar na tela
-
+O QUE MOSTRAR NA TELA
 Percorra as cinco etapas da esquerda para a direita. Explique ETL/ELT e data warehouse sem ficar apenas na leitura das siglas.
 
-### Transição
-
+TRANSIÇÃO
 Até aqui vimos o que queremos fazer com os dados. Agora o João Henrique vai explicar como cuidar da informação para que esse processo funcione.
+
+REVELAÇÃO POR ETAPAS
+A primeira etapa aparece ao abrir a tela. Use Próxima etapa ou a seta para a direita para apresentar as partes seguintes. Mostrar tudo revela o diagrama completo. Após a última etapa, a seta avança para o slide seguinte.
 
 ---
 
-## Slide 7 — Gestão da informação
+## 7. Gestão da informação
 
-**João Henrique · 1 min 20 s**
+João Henrique · SLIDE 7 / 18
+TEMPO SUGERIDO: 1 min 20 s
 
-### Fala sugerida
-
+FALA SUGERIDA
 Agora vamos falar sobre gestão da informação. Não basta uma empresa ter muitos registros: eles precisam estar organizados, ter significado e chegar a quem precisa utilizá-los. Isso depende da combinação entre pessoas, processos e tecnologia.
 
 As pessoas definem o uso e a responsabilidade pela informação. Os processos estabelecem como cadastrar, validar, atualizar e compartilhar. A tecnologia oferece os recursos para executar essas atividades.
@@ -176,22 +151,20 @@ Também precisamos distinguir governança e gestão. A governança define regras
 
 Um dicionário de dados ajuda a documentar o significado dos campos e indicadores. Assim, expressões como venda líquida e estoque disponível podem ser interpretadas da mesma forma entre os setores.
 
-### O que mostrar na tela
-
+O QUE MOSTRAR NA TELA
 Siga os três cartões e use a regra de categoria obrigatória para explicar governança e gestão. Aponte a referência ao dicionário de dados no texto inferior.
 
-### Transição
-
+TRANSIÇÃO
 Esse cuidado acompanha a informação ao longo de todo o seu ciclo de vida.
 
 ---
 
-## Slide 8 — Ciclo de vida
+## 8. Ciclo de vida
 
-**João Henrique · 1 min 15 s**
+João Henrique · SLIDE 8 / 18
+TEMPO SUGERIDO: 1 min 15 s
 
-### Fala sugerida
-
+FALA SUGERIDA
 A informação percorre um ciclo, desde a coleta até sua revisão. Na coleta, registramos o fato com os campos necessários, como produto, quantidade, data e preço. Na organização, classificamos e relacionamos esses registros.
 
 O armazenamento preserva os dados e controla o acesso. Na utilização, as pessoas consultam o histórico para responder a perguntas e planejar ações. Na revisão, verificamos a necessidade de atualizar, arquivar ou descartar informações, conforme os critérios e as regras aplicáveis.
@@ -200,22 +173,23 @@ Essas etapas precisam de responsáveis. Alguém registra, alguém verifica e alg
 
 Um exemplo importante é o preço: o cadastro pode ser atualizado hoje, mas isso não deve alterar o preço praticado em uma venda antiga. Cuidar da informação também significa preservar o contexto histórico.
 
-### O que mostrar na tela
-
+O QUE MOSTRAR NA TELA
 Percorra as cinco etapas do ciclo. Ao chegar à revisão, explique a diferença entre atualizar um cadastro e preservar uma transação passada.
 
-### Transição
-
+TRANSIÇÃO
 Mas como avaliar se esses registros são adequados para a análise? Para isso, usamos critérios de qualidade.
+
+REVELAÇÃO POR ETAPAS
+A primeira etapa aparece ao abrir a tela. Use Próxima etapa ou a seta para a direita para apresentar as partes seguintes. Mostrar tudo revela o diagrama completo. Após a última etapa, a seta avança para o slide seguinte.
 
 ---
 
-## Slide 9 — Qualidade dos dados
+## 9. Qualidade dos dados
 
-**João Henrique · 1 min 25 s**
+João Henrique · SLIDE 9 / 18
+TEMPO SUGERIDO: 1 min 25 s
 
-### Fala sugerida
-
+FALA SUGERIDA
 Qualidade dos dados significa avaliar se eles são adequados ao uso pretendido. Neste slide temos seis perguntas. Precisão verifica se o valor corresponde ao fato real. Completude avalia se os campos necessários foram preenchidos. Consistência verifica se as fontes usam definições compatíveis.
 
 Validade pergunta se o registro respeita as regras. Unicidade verifica duplicidades. Atualidade avalia se a informação foi atualizada na frequência necessária à decisão.
@@ -224,46 +198,40 @@ Esses critérios são diferentes. Uma data pode ter formato válido, mas represe
 
 Por isso, qualidade não é apenas um número ou um formato correto. Ela depende de entender o processo, o significado do registro e a necessidade de quem vai usar a informação.
 
-### O que mostrar na tela
-
+O QUE MOSTRAR NA TELA
 Explique as seis perguntas em ordem, sem ler apenas os títulos. Dê destaque à diferença entre validade e precisão e ao exemplo da frequência de atualização.
 
-### Transição
-
+TRANSIÇÃO
 Vamos ver agora como uma falha pode ser medida e como ela afeta uma decisão.
 
 ---
 
-## Slide 10 — Do erro à consequência
+## 10. Do erro à consequência
 
-**João Henrique · 1 min 15 s**
+João Henrique · SLIDE 10 / 18
+TEMPO SUGERIDO: 1 min 30 s
 
-### Fala sugerida
+FALA SUGERIDA
+Agora podemos observar o efeito de uma duplicidade. A tabela reúne três registros fictícios de venda de arroz. A linha V203, de vinte unidades, aparece repetida. Se o relatório somar tudo, chegaremos a cento e quarenta unidades e a uma receita aparente de três mil e oitenta reais.
 
-Neste exemplo fictício, oito de duzentos cadastros estão sem categoria. Isso corresponde a quatro por cento, calculados dividindo oito por duzentos e multiplicando por cem.
+Quando removemos a repetição, o total correto é de cento e vinte unidades e dois mil seiscentos e quarenta reais. A diferença é de vinte unidades e quatrocentos e quarenta reais. Ela existe no relatório, mas não representa uma nova venda.
 
-O indicador mostra a proporção do problema, mas não explica por que ele aconteceu. A equipe precisa seguir três passos: identificar a falha, investigar a origem e corrigir o processo. Preencher os oito campos resolve a situação imediata; melhorar a rotina de cadastro ajuda a evitar novos casos.
+Uma interpretação sem conferir a base poderia fazer o gerente acreditar que a demanda foi maior e comprar acima do necessário. Corrigir o relatório resolve o resultado imediato; investigar o cadastro e a integração ajuda a evitar que o erro se repita.
 
-Outra falha possível é uma venda duplicada. Ela pode aumentar artificialmente o total de vendas, fazer a demanda parecer maior e levar a uma compra acima do necessário.
+O QUE MOSTRAR NA TELA
+Comece em Com duplicidade. Aponte V203 nas duas linhas e os totais. Clique em Dados corrigidos e compare as quantidades e a receita.
 
-Também não devemos tratar todo número negativo como erro automaticamente. Ele pode representar uma devolução. Antes de corrigir, é preciso compreender a regra e o contexto do registro.
-
-### O que mostrar na tela
-
-Aponte o cálculo de 4%. Depois percorra Identificar, Investigar e Corrigir a origem. Relacione a venda duplicada à compra desnecessária.
-
-### Transição
-
-Além de corretas, essas informações precisam estar protegidas e disponíveis.
+TRANSIÇÃO
+Além de corretas, as informações precisam estar protegidas e disponíveis.
 
 ---
 
-## Slide 11 — Segurança
+## 11. Segurança
 
-**João Henrique · 1 min 15 s**
+João Henrique · SLIDE 11 / 18
+TEMPO SUGERIDO: 1 min 15 s
 
-### Fala sugerida
-
+FALA SUGERIDA
 A segurança da informação envolve três objetivos complementares: confidencialidade, integridade e disponibilidade. Confidencialidade significa que apenas pessoas autorizadas acessam a informação. Integridade busca preservar registros corretos e alterações que sigam regras. Disponibilidade significa conseguir acessar a informação quando ela é necessária.
 
 No supermercado, o operador de caixa precisa registrar vendas, mas não precisa consultar todos os dados dos funcionários. As permissões devem acompanhar a função. Contas individuais e registros de alterações também ajudam a investigar o que aconteceu.
@@ -272,22 +240,20 @@ Esses cuidados precisam de equilíbrio. Bloquear todo acesso impede o trabalho; 
 
 Por isso, proteção inclui tanto limitar acessos e acompanhar alterações quanto preparar a continuidade da operação.
 
-### O que mostrar na tela
-
+O QUE MOSTRAR NA TELA
 Explique os três cartões e use o operador de caixa como exemplo. Mostre que acesso, alterações e recuperação são cuidados diferentes.
 
-### Transição
-
+TRANSIÇÃO
 Esses princípios precisam aparecer em práticas simples que a equipe consiga executar.
 
 ---
 
-## Slide 12 — Boas práticas
+## 12. Boas práticas
 
-**João Henrique · 1 min 15 s**
+João Henrique · SLIDE 12 / 18
+TEMPO SUGERIDO: 1 min 15 s
 
-### Fala sugerida
-
+FALA SUGERIDA
 Para encerrar a parte de gestão da informação, temos quatro boas práticas. A primeira é padronizar o cadastro, com código único, campos essenciais e definições compartilhadas. Isso reduz confusões como registrar o mesmo produto com nomes diferentes.
 
 A segunda é controlar o acesso, usando contas individuais e permissões adequadas às funções. A terceira é preservar o histórico: o preço e as condições de uma venda precisam continuar representando o que aconteceu naquele momento.
@@ -296,22 +262,20 @@ A quarta é testar a recuperação. Não basta afirmar que existe backup; é nec
 
 Para que essas práticas funcionem, a organização precisa definir quem faz cada atividade, quando ela acontece e como será acompanhada. A qualidade depende de uma rotina consistente, não de uma correção isolada.
 
-### O que mostrar na tela
-
+O QUE MOSTRAR NA TELA
 Percorra as quatro práticas. Termine com backup e teste de restauração para mostrar que a recuperação deve ser verificada.
 
-### Transição
-
+TRANSIÇÃO
 Agora o Pedro Mafra vai mostrar como os bancos de dados dão estrutura a esses registros e como podemos consultá-los para apoiar uma análise.
 
 ---
 
-## Slide 13 — Banco e SGBD
+## 13. Banco e SGBD
 
-**Pedro Mafra · 1 min 20 s**
+Pedro Mafra · SLIDE 13 / 18
+TEMPO SUGERIDO: 1 min 20 s
 
-### Fala sugerida
-
+FALA SUGERIDA
 Vamos começar diferenciando banco de dados e SGBD. O banco é o conjunto organizado de registros. O SGBD, ou sistema gerenciador de banco de dados, é o software que permite definir as estruturas, consultar, atualizar e administrar esse conjunto.
 
 O slide também compara dois usos. Na operação, registramos o presente: vendas, itens e movimentações frequentes. Na análise, usamos o histórico para comparar períodos, produtos e resultados. A estrutura precisa atender à finalidade pretendida.
@@ -320,22 +284,20 @@ Outro conceito importante é transação. Uma venda pode exigir registrar os ite
 
 Assim, o banco não serve apenas para guardar registros; sua organização e os recursos do gerenciador apoiam o funcionamento confiável da aplicação.
 
-### O que mostrar na tela
-
+O QUE MOSTRAR NA TELA
 Compare os dois blocos Operação e Análise. Use registrar a venda e dar baixa no estoque para explicar transação.
 
-### Transição
-
+TRANSIÇÃO
 No modelo relacional, essa organização aparece em tabelas que se conectam.
 
 ---
 
-## Slide 14 — Modelo relacional
+## 14. Modelo relacional
 
-**Pedro Mafra · 1 min 30 s**
+Pedro Mafra · SLIDE 14 / 18
+TEMPO SUGERIDO: 1 min 30 s
 
-### Fala sugerida
-
+FALA SUGERIDA
 Neste modelo simplificado, temos três tabelas: Produtos, Itens de venda e Vendas. Produtos guarda informações do cadastro, como nome, categoria e preço atual. Vendas registra o evento, com data, forma de pagamento e status. Itens de venda conecta cada produto à venda e guarda quantidade e preço praticado.
 
 A relação funciona assim: uma venda pode ter vários itens, e um produto pode aparecer em itens de muitas vendas. A chave primária, indicada por PK, identifica cada linha. A chave estrangeira, indicada por FK, referencia um registro relacionado.
@@ -344,22 +306,23 @@ Quando a restrição de chave estrangeira está configurada, ela pode impedir qu
 
 Também preservamos o preço no item da venda. Se o preço atual do cadastro mudar, a receita de uma venda passada não deve ser recalculada usando o novo valor. Essa separação reduz repetições desnecessárias e protege o histórico.
 
-### O que mostrar na tela
-
+O QUE MOSTRAR NA TELA
 Aponte as três tabelas e siga as relações 1 para N. Mostre o campo preco_praticado e diferencie-o de preco_atual.
 
-### Transição
-
+TRANSIÇÃO
 Com os registros organizados, podemos fazer uma consulta para resumir as vendas.
+
+REVELAÇÃO POR ETAPAS
+A primeira etapa aparece ao abrir a tela. Use Próxima etapa ou a seta para a direita para apresentar as partes seguintes. Mostrar tudo revela o diagrama completo. Após a última etapa, a seta avança para o slide seguinte.
 
 ---
 
-## Slide 15 — A consulta SQL
+## 15. A consulta SQL
 
-**Pedro Mafra · 1 min 30 s**
+Pedro Mafra · SLIDE 15 / 18
+TEMPO SUGERIDO: 1 min 30 s
 
-### Fala sugerida
-
+FALA SUGERIDA
 A pergunta deste slide é: quais produtos tiveram mais unidades vendidas na semana dois? A consulta transforma os registros em um resumo por produto.
 
 SELECT indica o que será exibido: o produto e a soma das quantidades. FROM indica a tabela consultada. WHERE filtra os registros da semana dois. GROUP BY reúne as linhas de cada produto. A função SUM soma as quantidades desses grupos. Por fim, ORDER BY organiza o resultado do maior para o menor total.
@@ -368,22 +331,20 @@ SELECT indica o que será exibido: o produto e a soma das quantidades. FROM indi
 
 A tabela vendas_demo é didática e separada do modelo anterior. A consulta é ilustrativa; o painel do site funciona com dados locais em JavaScript, sem consultar um banco real.
 
-### O que mostrar na tela
-
+O QUE MOSTRAR NA TELA
 Leia a pergunta antes do código. Explique cada cláusula de cima para baixo e, depois, confira as três linhas do resultado.
 
-### Transição
-
+TRANSIÇÃO
 Agora vamos transformar esse resumo em um painel e comparar as duas semanas.
 
 ---
 
-## Slide 16 — Painel interativo
+## 16. Painel interativo
 
-**Pedro Mafra · 1 min 50 s**
+Pedro Mafra · SLIDE 16 / 18
+TEMPO SUGERIDO: 1 min 50 s
 
-### Fala sugerida
-
+FALA SUGERIDA
 PARTE 1 — SEMANA DE REFERÊNCIA
 Na semana um, foram vendidas 80 unidades de arroz. Cada unidade custava 25 reais, e o custo de aquisição era de 18 reais. A receita foi de 2.000 reais, calculada por 80 vezes 25. O resultado bruto simplificado foi de 560 reais: 80 unidades multiplicadas pela diferença de sete reais entre preço e custo.
 
@@ -392,21 +353,25 @@ Na semana dois, o preço caiu para 22 reais e as vendas subiram para 120 unidade
 
 A comparação mostra por que não podemos avaliar a promoção olhando somente para a quantidade. As despesas e os tributos não entram nesse cálculo; portanto, nenhum desses valores representa lucro líquido.
 
-### O que mostrar na tela
+O QUE MOSTRAR NA TELA
+Comece na vista Comparar. Mostre a Semana 1 no cartão esquerdo e a Semana 2 no direito. As opções de semana permitem dar foco a um período. A comparação financeira se refere apenas ao arroz; o gráfico também exibe feijão e café.
 
-Antes de começar, selecione “Semana 1 · referência”. Mostre quantidade, preço, receita e resultado bruto. Ao iniciar a Parte 2, mude para “Semana 2 · promoção” e mostre os valores atualizados. A comparação financeira se refere apenas ao arroz; o gráfico também exibe feijão e café.
-
-### Transição
-
+TRANSIÇÃO
 No próximo slide, vamos reunir as três variações e discutir como interpretar esse resultado.
+
+RECURSO INTERATIVO DESTA TELA
+COMPARAÇÃO DAS SEMANAS
+Comece em Comparar e mostre os dois cartões lado a lado. Semana 1: 80 unidades, preço R$ 25, receita R$ 2.000, resultado bruto R$ 560. Semana 2: 120 unidades, preço R$ 22, receita R$ 2.640, resultado bruto R$ 480. Use Semana 1 ou Semana 2 para dar foco a um período; volte a Comparar antes de concluir. O custo permanece R$ 18 por unidade.
 
 ---
 
-## Slide 17 — Da análise à decisão
+## 17. Da análise à decisão
 
-**Pedro Mafra · 1 min 40 s**
+Pedro Mafra · SLIDE 17 / 18
+TEMPO SUGERIDO: 1 min 40 s
 
-### Fala sugerida
+FALA SUGERIDA
+Antes de ler os indicadores, pergunte à turma se o aumento do volume é suficiente para declarar sucesso. Aguarde respostas, escolha uma alternativa e use Revelar análise. Só então apresente a explicação a seguir.
 
 Aqui temos o resumo da promoção do arroz. A quantidade vendida aumentou 50%, a receita aumentou 32% e o resultado bruto simplificado caiu aproximadamente 14,3%. O custo por unidade ficou igual, mas o preço de venda caiu.
 
@@ -416,22 +381,24 @@ Uma conta adicional ajuda a visualizar a diferença: a 22 reais de preço e 18 r
 
 Antes de alterar a compra, o gestor também precisa verificar estoque, duração da promoção, validade e prazo do fornecedor. A ação escolhida deve ser acompanhada para avaliar seu efeito.
 
-### O que mostrar na tela
-
+O QUE MOSTRAR NA TELA
 Percorra os três percentuais. Depois aponte os quatro fatores antes da compra. Na conta das 140 unidades, explique 560 ÷ 4 = 140; trata-se de igualdade de resultado bruto, não de lucro líquido ou de ponto de equilíbrio completo da empresa.
 
-### Transição
-
+TRANSIÇÃO
 Esse exemplo reúne os três fundamentos que estudamos. Vamos fechar retomando essa conexão.
+
+RECURSO INTERATIVO DESTA TELA
+INTERAÇÃO COM A TURMA
+Leia a pergunta antes de mostrar os resultados e aguarde algumas respostas. Clique na alternativa escolhida para comentar a interpretação, depois em Revelar análise. O volume não comprova sucesso e a queda do resultado bruto não permite afirmar fracasso sem conhecer o objetivo. Destaque +50% em unidades, +32% em receita e −14,3% em resultado bruto. As respostas não são enviadas a um servidor.
 
 ---
 
-## Slide 18 — Conclusão
+## 18. Conclusão
 
-**Pedro Mafra · 1 min 10 s**
+Pedro Mafra · SLIDE 18 / 18
+TEMPO SUGERIDO: 1 min 10 s
 
-### Fala sugerida
-
+FALA SUGERIDA
 Para concluir, os três temas deste trabalho se complementam. O banco de dados organiza os registros, as relações e o histórico. A gestão da informação cuida do significado, da qualidade, do acesso e das responsabilidades. O BI usa esses dados para analisar o desempenho e acompanhar decisões.
 
 No exemplo do supermercado, vimos que uma informação isolada pode levar a uma interpretação incompleta. Vender mais não significa necessariamente obter um resultado melhor, e um painel só será útil se os registros e os critérios forem confiáveis.
@@ -440,10 +407,12 @@ A pergunta final é: com o estoque desatualizado, vocês confiariam na recomenda
 
 Uma empresa pode começar com uma pergunta delimitada, fontes confiáveis e indicadores bem definidos. As referências estão disponíveis nesta tela para quem quiser consultar. Obrigado pela atenção. Podemos responder às perguntas.
 
-### O que mostrar na tela
-
+O QUE MOSTRAR NA TELA
 Retome os três cartões. Faça a pergunta final e dê alguns segundos para a turma pensar. Se necessário, abra as referências. Não há transição para outro slide.
 
-### Encerramento
-
+ENCERRAMENTO
 Encerramento: agradecer e abrir para perguntas.
+
+RECURSO INTERATIVO DESTA TELA
+ENCERRAMENTO DO CASO
+Retome a pergunta inicial: como comprar melhor? Percorra as quatro verificações e explique que o caso mostra informações necessárias, sem determinar uma quantidade de compra. Convide a turma a acessar os slides e referências pelo QR code. Ele abre a mesma apresentação, sem cadastro.

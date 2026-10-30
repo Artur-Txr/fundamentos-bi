@@ -74,3 +74,23 @@ Os slides de conteúdo incluem blocos de explicação e aplicação visíveis. O
 ## Roteiro por tela
 
 O roteiro foi reescrito para acompanhar os 18 slides. Cada tela inclui fala sugerida, indicação do que mostrar e transição. Há tempos de referência por slide e integrante, totalizando aproximadamente 24 minutos, sem perguntas adicionais. O slide 16 orienta começar pela Semana 1 e depois mudar para a Semana 2. As falas podem ser adaptadas durante o ensaio.
+## Recursos da edição interativa
+
+- **Etapas**: nos diagramas das telas 6, 8 e 14, Próxima etapa (ou seta para a direita) revela a próxima parte; após a última, a seta avança de slide. Mostrar tudo revela o conjunto. A seta para a esquerda retorna pelas etapas.
+- **Comparação**: a tela 16 mostra as semanas lado a lado. As opções de semana dão foco a um período.
+- **Qualidade**: a tela 10 simula uma repetição de V203. Com erro: 140 unidades e R$ 3.080; corrigido: 120 unidades e R$ 2.640. Não é uma nova venda.
+- **Pergunta**: a tela 17 recebe uma escolha local e revela a análise por botão. Não há coleta de votos nem transmissão das respostas.
+- **Conceitos**: termos destacados abrem uma definição curta; o glossário completo permanece no menu.
+- **Apresentador**: menu ••• → Janela do apresentador. Mantenha a janela dos slides projetada e arraste a janela com roteiro para outra tela. A janela do apresentador mostra a fala atual, a próxima tela, controles e cronômetro com início, pausa e reinício manuais. O tempo deste slide reinicia ao trocar de tela. As duas janelas precisam estar no mesmo navegador e abertas pelo mesmo domínio. Navegadores podem bloquear o pop-up; nesse caso, permita-o para este site e tente novamente.
+- **Conclusão**: a tela 18 retoma a pergunta do supermercado e as verificações necessárias para decidir.
+- **QR code**: aponta para https://artur-txr.github.io/fundamentos-bi/ e é um SVG local, legível sem serviços externos. Foi decodificado em verificação independente.
+
+O apresentador sincroniza por BroadcastChannel, com alternativa por eventos de armazenamento local. A janela separada deve ser testada no computador e nas telas usados na apresentação. No modo de arquivos locais, as políticas do navegador podem limitar a comunicação; prefira o endereço publicado.
+
+### Novos arquivos
+
+extras.js (conteúdo das interações), interactions.js (controles), sync.js (comunicação entre janelas), presenter.html e presenter.js (janela do apresentador), acesso.svg (QR code).
+
+### Créditos técnicos
+
+O QR foi gerado durante a preparação com a biblioteca [Project Nayuki QR Code generator](https://www.nayuki.io/page/qr-code-generator-library), sob licença MIT. A decodificação de teste utilizou [jsQR](https://github.com/cozmo/jsQR). As bibliotecas de geração e teste não são carregadas pelo site.
