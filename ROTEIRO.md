@@ -6,7 +6,7 @@
 
 **Inteligência de negócios**
 
-Como empresas transformam registros do dia a dia em escolhas mais inteligentes? Uma jornada pelos conceitos, pelas pessoas e pela tecnologia que sustentam a decisão.
+
 
 Imagine um gerente que precisa decidir o que comprar para a próxima semana. Se ele olhar apenas para a prateleira, terá uma visão limitada. Se reunir vendas, estoque e prazo dos fornecedores, poderá justificar melhor sua escolha. É essa passagem de registros dispersos para uma visão organizada que guia nossa apresentação.
 
@@ -32,7 +32,7 @@ Uma forma de abrir a apresentação é perguntar: “Como vocês decidiriam quai
 
 **Inteligência de negócios**
 
-Os dados ganham valor quando deixam de ser registros isolados e passam a responder a uma pergunta. O contexto é o elo entre observar um número e compreender o que ele representa.
+O contexto transforma um registro em informação útil.
 
 Podemos pensar em três perguntas: o que foi registrado, o que isso significa e o que podemos fazer com esse entendimento? O número 120, sem produto, período ou unidade de medida, informa muito pouco. Quando sabemos que representa vendas de arroz em uma semana e comparamos com outra semana, ele se torna útil.
 
@@ -58,7 +58,7 @@ Para exemplificar fora do supermercado, pense nas notas de uma turma. Uma nota �
 
 **Inteligência de negócios**
 
-BI significa Business Intelligence, em português Inteligência de Negócios. Seu propósito é ajudar a entender o desempenho da empresa e decidir com base em evidências.
+Do entendimento do negócio à escolha dos indicadores.
 
 Um gestor pode perguntar quais produtos estão vendendo menos, em qual unidade ocorreu uma queda ou se a meta mensal foi atingida. O BI organiza o acesso a essas respostas. Um dashboard é um painel que reúne indicadores; já o processo de BI inclui definir o problema, preparar os dados, analisar e acompanhar o que aconteceu depois da decisão.
 
@@ -84,7 +84,7 @@ Antes de falar nos indicadores, leia a definição de BI em linguagem simples: u
 
 **Inteligência de negócios**
 
-A análise começa muito antes de um gráfico aparecer na tela. É preciso conectar fontes, aplicar regras e organizar o histórico para que a comparação faça sentido.
+Uma análise confiável começa antes do gráfico.
 
 Na integração, dados de diferentes sistemas precisam conversar: o código de um produto no caixa deve corresponder ao usado no estoque. Na preparação, podemos padronizar datas, corrigir categorias e investigar registros duplicados. Isso evita comparar informações que parecem iguais, mas foram registradas de formas diferentes.
 
@@ -110,7 +110,7 @@ Na prática, integração também exige acertar identificadores: o mesmo código
 
 **Gestão da informação**
 
-Informação precisa chegar à pessoa certa, no momento certo e com significado claro. Isso exige uma combinação de responsabilidades, rotinas e recursos tecnológicos.
+Pessoas, processos e tecnologia trabalham juntos.
 
 A gestão da informação busca dar sentido e utilidade ao que a organização conhece e registra. Pessoas precisam saber suas responsabilidades; processos precisam definir como cadastrar e atualizar; a tecnologia precisa apoiar a recuperação e o compartilhamento. Se um desses elementos falhar, a informação perde valor.
 
@@ -136,7 +136,7 @@ Explique a diferença entre governança e gestão com um exemplo. A regra diz qu
 
 **Gestão da informação**
 
-A informação percorre um caminho desde o registro até sua revisão ou descarte. Em cada etapa, a organização precisa preservar o significado, a utilidade e a proteção desses registros.
+Da coleta à revisão, cada etapa exige cuidado.
 
 No caixa, a coleta registra produto, quantidade, data e preço. A organização classifica a venda e relaciona o produto à sua categoria. O armazenamento preserva os registros. Na utilização, a equipe consulta o histórico para planejar reposições ou avaliar o desempenho.
 
@@ -162,7 +162,7 @@ O ciclo de vida não é apenas uma sequência técnica. Em cada fase alguém pre
 
 **Gestão da informação**
 
-Um indicador pode estar matematicamente correto e ainda representar uma realidade distorcida. A qualidade dos registros determina o quanto podemos confiar na análise.
+A confiança na análise depende da qualidade dos registros.
 
 Considere uma venda registrada duas vezes. O total será maior que a venda real, e o gestor poderá interpretar que a demanda aumentou. Outro problema aparece quando o estoque usa caixas e o relatório interpreta unidades: os dados existem, mas a comparação está errada.
 
@@ -188,7 +188,7 @@ Não trate todo número negativo como erro automaticamente. Ele pode representar
 
 **Gestão da informação**
 
-Informações confiáveis precisam estar protegidas de acesso indevido, alterações não autorizadas e perdas. Segurança também significa manter a operação funcionando após uma falha.
+Proteger os dados também significa conseguir recuperá-los.
 
 Confidencialidade significa restringir o acesso a quem está autorizado. Integridade significa preservar a correção e a consistência dos registros. Disponibilidade significa permitir acesso quando a atividade precisa da informação. Esses objetivos se complementam: bloquear tudo protege o acesso, mas inviabiliza o trabalho.
 
@@ -214,7 +214,7 @@ Os três princípios são complementares. Um arquivo inacessível para todos ter
 
 **Banco de dados**
 
-O banco de dados permite organizar e recuperar registros de forma estruturada. O sistema gerenciador oferece os recursos para consultar, atualizar e controlar esse conjunto.
+A estrutura acompanha a finalidade dos dados.
 
 O banco de dados é o conjunto organizado; o SGBD é o software que permite gerenciá-lo. Ele pode controlar permissões, executar consultas e aplicar restrições. A escolha depende do volume, do tipo de informação e das operações necessárias. Não há um modelo universalmente melhor.
 
@@ -240,7 +240,7 @@ Para explicar uma transação, use a venda e a baixa do estoque: essas alteraç�
 
 **Banco de dados**
 
-Em um modelo relacional, as informações são distribuídas em tabelas que se conectam. Essa estrutura reduz repetições desnecessárias e facilita manter os registros coerentes.
+Tabelas relacionadas preservam a organização e o histórico.
 
 Na tabela Produtos, cada produto recebe um identificador. Na tabela Itens de venda, esse identificador faz a ligação com o cadastro. Assim, o nome e a categoria do produto não precisam ser repetidos em cada linha de venda. Uma alteração no cadastro pode ser gerenciada de forma mais organizada.
 
@@ -266,7 +266,7 @@ Peça que a turma acompanhe as duas relações. Uma venda reúne vários itens. 
 
 **Banco de dados**
 
-Um supermercado quer entender a mudança nas vendas de três produtos. Vamos comparar duas semanas e observar como uma consulta pode alimentar um painel de apoio à decisão.
+Compare as semanas e observe volume, receita e resultado.
 
 Na semana 1, o arroz teve 80 unidades vendidas. Na semana 2, foram 120: a diferença é 40, que dividida por 80 resulta em 50%. O feijão também aumentou, enquanto o café caiu. O painel permite enxergar esse comportamento rapidamente e levantar perguntas para investigar.
 
@@ -292,7 +292,7 @@ Apresente primeiro a semana de referência, depois a promoção. Pergunte se a a
 
 **Conclusão e referências**
 
-A tecnologia gera valor quando os registros são confiáveis e a análise responde a uma necessidade real. Os três fundamentos se complementam para apoiar escolhas mais conscientes.
+Estrutura, confiança e análise sustentam a decisão.
 
 A mensagem central é que uma boa decisão depende de uma cadeia inteira. O banco organiza registros; a gestão garante significado, qualidade e acesso; o BI permite analisar e acompanhar resultados. Se qualquer elo falhar, um painel pode transmitir confiança sem representar bem a realidade.
 

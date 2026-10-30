@@ -55,5 +55,6 @@ document.getElementById('glossary-open').onclick=()=>glossaryDialog.showModal();
 document.getElementById('glossary-close').onclick=()=>glossaryDialog.close();
 document.getElementById('glossary-list').innerHTML=glossary.map(x=>'<article><h3>'+x[0]+'</h3><p>'+x[1]+'</p></article>').join('');
 
+const conciseIntros=['','O contexto transforma um registro em informação útil.','Do entendimento do negócio à escolha dos indicadores.','Uma análise confiável começa antes do gráfico.','Pessoas, processos e tecnologia trabalham juntos.','Da coleta à revisão, cada etapa exige cuidado.','A confiança na análise depende da qualidade dos registros.','Proteger os dados também significa conseguir recuperá-los.','A estrutura acompanha a finalidade dos dados.','Tabelas relacionadas preservam a organização e o histórico.','Compare as semanas e observe volume, receita e resultado.','Estrutura, confiança e análise sustentam a decisão.'];slides.forEach((s,i)=>s.intro=conciseIntros[i]);
 render();
 })();

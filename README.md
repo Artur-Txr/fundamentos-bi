@@ -74,3 +74,6 @@ As seções Aprofundar ficam ocultas no modo Apresentar. Saia desse modo para co
 O glossário integrado reúne BI, KPI, dashboard, ETL, SGBD, SQL, chaves e outros conceitos. Pode ser aberto pelo botão Glossário e fechado por Escape. As seções de aprofundamento incluem perguntas e respostas; o roteiro reúne sugestões de fala, transições e exemplos complementares.
 
 O slide 3 apresenta a definição explícita de Business Intelligence antes dos indicadores. Os slides 5–8 detalham responsabilidades, ciclo de vida, qualidade e os três princípios de segurança. O caso do supermercado integra o conteúdo e distingue volume, receita e resultado bruto.
+## Tema clean
+
+A apresentação usa fundo claro, hierarquia tipográfica e cor discreta. Os exemplos ficam recolhidos e podem ser abertos no próprio slide; controles auxiliares ficam em Opções. O conteúdo detalhado permanece nas seções Aprofundar e no roteiro.
