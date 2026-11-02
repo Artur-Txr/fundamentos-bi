@@ -2,23 +2,23 @@
 
 Apresentação de **Artur Teixeira, João Henrique e Pedro Mafra** em 04/11/2026.
 
-[Abrir apresentação](https://artur-txr.github.io/fundamentos-bi/?v=14#1)
+[Abrir apresentação](https://artur-txr.github.io/fundamentos-bi/?v=16#1)
 
 ## Organização
 
-17 telas. O caso central é um **supermercado fictício**, com dados didáticos.
+15 telas. O caso central é um **supermercado fictício**, com dados didáticos.
 
 | Integrante | Telas | Assunto |
 | --- | --- | --- |
-| Artur Teixeira | 1–6 | BI, dados e informação, indicadores e processo de análise |
-| João Henrique | 7–12 | Gestão da informação, ciclo de vida, qualidade e segurança |
-| Pedro Mafra | 13–17 | Bancos de dados, modelo relacional, SQL, painel e conclusão |
+| Artur Teixeira | 1–4 | BI, dados e informação, indicadores e processo de análise |
+| João Henrique | 5–10 | Gestão da informação, ciclo de vida, qualidade e segurança |
+| Pedro Mafra | 11–15 | Bancos de dados, modelo relacional, SQL, painel e conclusão |
 
-A antiga tela 17, com a pergunta sobre o sucesso da promoção, foi removida. A interpretação é feita no painel da tela 16; a conclusão passa a ser a tela 17. Blocos que repetiam definições, fórmulas ou orientações já presentes foram retirados. O [roteiro](ROTEIRO.md) acompanha a nova sequência.
+A parte de Artur foi condensada em capa e três telas de conteúdo, com roteiro direto.
 
 ## Controles
 
-- Setas ou Page Up/Down: navegar. Nos diagramas das telas 6, 8 e 14, as setas percorrem as etapas antes de mudar de tela.
+- Setas ou Page Up/Down: navegar. Nos diagramas das telas 4, 6 e 12, as setas percorrem as etapas antes de mudar de tela.
 - Home / End: capa e conclusão.
 - P ou Apresentar: reduzir os controles auxiliares.
 - N ou Roteiro: consultar a fala na mesma tela.
@@ -28,9 +28,9 @@ A antiga tela 17, com a pergunta sobre o sucesso da promoção, foi removida. A 
 
 ## Recursos mantidos
 
-- Tela 10: simulação de venda duplicada. Com erro: 140 unidades e R$ 3.080; corrigido: 120 unidades e R$ 2.640.
-- Tela 16: comparação das semanas lado a lado, com foco opcional em cada período.
-- Tela 17: conclusão ligada ao caso, referências e QR code.
+- Tela 8: simulação de venda duplicada. Com erro: 140 unidades e R$ 3.080; corrigido: 120 unidades e R$ 2.640.
+- Tela 14: comparação das semanas lado a lado, com foco opcional em cada período.
+- Tela 15: conclusão ligada ao caso, referências e QR code.
 - Termos destacados: definições breves.
 - Diagramas: revelação por etapas ou Mostrar tudo.
 

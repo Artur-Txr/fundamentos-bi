@@ -1,138 +1,80 @@
 # Roteiro de apresentação
 
-**17 slides.** Artur Teixeira: 1–6; João Henrique: 7–12; Pedro Mafra: 13–17.
+**15 telas.** Artur Teixeira: 1–4 (capa + 3 de conteúdo); João Henrique: 5–10; Pedro Mafra: 11–15.
 
-Estudo de caso: supermercado fictício. As falas de Artur são explicações diretas, sem perguntas ao público.
-
-Use Roteiro ou N para consultar a fala. A janela do apresentador está no menu •••.
+Estudo de caso: supermercado fictício. Use Roteiro ou a janela do apresentador no menu •••.
 
 ## 1. Abertura
 
-Artur Teixeira · SLIDE 1 / 17
-TEMPO SUGERIDO: 1 min 10 s
+Artur Teixeira · SLIDE 1 / 15
+TEMPO SUGERIDO: 0 min 55 s
 
 FALA SUGERIDA
 Bom dia, pessoal. Eu sou Artur Teixeira e vou apresentar este trabalho com João Henrique e Pedro Mafra. O tema é fundamentos da inteligência de negócios, com foco na gestão da informação e dos bancos de dados.
 
-Ao longo da apresentação, vamos mostrar como os dados registrados por uma empresa podem ser organizados e analisados para apoiar suas decisões. Para explicar esse processo, usamos o estudo de caso de um supermercado fictício.
+Vamos acompanhar o exemplo de um supermercado fictício para mostrar como vendas e estoque podem ser organizados e analisados para apoiar decisões. A ilustração da capa representa esse caminho: as fontes geram os registros, a integração reúne os dados e a análise apresenta uma visão do negócio.
 
-A ilustração da capa representa esse caminho. Na parte inferior estão as fontes de dados, como vendas e estoque. No centro, esses registros são integrados. Na parte superior, a análise apresenta uma visão do negócio que ajuda a orientar as ações da empresa.
-
-Minha parte apresenta os conceitos de BI, os indicadores e as etapas desse processo. Em seguida, João Henrique explica a gestão da informação, e Pedro Mafra apresenta os bancos de dados e a análise prática.
+Eu apresento os conceitos de BI, os indicadores e o processo de análise. Depois, João Henrique explica a gestão da informação e Pedro Mafra apresenta os bancos de dados e a aplicação prática.
 
 O QUE MOSTRAR NA TELA
-Apresente os integrantes e aponte as fontes, a integração e a análise na ilustração.
+Apresente os integrantes e a ilustração conceitual da capa.
 
 TRANSIÇÃO
-Vamos começar pelos objetivos do supermercado usado como exemplo.
+A seguir, vamos apresentar o BI aplicado ao supermercado.
 
 ---
 
-## 2. A pergunta de negócio
+## 2. BI aplicado ao supermercado
 
-Artur Teixeira · SLIDE 2 / 17
-TEMPO SUGERIDO: 1 min 30 s
+Artur Teixeira · SLIDE 2 / 15
+TEMPO SUGERIDO: 1 min 25 s
 
 FALA SUGERIDA
-O supermercado do nosso exemplo precisa planejar suas compras considerando a demanda, o estoque disponível e os custos. A tela apresenta três objetivos que orientam esse planejamento.
+BI é a sigla de Business Intelligence, ou Inteligência de Negócios. É a combinação de processos, métodos e ferramentas para transformar registros em informação útil e apoiar decisões.
 
-O primeiro é evitar a falta de produtos. Quando um item procurado pelo cliente está indisponível, o supermercado pode perder a venda e prejudicar a experiência de compra.
+O primeiro cartão apresenta a compreensão do desempenho. No supermercado fictício, comparar vendas e estoque ajuda a identificar produtos em falta e itens em excesso.
 
-O segundo é controlar o excesso. Comprar mais do que a demanda exige ocupa espaço, mantém dinheiro parado no estoque e pode provocar perdas, principalmente em produtos com prazo de validade.
+O segundo apresenta a investigação. A equipe analisa preço, custo e demanda para interpretar as diferenças encontradas e levantar possíveis explicações.
 
-O terceiro é avaliar o resultado. O aumento da quantidade vendida precisa ser analisado junto com o preço e o custo dos produtos, porque um volume maior de vendas não garante um resultado melhor.
+O terceiro apresenta o acompanhamento. Depois de uma compra ou promoção, a empresa observa os resultados e ajusta suas ações.
 
-Esses três objetivos mostram a importância de reunir os registros de vendas, estoque e preço. As informações precisam ser analisadas em conjunto para apoiar uma decisão de compra mais adequada.
+No nosso exemplo, o objetivo é evitar a falta de produtos, controlar o excesso de estoque e avaliar o resultado das vendas. O trabalho de BI inclui preparar os dados e analisar as informações. O painel é uma forma de apresentar essa análise.
 
 O QUE MOSTRAR NA TELA
-Acompanhe os três cartões na ordem: falta, excesso e resultado. Explique os objetivos sem ler as perguntas dos cartões.
+Siga os três cartões e conclua com os objetivos do supermercado no bloco inferior.
 
 TRANSIÇÃO
-A seguir, vamos distinguir dado, informação e conhecimento.
+Vamos conectar esses conceitos aos dados e indicadores utilizados no trabalho.
 
 ---
 
-## 3. Dados e informação
+## 3. Dos dados aos indicadores
 
-Artur Teixeira · SLIDE 3 / 17
-TEMPO SUGERIDO: 1 min 40 s
+Artur Teixeira · SLIDE 3 / 15
+TEMPO SUGERIDO: 1 min 50 s
 
 FALA SUGERIDA
-Esta tela apresenta a diferença entre dado, informação e conhecimento.
+Esta tela conecta dado, informação e conhecimento aos indicadores usados no trabalho.
 
-O dado é o registro de um fato. No primeiro cartão, o fato registrado é a venda de 120 unidades de arroz na segunda semana.
+O dado é o registro de um fato: foram vendidas 120 unidades de arroz na segunda semana. Ao comparar esse registro com as 80 unidades da primeira semana, temos uma informação: houve aumento de 40 unidades, equivalente a 50%. O cálculo usa 80 como referência.
 
-A informação aparece quando esse registro é organizado e comparado. Na primeira semana, foram vendidas 80 unidades. Na segunda, foram 120. A diferença é de 40 unidades, o que representa um aumento de 50%.
+O conhecimento envolve interpretar essa informação com contexto e experiência. A equipe considera a promoção, o estoque e o prazo do fornecedor antes de decidir a próxima compra. A comparação mostra a mudança, mas não demonstra sua causa sozinha.
 
-O cálculo mostrado na tela usa a primeira semana como referência. Subtraímos 80 de 120, dividimos a diferença por 80 e multiplicamos por cem.
+Na parte inferior aparecem três medidas. Volume é a soma das unidades vendidas. Receita é a soma da quantidade multiplicada pelo preço de venda de cada item. O resultado bruto desconta da receita o custo de aquisição dos produtos vendidos. Ele ainda não corresponde ao lucro líquido.
 
-O conhecimento envolve interpretar essa informação com contexto e experiência. A equipe considera a promoção, o estoque e o prazo do fornecedor antes de decidir a próxima compra.
-
-A comparação mostra que as vendas aumentaram naquele período. Para entender o motivo e avaliar se esse aumento pode continuar, é necessário analisar outros fatores. Assim, registrar, comparar e interpretar têm funções diferentes no apoio à decisão.
+As medidas precisam ser analisadas em conjunto, porque vender mais unidades não garante um resultado melhor. Um KPI é um indicador-chave ligado a um objetivo relevante. Para compará-lo de forma consistente, é necessário definir fórmula, fonte, período e responsável.
 
 O QUE MOSTRAR NA TELA
-Siga os três cartões e aponte o cálculo de 50%, usando 80 como base.
+Explique os três cartões, o cálculo de 50% e depois as fórmulas e a definição de KPI.
 
 TRANSIÇÃO
-Essa transformação dos registros em apoio à decisão faz parte do BI.
+Agora vamos acompanhar as etapas que transformam esses registros em apoio à decisão.
 
 ---
 
-## 4. O que é BI
+## 4. Da fonte à decisão
 
-Artur Teixeira · SLIDE 4 / 17
-TEMPO SUGERIDO: 1 min 30 s
-
-FALA SUGERIDA
-BI significa Business Intelligence, traduzido como Inteligência de Negócios. Ele combina processos, métodos e ferramentas para transformar os registros da empresa em informação útil e apoiar decisões.
-
-A definição destacada na tela resume essa ideia: usar os dados para entender o desempenho e decidir com mais fundamento.
-
-O primeiro cartão apresenta a compreensão do desempenho. Nessa etapa, são comparados produtos e períodos para identificar o que aconteceu no negócio.
-
-O segundo cartão apresenta a investigação. A análise explora os detalhes das diferenças encontradas e ajuda a levantar possíveis explicações.
-
-O terceiro cartão apresenta o acompanhamento. Depois de adotar uma ação, a empresa observa os indicadores para verificar o resultado e fazer os ajustes necessários.
-
-O painel de gráficos é uma forma de apresentar essas análises. O trabalho de BI também inclui definir o objetivo, preparar os dados, analisar as informações e acompanhar os resultados das decisões.
-
-O QUE MOSTRAR NA TELA
-Apresente a definição e os cartões Compreender, Investigar e Acompanhar.
-
-TRANSIÇÃO
-O acompanhamento do desempenho depende dos indicadores apresentados na próxima tela.
-
----
-
-## 5. Indicadores
-
-Artur Teixeira · SLIDE 5 / 17
-TEMPO SUGERIDO: 1 min 45 s
-
-FALA SUGERIDA
-Esta tela apresenta três indicadores que usamos no trabalho: volume, receita e resultado bruto. Cada um mostra um aspecto diferente das vendas.
-
-O volume corresponde à quantidade de unidades vendidas. O símbolo de soma na fórmula indica que reunimos as quantidades registradas no período.
-
-A receita representa o valor das vendas. Para calculá-la, multiplicamos a quantidade pelo preço de venda de cada item e somamos os valores.
-
-O resultado bruto do nosso exemplo é obtido ao descontar da receita o custo de aquisição dos produtos vendidos. Ele mostra o valor que resta após esse custo, mas ainda não corresponde ao lucro líquido, pois outras despesas e tributos do resultado final não estão incluídos no cálculo simplificado.
-
-Esses indicadores devem ser observados em conjunto. Uma promoção pode aumentar o volume e, ao mesmo tempo, reduzir o resultado bruto por unidade.
-
-KPI significa indicador-chave de desempenho. É um indicador ligado a um objetivo relevante do negócio. Para permitir uma comparação consistente, precisa ter fórmula, fonte dos dados, período e responsável definidos.
-
-O QUE MOSTRAR NA TELA
-Aponte as três fórmulas e o bloco sobre KPI. Leia o símbolo Σ como soma.
-
-TRANSIÇÃO
-A próxima tela mostra o processo que permite produzir esses indicadores.
-
----
-
-## 6. Da fonte à decisão
-
-Artur Teixeira · SLIDE 6 / 17
+Artur Teixeira · SLIDE 4 / 15
 TEMPO SUGERIDO: 2 min 0 s
 
 FALA SUGERIDA
@@ -151,19 +93,16 @@ A quinta é a ação. A empresa utiliza a análise para decidir, acompanha os re
 Na parte inferior aparecem os termos ETL e ELT. ETL significa extrair, transformar e carregar os dados. Em ELT, a ordem é extrair, carregar e depois transformar. Essa ordem depende da arquitetura utilizada. Os dois termos descrevem formas de organizar a movimentação e a preparação dos dados.
 
 O QUE MOSTRAR NA TELA
-Revele e explique cada uma das cinco etapas em sequência. Depois explique os dois blocos inferiores: ETL/ELT e data warehouse.
+Revele e explique as cinco etapas. Depois apresente ETL/ELT e data warehouse antes de passar para João Henrique.
 
 TRANSIÇÃO
-Com isso, concluímos os conceitos de BI e o caminho dos dados até a decisão. Agora João Henrique vai apresentar a gestão da informação e os cuidados necessários ao longo desse processo.
-
-REVELAÇÃO POR ETAPAS
-Use Próxima etapa ou a seta para a direita para revelar cada parte. Após a quinta etapa, explique ETL/ELT e data warehouse antes de avançar para João Henrique.
+Com isso, concluímos os fundamentos de BI. Agora João Henrique vai apresentar a gestão da informação e os cuidados necessários nesse processo.
 
 ---
 
-## 7. Gestão da informação
+## 5. Gestão da informação
 
-João Henrique · SLIDE 7 / 17
+João Henrique · SLIDE 5 / 15
 TEMPO SUGERIDO: 1 min 20 s
 
 FALA SUGERIDA
@@ -183,9 +122,9 @@ Esse cuidado acompanha a informação ao longo de todo o seu ciclo de vida.
 
 ---
 
-## 8. Ciclo de vida
+## 6. Ciclo de vida
 
-João Henrique · SLIDE 8 / 17
+João Henrique · SLIDE 6 / 15
 TEMPO SUGERIDO: 1 min 15 s
 
 FALA SUGERIDA
@@ -208,9 +147,9 @@ A primeira etapa aparece ao abrir a tela. Use Próxima etapa ou a seta para a di
 
 ---
 
-## 9. Qualidade dos dados
+## 7. Qualidade dos dados
 
-João Henrique · SLIDE 9 / 17
+João Henrique · SLIDE 7 / 15
 TEMPO SUGERIDO: 1 min 25 s
 
 FALA SUGERIDA
@@ -230,9 +169,9 @@ Vamos ver agora como uma falha pode ser medida e como ela afeta uma decisão.
 
 ---
 
-## 10. Do erro à consequência
+## 8. Do erro à consequência
 
-João Henrique · SLIDE 10 / 17
+João Henrique · SLIDE 8 / 15
 TEMPO SUGERIDO: 1 min 30 s
 
 FALA SUGERIDA
@@ -250,9 +189,9 @@ Além de corretas, as informações precisam estar protegidas e disponíveis.
 
 ---
 
-## 11. Segurança
+## 9. Segurança
 
-João Henrique · SLIDE 11 / 17
+João Henrique · SLIDE 9 / 15
 TEMPO SUGERIDO: 1 min 15 s
 
 FALA SUGERIDA
@@ -272,9 +211,9 @@ Esses princípios precisam aparecer em práticas simples que a equipe consiga ex
 
 ---
 
-## 12. Boas práticas
+## 10. Boas práticas
 
-João Henrique · SLIDE 12 / 17
+João Henrique · SLIDE 10 / 15
 TEMPO SUGERIDO: 1 min 15 s
 
 FALA SUGERIDA
@@ -294,9 +233,9 @@ Agora o Pedro Mafra vai mostrar como os bancos de dados dão estrutura a esses r
 
 ---
 
-## 13. Banco e SGBD
+## 11. Banco e SGBD
 
-Pedro Mafra · SLIDE 13 / 17
+Pedro Mafra · SLIDE 11 / 15
 TEMPO SUGERIDO: 1 min 20 s
 
 FALA SUGERIDA
@@ -316,9 +255,9 @@ No modelo relacional, essa organização aparece em tabelas que se conectam.
 
 ---
 
-## 14. Modelo relacional
+## 12. Modelo relacional
 
-Pedro Mafra · SLIDE 14 / 17
+Pedro Mafra · SLIDE 12 / 15
 TEMPO SUGERIDO: 1 min 30 s
 
 FALA SUGERIDA
@@ -343,9 +282,9 @@ A primeira etapa aparece ao abrir a tela. Use Próxima etapa ou a seta para a di
 
 ---
 
-## 15. A consulta SQL
+## 13. A consulta SQL
 
-Pedro Mafra · SLIDE 15 / 17
+Pedro Mafra · SLIDE 13 / 15
 TEMPO SUGERIDO: 1 min 30 s
 
 FALA SUGERIDA
@@ -365,9 +304,9 @@ Agora vamos transformar esse resumo em um painel e comparar as duas semanas.
 
 ---
 
-## 16. Painel interativo
+## 14. Painel interativo
 
-Pedro Mafra · SLIDE 16 / 17
+Pedro Mafra · SLIDE 14 / 15
 TEMPO SUGERIDO: 1 min 50 s
 
 FALA SUGERIDA
@@ -387,9 +326,9 @@ A comparação mostra que vender mais não garante um resultado melhor. Vamos co
 
 ---
 
-## 17. Conclusão
+## 15. Conclusão
 
-Pedro Mafra · SLIDE 17 / 17
+Pedro Mafra · SLIDE 15 / 15
 TEMPO SUGERIDO: 1 min 10 s
 
 FALA SUGERIDA
