@@ -30,18 +30,18 @@ Artur Teixeira · SLIDE 2 / 15
 TEMPO SUGERIDO: 1 min 25 s
 
 FALA SUGERIDA
-BI é a sigla de Business Intelligence, ou Inteligência de Negócios. É a combinação de processos, métodos e ferramentas para transformar registros em informação útil e apoiar decisões.
+BI significa Business Intelligence, ou Inteligência de Negócios. Ele combina processos, métodos e ferramentas para organizar os dados da empresa, analisar o desempenho e apoiar decisões.
 
-O primeiro cartão apresenta a compreensão do desempenho. No supermercado fictício, comparar vendas e estoque ajuda a identificar produtos em falta e itens em excesso.
+Os três cartões apresentam as atividades desse processo. Compreender é comparar os registros para identificar o que acontece no negócio. No supermercado fictício, isso inclui observar as vendas e o estoque para reconhecer faltas e excessos.
 
-O segundo apresenta a investigação. A equipe analisa preço, custo e demanda para interpretar as diferenças encontradas e levantar possíveis explicações.
+Investigar é relacionar os dados com o contexto. Preço, custo e demanda ajudam a interpretar as diferenças e avaliar o desempenho.
 
-O terceiro apresenta o acompanhamento. Depois de uma compra ou promoção, a empresa observa os resultados e ajusta suas ações.
+Acompanhar é observar o resultado das ações adotadas. Depois de uma compra ou promoção, os indicadores permitem verificar as mudanças e orientar ajustes.
 
-No nosso exemplo, o objetivo é evitar a falta de produtos, controlar o excesso de estoque e avaliar o resultado das vendas. O trabalho de BI inclui preparar os dados e analisar as informações. O painel é uma forma de apresentar essa análise.
+No nosso caso, essas atividades contribuem para evitar a falta, controlar o excesso e avaliar o resultado. O painel apresenta a análise, enquanto o BI também envolve preparar os dados e acompanhar as ações.
 
 O QUE MOSTRAR NA TELA
-Siga os três cartões e conclua com os objetivos do supermercado no bloco inferior.
+Explique a definição, percorra os cartões Compreender, Investigar e Acompanhar e conclua com a aplicação no supermercado.
 
 TRANSIÇÃO
 Vamos conectar esses conceitos aos dados e indicadores utilizados no trabalho.
@@ -54,18 +54,20 @@ Artur Teixeira · SLIDE 3 / 15
 TEMPO SUGERIDO: 1 min 50 s
 
 FALA SUGERIDA
-Esta tela conecta dado, informação e conhecimento aos indicadores usados no trabalho.
+Esta tela apresenta os conceitos que ligam os registros aos indicadores da empresa.
 
-O dado é o registro de um fato: foram vendidas 120 unidades de arroz na segunda semana. Ao comparar esse registro com as 80 unidades da primeira semana, temos uma informação: houve aumento de 40 unidades, equivalente a 50%. O cálculo usa 80 como referência.
+O primeiro cartão mostra o dado: o registro de 120 unidades de arroz vendidas na segunda semana. O segundo apresenta a informação: na primeira semana foram 80 unidades, e na segunda foram 120. A comparação mostra um aumento de 50%.
 
-O conhecimento envolve interpretar essa informação com contexto e experiência. A equipe considera a promoção, o estoque e o prazo do fornecedor antes de decidir a próxima compra. A comparação mostra a mudança, mas não demonstra sua causa sozinha.
+O terceiro cartão apresenta o conhecimento, que envolve interpretar essa mudança considerando a promoção, o estoque e o prazo do fornecedor. A interpretação combina contexto, experiência e julgamento.
 
-Na parte inferior aparecem três medidas. Volume é a soma das unidades vendidas. Receita é a soma da quantidade multiplicada pelo preço de venda de cada item. O resultado bruto desconta da receita o custo de aquisição dos produtos vendidos. Ele ainda não corresponde ao lucro líquido.
+O bloco destacado resume os indicadores do nosso caso. Volume corresponde às unidades vendidas. Receita é o valor das vendas, obtido pela quantidade multiplicada pelo preço de cada item e pela soma desses valores. O resultado bruto desconta da receita o custo de aquisição dos produtos vendidos.
 
-As medidas precisam ser analisadas em conjunto, porque vender mais unidades não garante um resultado melhor. Um KPI é um indicador-chave ligado a um objetivo relevante. Para compará-lo de forma consistente, é necessário definir fórmula, fonte, período e responsável.
+Nos blocos inferiores, o cálculo de 50% utiliza a primeira semana como base. Também aparece um cuidado importante: vender mais unidades não garante maior resultado bruto, porque o preço e o custo influenciam esse resultado.
+
+Um KPI é um indicador-chave associado a um objetivo. Ele precisa de fórmula, fonte, período e responsável definidos. O resultado bruto simplificado apresentado aqui ainda não corresponde ao lucro líquido.
 
 O QUE MOSTRAR NA TELA
-Explique os três cartões, o cálculo de 50% e depois as fórmulas e a definição de KPI.
+Siga os três cartões, explique o bloco de indicadores e conclua com o cálculo e os critérios nos dois blocos inferiores.
 
 TRANSIÇÃO
 Agora vamos acompanhar as etapas que transformam esses registros em apoio à decisão.
@@ -92,11 +94,13 @@ A quinta é a ação. A empresa utiliza a análise para decidir, acompanha os re
 
 Na parte inferior aparecem os termos ETL e ELT. ETL significa extrair, transformar e carregar os dados. Em ELT, a ordem é extrair, carregar e depois transformar. Essa ordem depende da arquitetura utilizada. Os dois termos descrevem formas de organizar a movimentação e a preparação dos dados.
 
+O último bloco conecta esse processo à gestão da informação. Para que as etapas funcionem, a empresa precisa definir regras e responsáveis pelos registros. Esse cuidado será desenvolvido na próxima parte.
+
 O QUE MOSTRAR NA TELA
-Revele e explique as cinco etapas. Depois apresente ETL/ELT e data warehouse antes de passar para João Henrique.
+Revele as cinco etapas, explique ETL/ELT e data warehouse e use o bloco inferior para conectar a fala à gestão da informação.
 
 TRANSIÇÃO
-Com isso, concluímos os fundamentos de BI. Agora João Henrique vai apresentar a gestão da informação e os cuidados necessários nesse processo.
+Até aqui vimos como os dados apoiam a análise e a decisão. João Henrique vai continuar mostrando como pessoas, processos e tecnologia cuidam da informação ao longo desse caminho.
 
 ---
 
