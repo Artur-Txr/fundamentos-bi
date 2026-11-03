@@ -94,12 +94,7 @@ const deck = [
       "IBM · Inteligência de negócios",
       "https://www.ibm.com/think/topics/business-intelligence"
     ],
-    "support": [
-      {
-        "title": "Aplicação no estudo de caso",
-        "text": "Um fluxo ETL ou ELT pode alimentar a base analítica. O data warehouse pode manter o histórico das semanas 1 e 2 para comparar as 80 e 120 unidades de arroz e os resultados brutos de R$ 560 e R$ 480. É uma arquitetura ilustrativa; este site usa dados fictícios locais."
-      }
-    ],
+    "support": [],
     "script": {
       "seconds": 135,
       "speech": "Os registros passam pelas cinco etapas mostradas no alto: fontes, preparação, histórico, análise e ação. No supermercado, isso significa reunir as vendas e o estoque, conferir os dados, guardar o histórico, calcular os indicadores e usar a análise para ajustar compras ou promoções.\n\nETL e ELT são duas formas de organizar a busca, a preparação e a carga dos dados. Extrair é buscar os registros na origem. Transformar é prepará-los, por exemplo, padronizando códigos e formatos. Carregar é colocar os dados na base de destino.\n\nNo ETL, a preparação acontece antes da carga. No supermercado, buscamos as vendas e o estoque, padronizamos os códigos dos produtos e carregamos os dados já preparados na base de análise.\n\nNo ELT, a carga vem antes da preparação. Primeiro colocamos os registros na base de destino. Depois, dentro dela, relacionamos os produtos e corrigimos os formatos. A diferença está na ordem e no local da preparação. São alternativas; não é necessário usar as duas em sequência.\n\nData warehouse é uma base voltada à análise, que reúne dados de diferentes fontes e mantém o histórico. No nosso exemplo, poderia guardar vendas, custos e saldos de estoque para comparar semanas e calcular os indicadores.\n\nAssim, seria possível comparar as 80 e 120 unidades de arroz e os resultados brutos de 560 e 480 reais. Essa estrutura é um exemplo de aplicação; a apresentação usa dados fictícios e não está conectada a um data warehouse real.",

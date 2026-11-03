@@ -2,7 +2,7 @@
 
 Apresentação de **Artur Teixeira, João Henrique e Pedro Mafra** em 04/11/2026.
 
-[Abrir apresentação](https://artur-txr.github.io/fundamentos-bi/?v=25#1)
+[Abrir apresentação](https://artur-txr.github.io/fundamentos-bi/?v=26#1)
 
 ## Organização
 
