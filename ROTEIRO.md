@@ -25,19 +25,21 @@ A seguir, vamos apresentar o BI aplicado ao supermercado.
 ## 2. BI na prática
 
 Artur Teixeira · SLIDE 2 / 15
-TEMPO SUGERIDO: 1 min 0 s
+TEMPO SUGERIDO: 1 min 20 s
 
 FALA SUGERIDA
-BI significa Inteligência de Negócios. Ele usa os dados da empresa para entender o desempenho e ajudar nas decisões.
+BI significa Business Intelligence, ou Inteligência de Negócios. Ele combina dados e análise para ajudar a empresa a decidir com mais fundamento.
 
-No nosso supermercado fictício, isso começa pela análise das vendas, do estoque, dos preços e dos custos. Esses registros mostram a situação dos produtos.
+No supermercado fictício do trabalho, o primeiro passo é conhecer a situação. A equipe reúne as vendas, o saldo do estoque, os preços e os custos. Assim, consegue comparar o que saiu com o que ainda está disponível.
 
-Depois, a equipe compara os dados. Uma promoção pode aumentar as vendas, mas também é preciso observar o preço e o custo para avaliar o resultado.
+Depois, é preciso entender o resultado. Uma promoção pode aumentar as vendas, mas o preço e o custo também influenciam o valor que sobra. Por isso, a quantidade vendida não deve ser analisada sozinha.
 
-Com essa análise, o supermercado planeja as compras, ajusta a reposição e acompanha os resultados. O objetivo é reduzir faltas e excessos e avaliar o resultado das vendas.
+Com essa informação, a equipe pode planejar a reposição considerando a demanda, o estoque e o prazo do fornecedor. Depois da decisão, acompanha o resultado e faz ajustes.
+
+O objetivo é evitar a falta de produtos, reduzir o excesso de estoque e avaliar o resultado das vendas.
 
 O QUE MOSTRAR NA TELA
-Explique a definição e siga os três cartões, usando o exemplo de cada um. Termine pelo objetivo destacado na parte inferior.
+Defina BI, acompanhe os três cartões e conclua com os objetivos do supermercado.
 
 TRANSIÇÃO
 Agora vamos conhecer os indicadores e aplicar um KPI ao nosso exemplo.
@@ -47,23 +49,25 @@ Agora vamos conhecer os indicadores e aplicar um KPI ao nosso exemplo.
 ## 3. Indicadores e KPI
 
 Artur Teixeira · SLIDE 3 / 15
-TEMPO SUGERIDO: 1 min 50 s
+TEMPO SUGERIDO: 1 min 55 s
 
 FALA SUGERIDA
-Indicadores são medidas que ajudam a acompanhar o desempenho da empresa. No nosso supermercado, usamos volume, receita e resultado bruto.
+Indicadores são medidas usadas para acompanhar o desempenho. Aqui temos três: volume, receita e resultado bruto.
 
-O volume é a quantidade vendida. No arroz, passou de 80 para 120 unidades, um aumento de 50%. A receita é o valor das vendas e passou de dois mil para dois mil seiscentos e quarenta reais.
+Volume é a quantidade vendida. No arroz, passou de 80 para 120 unidades, um aumento de 50%.
 
-Já o resultado bruto desconta da receita o custo de aquisição dos produtos vendidos. Ele caiu de 560 para 480 reais. Isso mostra que vender mais não garante um resultado bruto maior. Esse valor também não é o lucro líquido.
+Receita é o valor das vendas. Na segunda semana, foram 120 unidades a 22 reais, totalizando 2.640 reais.
+
+O resultado bruto desconta o custo dos produtos vendidos. Cada unidade custou 18 reais ao supermercado. O custo das 120 unidades foi de 2.160 reais. Descontando da receita, restam 480 reais. Esse valor ainda não é o lucro líquido.
 
 KPI significa indicador-chave de desempenho. É um indicador escolhido para acompanhar um objetivo importante.
 
-Para aplicar no nosso exemplo, vamos considerar o objetivo de manter o resultado bruto semanal do arroz. A meta ilustrativa é alcançar pelo menos 560 reais, o valor da primeira semana. Na segunda, o resultado foi de 480 reais, ficando 80 reais abaixo da meta.
+No exemplo, o objetivo é manter o resultado bruto semanal do arroz. A meta ilustrativa é pelo menos 560 reais, o valor da primeira semana. Na segunda, foram 480: 80 reais abaixo da meta.
 
-Nesse caso, o resultado bruto funciona como KPI. O gerente pode acompanhá-lo toda semana, usando os registros de vendas e custos, e rever as condições da promoção.
+O gerente acompanha esse KPI toda semana. A diferença sinaliza que ele precisa avaliar o preço, o custo e as condições da promoção antes de decidir um ajuste.
 
 O QUE MOSTRAR NA TELA
-Defina indicador, explique os três cartões e depois o significado de KPI. Percorra objetivo, meta ilustrativa, resultado e acompanhamento nos blocos inferiores.
+Defina indicador, acompanhe os três cálculos e depois explique KPI, meta, diferença e uso na decisão.
 
 TRANSIÇÃO
 A próxima tela mostra o caminho dos dados que permite calcular e acompanhar esses indicadores.
@@ -73,21 +77,25 @@ A próxima tela mostra o caminho dos dados que permite calcular e acompanhar ess
 ## 4. Da fonte à decisão
 
 Artur Teixeira · SLIDE 4 / 15
-TEMPO SUGERIDO: 1 min 15 s
+TEMPO SUGERIDO: 1 min 45 s
 
 FALA SUGERIDA
-Os dados passam por cinco etapas até apoiar uma decisão.
+Esta tela mostra como os registros se tornam uma análise em cinco etapas.
 
-Primeiro vêm as fontes, como o caixa e o estoque. Depois, a preparação confere os registros, padroniza os campos e verifica duplicidades.
+Primeiro vêm as fontes. O caixa registra as vendas, o estoque informa o saldo e o cadastro identifica cada produto.
 
-O histórico organiza os dados para comparar períodos. Na análise, a equipe consulta os indicadores. Por fim, a ação usa os resultados para planejar as compras e acompanhar os efeitos.
+Depois vem a preparação. Os registros precisam usar o mesmo código de produto, ter os campos conferidos e não contar a mesma venda duas vezes.
 
-ETL significa extrair, transformar e carregar os dados. Em ELT, os dados são carregados antes da transformação. Data warehouse é uma base voltada à análise histórica.
+O histórico guarda os registros organizados para comparar semanas. Na análise, a equipe calcula os indicadores e compara o resultado com a meta. Na ação, ajusta compras ou promoções e acompanha os efeitos.
 
-Esse processo precisa de regras, responsáveis e informações confiáveis.
+Os termos abaixo descrevem parte desse trabalho. Extrair é buscar os dados, transformar é prepará-los e carregar é colocá-los na base. ETL segue essa ordem. Em ELT, a carga acontece antes da transformação.
+
+Data warehouse é uma base voltada à análise histórica, que pode reunir diferentes fontes para comparar períodos.
+
+Esse caminho depende de registros corretos, regras e responsáveis. É essa organização que conecta o BI à gestão da informação.
 
 O QUE MOSTRAR NA TELA
-Avance pelas cinco etapas, explique ETL/ELT e data warehouse e conclua com a ligação à gestão da informação.
+Revele as cinco etapas. Depois explique os termos técnicos com as definições exibidas e faça a passagem para João.
 
 TRANSIÇÃO
 Agora João Henrique vai explicar os cuidados com a gestão da informação.
