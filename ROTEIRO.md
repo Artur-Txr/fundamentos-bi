@@ -77,28 +77,26 @@ A próxima tela mostra o caminho dos dados que permite calcular e acompanhar ess
 ## 4. Da fonte à decisão
 
 Artur Teixeira · SLIDE 4 / 15
-TEMPO SUGERIDO: 1 min 45 s
+TEMPO SUGERIDO: 2 min 15 s
 
 FALA SUGERIDA
-Esta tela mostra como os registros se tornam uma análise em cinco etapas.
+Os registros passam pelas cinco etapas mostradas no alto: fontes, preparação, histórico, análise e ação. No supermercado, isso significa reunir as vendas e o estoque, conferir os dados, guardar o histórico, calcular os indicadores e usar a análise para ajustar compras ou promoções.
 
-Primeiro vêm as fontes. O caixa registra as vendas, o estoque informa o saldo e o cadastro identifica cada produto.
+ETL e ELT são duas formas de organizar a busca, a preparação e a carga dos dados. Extrair é buscar os registros na origem. Transformar é prepará-los, por exemplo, padronizando códigos e formatos. Carregar é colocar os dados na base de destino.
 
-Depois vem a preparação. Os registros precisam usar o mesmo código de produto, ter os campos conferidos e não contar a mesma venda duas vezes.
+No ETL, a preparação acontece antes da carga. No supermercado, buscamos as vendas e o estoque, padronizamos os códigos dos produtos e carregamos os dados já preparados na base de análise.
 
-O histórico guarda os registros organizados para comparar semanas. Na análise, a equipe calcula os indicadores e compara o resultado com a meta. Na ação, ajusta compras ou promoções e acompanha os efeitos.
+No ELT, a carga vem antes da preparação. Primeiro colocamos os registros na base de destino. Depois, dentro dela, relacionamos os produtos e corrigimos os formatos. A diferença está na ordem e no local da preparação. São alternativas; não é necessário usar as duas em sequência.
 
-Os termos abaixo descrevem parte desse trabalho. Extrair é buscar os dados, transformar é prepará-los e carregar é colocá-los na base. ETL segue essa ordem. Em ELT, a carga acontece antes da transformação.
+Data warehouse é uma base voltada à análise, que reúne dados de diferentes fontes e mantém o histórico. No nosso exemplo, poderia guardar vendas, custos e saldos de estoque para comparar semanas e calcular os indicadores.
 
-Data warehouse é uma base voltada à análise histórica, que pode reunir diferentes fontes para comparar períodos.
-
-Esse caminho depende de registros corretos, regras e responsáveis. É essa organização que conecta o BI à gestão da informação.
+Assim, seria possível comparar as 80 e 120 unidades de arroz e os resultados brutos de 560 e 480 reais. Essa estrutura é um exemplo de aplicação; a apresentação usa dados fictícios e não está conectada a um data warehouse real.
 
 O QUE MOSTRAR NA TELA
-Revele as cinco etapas. Depois explique os termos técnicos com as definições exibidas e faça a passagem para João.
+Apresente as cinco etapas e depois siga os cartões ETL, ELT e Data warehouse. Explique que ETL e ELT são alternativas e use a comparação das semanas para ilustrar o histórico.
 
 TRANSIÇÃO
-Agora João Henrique vai explicar os cuidados com a gestão da informação.
+Agora João Henrique vai apresentar a gestão da informação.
 
 ---
 
