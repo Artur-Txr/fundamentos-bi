@@ -25,82 +25,70 @@ A seguir, vamos apresentar o BI aplicado ao supermercado.
 ## 2. BI na prática
 
 Artur Teixeira · SLIDE 2 / 15
-TEMPO SUGERIDO: 1 min 40 s
+TEMPO SUGERIDO: 1 min 0 s
 
 FALA SUGERIDA
-BI é a sigla de Business Intelligence, ou Inteligência de Negócios. Na prática, ele combina os dados da empresa com a análise e o conhecimento de quem trabalha no negócio para apoiar decisões.
+BI significa Inteligência de Negócios. Ele usa os dados da empresa para entender o desempenho e ajudar nas decisões.
 
-No supermercado fictício do nosso trabalho, a primeira aplicação é conhecer a situação. Para isso, a equipe relaciona vendas, estoque, preços e custos. No caso do arroz, por exemplo, ela observa quanto foi vendido e quanto ainda está disponível antes de planejar uma compra.
+No nosso supermercado fictício, isso começa pela análise das vendas, do estoque, dos preços e dos custos. Esses registros mostram a situação dos produtos.
 
-A segunda aplicação é interpretar os dados. A equipe compara produtos e períodos, levando em conta as condições de cada venda. Uma promoção pode aumentar a quantidade vendida, mas esse aumento precisa ser analisado junto com o preço e o custo para avaliar o resultado.
+Depois, a equipe compara os dados. Uma promoção pode aumentar as vendas, mas também é preciso observar o preço e o custo para avaliar o resultado.
 
-A terceira é orientar as ações. Com essa análise, o supermercado pode ajustar a reposição de acordo com a demanda e o estoque. Depois, acompanha o resultado para verificar se o ajuste foi adequado.
-
-O objetivo do nosso caso é reduzir faltas e excessos de produtos e avaliar o resultado das vendas. A análise ajuda a decidir, e a equipe considera o contexto antes de agir.
+Com essa análise, o supermercado planeja as compras, ajusta a reposição e acompanha os resultados. O objetivo é reduzir faltas e excessos e avaliar o resultado das vendas.
 
 O QUE MOSTRAR NA TELA
 Explique a definição e siga os três cartões, usando o exemplo de cada um. Termine pelo objetivo destacado na parte inferior.
 
 TRANSIÇÃO
-Na próxima tela, o exemplo do arroz mostra a diferença entre dado, informação e conhecimento e apresenta os indicadores usados na análise.
+Agora vamos ver a diferença entre dado, informação e conhecimento.
 
 ---
 
 ## 3. Dados e indicadores
 
 Artur Teixeira · SLIDE 3 / 15
-TEMPO SUGERIDO: 2 min 0 s
+TEMPO SUGERIDO: 1 min 15 s
 
 FALA SUGERIDA
-Aqui usamos o arroz para explicar a diferença entre dado, informação e conhecimento.
+Dado é o registro de um fato. No exemplo, foram vendidas 120 unidades de arroz na segunda semana.
 
-O dado é o registro de um fato. Neste caso, foram vendidas 120 unidades de arroz na segunda semana.
+Informação é esse dado organizado e comparado. Na primeira semana foram 80 unidades. Portanto, houve aumento de 50%.
 
-Quando comparamos com as 80 unidades da primeira semana, temos uma informação: as vendas aumentaram 50%. Foram 40 unidades a mais, usando as 80 da primeira semana como base.
+Conhecimento é interpretar essa mudança, considerando a promoção, o estoque e o prazo do fornecedor antes de decidir.
 
-O conhecimento envolve interpretar essa informação. Antes de decidir a próxima compra, a equipe considera a promoção, o estoque e o prazo do fornecedor. A comparação mostra o aumento, mas é preciso olhar o contexto para entender o que ele representa.
+Os indicadores ajudam nessa análise. Volume é a quantidade vendida. Receita é o valor das vendas. Resultado bruto é a receita menos o custo de aquisição dos produtos vendidos. Ele não é o lucro líquido.
 
-Também usamos três indicadores. O volume mostra quantas unidades foram vendidas. A receita mostra o valor das vendas, somando a quantidade multiplicada pelo preço de cada item. O resultado bruto é a receita menos o custo de aquisição dos produtos vendidos.
-
-Esses indicadores precisam ser analisados juntos. Vender mais unidades não garante um resultado bruto maior. E esse resultado ainda não é o lucro líquido, porque o cálculo não inclui todas as despesas.
-
-KPI significa indicador-chave de desempenho. É uma medida ligada a um objetivo importante da empresa, que precisa ter critérios de cálculo definidos para permitir comparações.
+Por isso, vender mais unidades não garante um resultado bruto maior. Um KPI é um indicador ligado a um objetivo importante da empresa.
 
 O QUE MOSTRAR NA TELA
 Siga Dado, Informação e Conhecimento. Depois explique o destaque e os dois blocos inferiores sobre indicadores. KPI pode ser consultado em Conceitos.
 
 TRANSIÇÃO
-Agora vamos acompanhar o caminho desses registros até a decisão.
+A próxima tela mostra o caminho dos dados até a decisão.
 
 ---
 
 ## 4. Da fonte à decisão
 
 Artur Teixeira · SLIDE 4 / 15
-TEMPO SUGERIDO: 2 min 0 s
+TEMPO SUGERIDO: 1 min 15 s
 
 FALA SUGERIDA
-Agora temos o caminho dos dados até a decisão, dividido em cinco etapas.
+Os dados passam por cinco etapas até apoiar uma decisão.
 
-A primeira são as fontes. No supermercado, o caixa registra as vendas e o controle de estoque registra o saldo dos produtos.
+Primeiro vêm as fontes, como o caixa e o estoque. Depois, a preparação confere os registros, padroniza os campos e verifica duplicidades.
 
-A segunda é a preparação. Nessa etapa, os campos são padronizados, os produtos são relacionados entre as fontes e os registros duplicados são conferidos.
+O histórico organiza os dados para comparar períodos. Na análise, a equipe consulta os indicadores. Por fim, a ação usa os resultados para planejar as compras e acompanhar os efeitos.
 
-A terceira é o histórico. Os registros ficam organizados para permitir a comparação entre semanas e produtos.
+ETL significa extrair, transformar e carregar os dados. Em ELT, os dados são carregados antes da transformação. Data warehouse é uma base voltada à análise histórica.
 
-A quarta é a análise. A equipe consulta os indicadores de volume, receita e resultado bruto para acompanhar o desempenho.
-
-A quinta é a ação. Com base na análise, o supermercado planeja a compra e acompanha o resultado para ajustar o que for necessário.
-
-Os dois blocos abaixo apresentam termos usados nesse processo. ETL significa extrair, transformar e carregar os dados. Em ELT, os dados são carregados antes de serem transformados. Já o data warehouse é uma base voltada à análise histórica, que pode reunir dados de diferentes fontes.
-
-Para tudo isso funcionar, os registros precisam de regras, responsáveis e qualidade. Esse cuidado faz parte da gestão da informação.
+Esse processo precisa de regras, responsáveis e informações confiáveis.
 
 O QUE MOSTRAR NA TELA
 Avance pelas cinco etapas, explique ETL/ELT e data warehouse e conclua com a ligação à gestão da informação.
 
 TRANSIÇÃO
-João Henrique vai continuar explicando como pessoas, processos e tecnologia cuidam da informação ao longo desse processo.
+Agora João Henrique vai explicar os cuidados com a gestão da informação.
 
 ---
 
