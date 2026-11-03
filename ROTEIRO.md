@@ -28,18 +28,18 @@ Artur Teixeira · SLIDE 2 / 15
 TEMPO SUGERIDO: 1 min 40 s
 
 FALA SUGERIDA
-BI é a sigla de Business Intelligence, que significa Inteligência de Negócios. Ele reúne processos, métodos e ferramentas para analisar os dados da empresa e apoiar decisões.
+BI significa Business Intelligence, ou Inteligência de Negócios. A ideia é usar os dados da empresa para entender o que está acontecendo e tomar decisões com mais fundamento.
 
-No nosso supermercado fictício, esse trabalho começa reunindo os registros. As vendas mostram o que saiu, o estoque mostra o que ainda está disponível e os preços e custos ajudam a avaliar o resultado. Relacionar essas fontes permite uma visão mais completa do negócio.
+No supermercado do nosso exemplo, começamos reunindo os registros de vendas, estoque, preços e custos. As vendas mostram o que saiu, e o estoque mostra o que ainda está disponível. Com esses registros juntos, a equipe consegue ter uma visão mais completa da situação.
 
-Depois vem a análise. A equipe compara produtos e períodos para identificar diferenças. Essas diferenças precisam ser interpretadas com contexto, porque um aumento nas vendas pode estar relacionado a uma promoção, por exemplo.
+Depois, os dados são analisados. A comparação entre produtos e períodos ajuda a perceber mudanças nas vendas. Para interpretar essas mudanças, também é preciso considerar fatores como preço e promoção.
 
-A última atividade é agir e acompanhar. A análise ajuda a planejar as compras e avaliar as promoções. Depois da ação, a empresa verifica os resultados e faz ajustes.
+Por último, a análise é usada para agir e acompanhar. Ela ajuda a planejar as compras e avaliar as promoções. Depois da decisão, a equipe verifica o resultado e faz ajustes.
 
-No nosso caso, o objetivo é comprar de acordo com a demanda, reduzir faltas e excessos e avaliar o resultado das vendas. O painel apresenta essas informações de forma visual, mas o trabalho de BI também inclui preparar os dados e acompanhar as decisões.
+Assim, o objetivo no supermercado é reduzir faltas e excessos e avaliar o resultado das vendas. O painel ajuda a visualizar a análise, mas o BI também envolve o trabalho de reunir e preparar os dados.
 
 O QUE MOSTRAR NA TELA
-Siga os cartões Reunir, Analisar e Agir e acompanhar. Conclua com a aplicação no supermercado e o papel do painel.
+Apresente a definição, siga os três cartões e conclua com o objetivo do supermercado e o papel do painel.
 
 TRANSIÇÃO
 A seguir, o exemplo do arroz vai mostrar como os registros se transformam em informação e indicadores.
@@ -52,20 +52,22 @@ Artur Teixeira · SLIDE 3 / 15
 TEMPO SUGERIDO: 2 min 0 s
 
 FALA SUGERIDA
-Para entender essa análise, vamos acompanhar o exemplo do arroz. O dado é o registro de um fato: foram vendidas 120 unidades na segunda semana.
+Aqui usamos o arroz para explicar a diferença entre dado, informação e conhecimento.
 
-Quando comparamos esse registro com as 80 unidades da primeira semana, temos uma informação: as vendas aumentaram 50%. Foram 40 unidades a mais em relação às 80 iniciais.
+O dado é o registro de um fato. Neste caso, foram vendidas 120 unidades de arroz na segunda semana.
 
-O conhecimento aparece na interpretação. A equipe considera a promoção, o estoque e o prazo do fornecedor antes de planejar a próxima compra. O aumento mostra uma mudança, mas não explica sua causa sozinho.
+Quando comparamos com as 80 unidades da primeira semana, temos uma informação: as vendas aumentaram 50%. Foram 40 unidades a mais, usando as 80 da primeira semana como base.
 
-Abaixo estão os três indicadores utilizados no trabalho. O volume mostra quantas unidades foram vendidas. A receita mostra o valor das vendas: multiplicamos a quantidade pelo preço de cada item e somamos os valores. O resultado bruto desconta da receita o custo de aquisição dos produtos vendidos.
+O conhecimento envolve interpretar essa informação. Antes de decidir a próxima compra, a equipe considera a promoção, o estoque e o prazo do fornecedor. A comparação mostra o aumento, mas é preciso olhar o contexto para entender o que ele representa.
 
-Esses indicadores precisam ser observados em conjunto. Uma promoção pode aumentar a quantidade vendida e reduzir o resultado bruto. Esse resultado simplificado também não é o lucro líquido, porque ainda existem outros valores a considerar, como as demais despesas.
+Também usamos três indicadores. O volume mostra quantas unidades foram vendidas. A receita mostra o valor das vendas, somando a quantidade multiplicada pelo preço de cada item. O resultado bruto é a receita menos o custo de aquisição dos produtos vendidos.
 
-Quando um indicador está ligado a um objetivo relevante, ele pode ser usado como KPI, ou indicador-chave de desempenho. Para comparar os resultados, a empresa precisa manter os mesmos critérios de cálculo.
+Esses indicadores precisam ser analisados juntos. Vender mais unidades não garante um resultado bruto maior. E esse resultado ainda não é o lucro líquido, porque o cálculo não inclui todas as despesas.
+
+KPI significa indicador-chave de desempenho. É uma medida ligada a um objetivo importante da empresa, que precisa ter critérios de cálculo definidos para permitir comparações.
 
 O QUE MOSTRAR NA TELA
-Acompanhe os três cartões na ordem. Depois explique os três indicadores e a mensagem de leitura em conjunto. O termo KPI aparece em Conceitos.
+Siga Dado, Informação e Conhecimento. Depois explique o destaque e os dois blocos inferiores sobre indicadores. KPI pode ser consultado em Conceitos.
 
 TRANSIÇÃO
 Agora vamos acompanhar o caminho desses registros até a decisão.
@@ -78,24 +80,24 @@ Artur Teixeira · SLIDE 4 / 15
 TEMPO SUGERIDO: 2 min 0 s
 
 FALA SUGERIDA
-Esta tela mostra o caminho de uma venda até a decisão em cinco etapas.
+Agora temos o caminho dos dados até a decisão, dividido em cinco etapas.
 
-Tudo começa nas fontes. O caixa registra a venda e o controle de estoque informa o saldo disponível.
+A primeira são as fontes. No supermercado, o caixa registra as vendas e o controle de estoque registra o saldo dos produtos.
 
-Na preparação, os registros são conferidos e relacionados. A empresa padroniza os campos, identifica o mesmo produto nas fontes e verifica duplicidades.
+A segunda é a preparação. Nessa etapa, os campos são padronizados, os produtos são relacionados entre as fontes e os registros duplicados são conferidos.
 
-Depois, o histórico permite guardar e comparar os registros de diferentes semanas e produtos.
+A terceira é o histórico. Os registros ficam organizados para permitir a comparação entre semanas e produtos.
 
-Na análise, esses registros são consultados para acompanhar volume, receita e resultado bruto, os indicadores que acabamos de apresentar.
+A quarta é a análise. A equipe consulta os indicadores de volume, receita e resultado bruto para acompanhar o desempenho.
 
-Na ação, o supermercado utiliza a análise para planejar a compra e acompanha o resultado para fazer ajustes.
+A quinta é a ação. Com base na análise, o supermercado planeja a compra e acompanha o resultado para ajustar o que for necessário.
 
-Os dois blocos abaixo apresentam termos usados nesse processo. ETL significa extrair, transformar e carregar os dados. Em ELT, a carga ocorre antes da transformação. A escolha depende da estrutura adotada. Um data warehouse é uma base voltada à análise histórica e pode reunir diferentes fontes.
+Os dois blocos abaixo apresentam termos usados nesse processo. ETL significa extrair, transformar e carregar os dados. Em ELT, os dados são carregados antes de serem transformados. Já o data warehouse é uma base voltada à análise histórica, que pode reunir dados de diferentes fontes.
 
-Para esse caminho funcionar, a informação precisa ter regras, responsáveis e qualidade. Isso conecta os fundamentos de BI à gestão da informação.
+Para tudo isso funcionar, os registros precisam de regras, responsáveis e qualidade. Esse cuidado faz parte da gestão da informação.
 
 O QUE MOSTRAR NA TELA
-Revele as cinco etapas uma por vez. Depois explique os dois termos técnicos e conclua com a ligação à gestão da informação.
+Avance pelas cinco etapas, explique ETL/ELT e data warehouse e conclua com a ligação à gestão da informação.
 
 TRANSIÇÃO
 João Henrique vai continuar explicando como pessoas, processos e tecnologia cuidam da informação ao longo desse processo.
