@@ -31,8 +31,8 @@ $('metric').textContent=p?'+50%':'80 un.';$('insight').textContent=p?'40 unidade
 const qty=values[0],price=p?22:25,cost=18,money=v=>v.toLocaleString('pt-BR',{style:'currency',currency:'BRL',maximumFractionDigits:0});
 $('finance').innerHTML=[['Preço do arroz',money(price),'por unidade'],['Receita do arroz',money(qty*price),p?'+32% sobre a semana 1':'80 × R$ 25'],['Resultado bruto',money(qty*(price-cost)),p?'−14,3% sobre a semana 1':'80 × (R$ 25 − R$ 18)']].map(x=>`<article><span>${x[0]}</span><strong>${x[1]}</strong><small>${x[2]}</small></article>`).join('');
 }
-function toggleNotes(){notesOpen=!notesOpen;render();}
-function togglePresentation(){const active=document.body.classList.toggle('presentation-mode');$('present-button').setAttribute('aria-pressed',String(active));$('present-button').firstChild.textContent=active?'Sair ':'Apresentar ';}
+function toggleNotes(){if(document.body.classList.contains('presentation-mode'))return;notesOpen=!notesOpen;render();}
+function togglePresentation(){const active=document.body.classList.toggle('presentation-mode');if(active){notesOpen=false;render();const more=document.querySelector('.more');if(more)more.open=false;$('presenter-launch-status').hidden=true;}$('present-button').setAttribute('aria-pressed',String(active));$('present-button').firstChild.textContent=active?'Sair ':'Apresentar ';}
 async function toggleFullscreen(){try{if(document.fullscreenElement)await document.exitFullscreen();else await document.documentElement.requestFullscreen();}catch{alert('Use F11 ou a opção de tela cheia do navegador.');}}
 $('prev').onclick=retreat;$('next').onclick=advance;$('notes-button').onclick=toggleNotes;$('notes-close').onclick=()=>{notesOpen=false;render();};$('present-button').onclick=togglePresentation;$('full-button').onclick=toggleFullscreen;
 $('index-list').innerHTML=[0,1,2].map(c=>`<section><h3>0${c+1} / ${deck.find(x=>x.speaker===c).chapter}<small>${presenters[c]}</small></h3>${deck.filter(x=>x.speaker===c).map(s=>`<button data-slide="${s.id-1}"><span>${String(s.id).padStart(2,'0')}</span>${s.label}<i>↗</i></button>`).join('')}</section>`).join('');

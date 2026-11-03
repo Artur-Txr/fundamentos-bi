@@ -17,3 +17,6 @@
 
 .case-badge{font-size:8px;letter-spacing:1.3px;color:var(--accent);margin:0 0 20px;line-height:1.9}.cover-subtitle{margin-bottom:20px}@media(min-width:1700px){.case-badge{font-size:9px}}
 
+
+/* Controles durante a projeção */
+.presentation-mode .app-header .brand,.presentation-mode #notes-button,.presentation-mode #speaker-notes,.presentation-mode #presenter-launch-status{display:none!important}.presentation-mode .app-header{justify-content:flex-end}
