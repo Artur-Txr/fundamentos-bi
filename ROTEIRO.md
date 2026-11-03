@@ -36,10 +36,10 @@ Depois, os dados são analisados. A comparação entre produtos e períodos ajud
 
 Por último, a análise é usada para agir e acompanhar. Ela ajuda a planejar as compras e avaliar as promoções. Depois da decisão, a equipe verifica o resultado e faz ajustes.
 
-Assim, o objetivo no supermercado é reduzir faltas e excessos e avaliar o resultado das vendas. O painel ajuda a visualizar a análise, mas o BI também envolve o trabalho de reunir e preparar os dados.
+Assim, o objetivo no supermercado é reduzir faltas e excessos e avaliar o resultado das vendas.
 
 O QUE MOSTRAR NA TELA
-Apresente a definição, siga os três cartões e conclua com o objetivo do supermercado e o papel do painel.
+Apresente a definição, siga os três cartões e conclua com o objetivo do supermercado.
 
 TRANSIÇÃO
 A seguir, o exemplo do arroz vai mostrar como os registros se transformam em informação e indicadores.
