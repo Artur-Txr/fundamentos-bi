@@ -49,7 +49,7 @@ Agora vamos conhecer os indicadores e aplicar um KPI ao nosso exemplo.
 ## 3. Indicadores e KPI
 
 Artur Teixeira · SLIDE 3 / 15
-TEMPO SUGERIDO: 1 min 55 s
+TEMPO SUGERIDO: 1 min 30 s
 
 FALA SUGERIDA
 Indicadores são medidas usadas para acompanhar o desempenho. Aqui temos três: volume, receita e resultado bruto.
@@ -60,14 +60,10 @@ Receita é o valor das vendas. Na segunda semana, foram 120 unidades a 22 reais,
 
 O resultado bruto desconta o custo dos produtos vendidos. Cada unidade custou 18 reais ao supermercado. O custo das 120 unidades foi de 2.160 reais. Descontando da receita, restam 480 reais. Esse valor ainda não é o lucro líquido.
 
-KPI significa indicador-chave de desempenho. É um indicador escolhido para acompanhar um objetivo importante.
-
-No exemplo, o objetivo é manter o resultado bruto semanal do arroz. A meta ilustrativa é pelo menos 560 reais, o valor da primeira semana. Na segunda, foram 480: 80 reais abaixo da meta.
-
-O gerente acompanha esse KPI toda semana. A diferença sinaliza que ele precisa avaliar o preço, o custo e as condições da promoção antes de decidir um ajuste.
+KPI significa indicador-chave de desempenho. É uma medida escolhida para acompanhar um objetivo importante e verificar o avanço em relação a uma meta. No supermercado, o resultado bruto semanal pode ser usado como KPI para acompanhar o retorno das vendas.
 
 O QUE MOSTRAR NA TELA
-Defina indicador, acompanhe os três cálculos e depois explique KPI, meta, diferença e uso na decisão.
+Defina indicador, explique os três cartões e seus cálculos e conclua com o significado de KPI no bloco destacado.
 
 TRANSIÇÃO
 A próxima tela mostra o caminho dos dados que permite calcular e acompanhar esses indicadores.

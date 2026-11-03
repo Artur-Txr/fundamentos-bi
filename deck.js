@@ -50,18 +50,18 @@ const deck = [
     "label": "Indicadores e KPI",
     "title": "Indicadores e KPI<br>no nosso supermercado.",
     "intro": "Indicadores são medidas que mostram o desempenho. Um KPI é um indicador escolhido para acompanhar um objetivo prioritário da empresa.",
-    "body": "<div class=\"cards cols-3\"><article><span class=\"card-index\">01</span><h3>Volume</h3><p>Quantidade de unidades vendidas. Mostra quanto saiu do estoque.</p><div class=\"card-foot\">Arroz: 80 na semana 1 → 120 na semana 2 (+50%).</div></article><article><span class=\"card-index\">02</span><h3>Receita</h3><p>Valor das vendas. Para cada item: quantidade × preço de venda.</p><div class=\"card-foot\">Semana 2: 120 × R$ 22 = R$ 2.640.</div></article><article><span class=\"card-index\">03</span><h3>Resultado bruto</h3><p>Receita menos o custo de aquisição dos produtos vendidos. Não é lucro líquido.</p><div class=\"card-foot\">Semana 2: R$ 2.640 − (120 × R$ 18) = R$ 480.</div></article></div><div class=\"insight\"><span>KPI · INDICADOR-CHAVE DE DESEMPENHO</span><p>Key Performance Indicator. A medida vira um KPI quando é escolhida para avaliar um objetivo importante. No exemplo, usamos o resultado bruto semanal do arroz.</p></div>",
+    "body": "<div class=\"cards cols-3\"><article><span class=\"card-index\">01</span><h3>Volume</h3><p>Quantidade de unidades vendidas. Mostra quanto saiu do estoque.</p><div class=\"card-foot\">Arroz: 80 na semana 1 → 120 na semana 2 (+50%).</div></article><article><span class=\"card-index\">02</span><h3>Receita</h3><p>Valor das vendas. Para cada item: quantidade × preço de venda.</p><div class=\"card-foot\">Semana 2: 120 × R$ 22 = R$ 2.640.</div></article><article><span class=\"card-index\">03</span><h3>Resultado bruto</h3><p>Receita menos o custo de aquisição dos produtos vendidos. Não é lucro líquido.</p><div class=\"card-foot\">Semana 2: R$ 2.640 − (120 × R$ 18) = R$ 480.</div></article></div><div class=\"insight\"><span>KPI · INDICADOR-CHAVE DE DESEMPENHO</span><p>KPI significa Key Performance Indicator, ou indicador-chave de desempenho. É uma medida escolhida para acompanhar um objetivo prioritário e verificar o avanço em relação a uma meta. No supermercado, o resultado bruto semanal pode ser um KPI para acompanhar o retorno das vendas.</p></div>",
     "speaker": 0,
     "chapter": "Inteligência de negócios",
-    "notes": "Artur Teixeira · SLIDE 3 / 15\nTEMPO SUGERIDO: 1 min 55 s\n\nFALA SUGERIDA\nIndicadores são medidas usadas para acompanhar o desempenho. Aqui temos três: volume, receita e resultado bruto.\n\nVolume é a quantidade vendida. No arroz, passou de 80 para 120 unidades, um aumento de 50%.\n\nReceita é o valor das vendas. Na segunda semana, foram 120 unidades a 22 reais, totalizando 2.640 reais.\n\nO resultado bruto desconta o custo dos produtos vendidos. Cada unidade custou 18 reais ao supermercado. O custo das 120 unidades foi de 2.160 reais. Descontando da receita, restam 480 reais. Esse valor ainda não é o lucro líquido.\n\nKPI significa indicador-chave de desempenho. É um indicador escolhido para acompanhar um objetivo importante.\n\nNo exemplo, o objetivo é manter o resultado bruto semanal do arroz. A meta ilustrativa é pelo menos 560 reais, o valor da primeira semana. Na segunda, foram 480: 80 reais abaixo da meta.\n\nO gerente acompanha esse KPI toda semana. A diferença sinaliza que ele precisa avaliar o preço, o custo e as condições da promoção antes de decidir um ajuste.\n\nO QUE MOSTRAR NA TELA\nDefina indicador, acompanhe os três cálculos e depois explique KPI, meta, diferença e uso na decisão.\n\nTRANSIÇÃO\nA próxima tela mostra o caminho dos dados que permite calcular e acompanhar esses indicadores.",
+    "notes": "Artur Teixeira · SLIDE 3 / 15\nTEMPO SUGERIDO: 1 min 30 s\n\nFALA SUGERIDA\nIndicadores são medidas usadas para acompanhar o desempenho. Aqui temos três: volume, receita e resultado bruto.\n\nVolume é a quantidade vendida. No arroz, passou de 80 para 120 unidades, um aumento de 50%.\n\nReceita é o valor das vendas. Na segunda semana, foram 120 unidades a 22 reais, totalizando 2.640 reais.\n\nO resultado bruto desconta o custo dos produtos vendidos. Cada unidade custou 18 reais ao supermercado. O custo das 120 unidades foi de 2.160 reais. Descontando da receita, restam 480 reais. Esse valor ainda não é o lucro líquido.\n\nKPI significa indicador-chave de desempenho. É uma medida escolhida para acompanhar um objetivo importante e verificar o avanço em relação a uma meta. No supermercado, o resultado bruto semanal pode ser usado como KPI para acompanhar o retorno das vendas.\n\nO QUE MOSTRAR NA TELA\nDefina indicador, explique os três cartões e seus cálculos e conclua com o significado de KPI no bloco destacado.\n\nTRANSIÇÃO\nA próxima tela mostra o caminho dos dados que permite calcular e acompanhar esses indicadores.",
     "reference": [
       "IBM · Inteligência de negócios",
       "https://www.ibm.com/think/topics/business-intelligence"
     ],
     "script": {
-      "seconds": 115,
-      "speech": "Indicadores são medidas usadas para acompanhar o desempenho. Aqui temos três: volume, receita e resultado bruto.\n\nVolume é a quantidade vendida. No arroz, passou de 80 para 120 unidades, um aumento de 50%.\n\nReceita é o valor das vendas. Na segunda semana, foram 120 unidades a 22 reais, totalizando 2.640 reais.\n\nO resultado bruto desconta o custo dos produtos vendidos. Cada unidade custou 18 reais ao supermercado. O custo das 120 unidades foi de 2.160 reais. Descontando da receita, restam 480 reais. Esse valor ainda não é o lucro líquido.\n\nKPI significa indicador-chave de desempenho. É um indicador escolhido para acompanhar um objetivo importante.\n\nNo exemplo, o objetivo é manter o resultado bruto semanal do arroz. A meta ilustrativa é pelo menos 560 reais, o valor da primeira semana. Na segunda, foram 480: 80 reais abaixo da meta.\n\nO gerente acompanha esse KPI toda semana. A diferença sinaliza que ele precisa avaliar o preço, o custo e as condições da promoção antes de decidir um ajuste.",
-      "cue": "Defina indicador, acompanhe os três cálculos e depois explique KPI, meta, diferença e uso na decisão.",
+      "seconds": 90,
+      "speech": "Indicadores são medidas usadas para acompanhar o desempenho. Aqui temos três: volume, receita e resultado bruto.\n\nVolume é a quantidade vendida. No arroz, passou de 80 para 120 unidades, um aumento de 50%.\n\nReceita é o valor das vendas. Na segunda semana, foram 120 unidades a 22 reais, totalizando 2.640 reais.\n\nO resultado bruto desconta o custo dos produtos vendidos. Cada unidade custou 18 reais ao supermercado. O custo das 120 unidades foi de 2.160 reais. Descontando da receita, restam 480 reais. Esse valor ainda não é o lucro líquido.\n\nKPI significa indicador-chave de desempenho. É uma medida escolhida para acompanhar um objetivo importante e verificar o avanço em relação a uma meta. No supermercado, o resultado bruto semanal pode ser usado como KPI para acompanhar o retorno das vendas.",
+      "cue": "Defina indicador, explique os três cartões e seus cálculos e conclua com o significado de KPI no bloco destacado.",
       "transition": "A próxima tela mostra o caminho dos dados que permite calcular e acompanhar esses indicadores."
     },
     "terms": [
@@ -69,16 +69,6 @@ const deck = [
         "KPI",
         "Key Performance Indicator: indicador-chave de desempenho, escolhido para acompanhar um objetivo relevante."
       ]
-    ],
-    "support": [
-      {
-        "title": "Aplicação: comparar resultado com a meta",
-        "text": "Objetivo: manter o resultado bruto do arroz. Meta ilustrativa: pelo menos R$ 560 por semana, valor da semana 1. Semana 2: R$ 480. Diferença: R$ 80 abaixo da meta. Vender mais não foi suficiente para manter esse resultado."
-      },
-      {
-        "title": "Uso na decisão",
-        "text": "O gerente acompanha o KPI semanalmente com os registros de vendas e custos. Se o resultado ficar abaixo da meta, deve avaliar preço, custo e condições da promoção antes de ajustar a ação. Dados fictícios e cálculo simplificado."
-      }
     ]
   },
   {
