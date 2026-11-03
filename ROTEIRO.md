@@ -1,8 +1,6 @@
 # Roteiro de apresentação
 
-**15 telas.** Artur Teixeira: 1–4 (capa + 3 de conteúdo); João Henrique: 5–10; Pedro Mafra: 11–15.
-
-Estudo de caso: supermercado fictício. Use Roteiro ou a janela do apresentador no menu •••.
+**15 telas.** Artur: 1–4; João Henrique: 5–10; Pedro Mafra: 11–15. Estudo de caso: supermercado fictício.
 
 ## 1. Abertura
 
@@ -24,53 +22,53 @@ A seguir, vamos apresentar o BI aplicado ao supermercado.
 
 ---
 
-## 2. BI aplicado ao supermercado
+## 2. BI na prática
 
 Artur Teixeira · SLIDE 2 / 15
-TEMPO SUGERIDO: 1 min 25 s
+TEMPO SUGERIDO: 1 min 40 s
 
 FALA SUGERIDA
-BI significa Business Intelligence, ou Inteligência de Negócios. Ele combina processos, métodos e ferramentas para organizar os dados da empresa, analisar o desempenho e apoiar decisões.
+BI é a sigla de Business Intelligence, que significa Inteligência de Negócios. Ele reúne processos, métodos e ferramentas para analisar os dados da empresa e apoiar decisões.
 
-Os três cartões apresentam as atividades desse processo. Compreender é comparar os registros para identificar o que acontece no negócio. No supermercado fictício, isso inclui observar as vendas e o estoque para reconhecer faltas e excessos.
+No nosso supermercado fictício, esse trabalho começa reunindo os registros. As vendas mostram o que saiu, o estoque mostra o que ainda está disponível e os preços e custos ajudam a avaliar o resultado. Relacionar essas fontes permite uma visão mais completa do negócio.
 
-Investigar é relacionar os dados com o contexto. Preço, custo e demanda ajudam a interpretar as diferenças e avaliar o desempenho.
+Depois vem a análise. A equipe compara produtos e períodos para identificar diferenças. Essas diferenças precisam ser interpretadas com contexto, porque um aumento nas vendas pode estar relacionado a uma promoção, por exemplo.
 
-Acompanhar é observar o resultado das ações adotadas. Depois de uma compra ou promoção, os indicadores permitem verificar as mudanças e orientar ajustes.
+A última atividade é agir e acompanhar. A análise ajuda a planejar as compras e avaliar as promoções. Depois da ação, a empresa verifica os resultados e faz ajustes.
 
-No nosso caso, essas atividades contribuem para evitar a falta, controlar o excesso e avaliar o resultado. O painel apresenta a análise, enquanto o BI também envolve preparar os dados e acompanhar as ações.
+No nosso caso, o objetivo é comprar de acordo com a demanda, reduzir faltas e excessos e avaliar o resultado das vendas. O painel apresenta essas informações de forma visual, mas o trabalho de BI também inclui preparar os dados e acompanhar as decisões.
 
 O QUE MOSTRAR NA TELA
-Explique a definição, percorra os cartões Compreender, Investigar e Acompanhar e conclua com a aplicação no supermercado.
+Siga os cartões Reunir, Analisar e Agir e acompanhar. Conclua com a aplicação no supermercado e o papel do painel.
 
 TRANSIÇÃO
-Vamos conectar esses conceitos aos dados e indicadores utilizados no trabalho.
+A seguir, o exemplo do arroz vai mostrar como os registros se transformam em informação e indicadores.
 
 ---
 
-## 3. Dos dados aos indicadores
+## 3. Dados e indicadores
 
 Artur Teixeira · SLIDE 3 / 15
-TEMPO SUGERIDO: 1 min 50 s
+TEMPO SUGERIDO: 2 min 0 s
 
 FALA SUGERIDA
-Esta tela apresenta os conceitos que ligam os registros aos indicadores da empresa.
+Para entender essa análise, vamos acompanhar o exemplo do arroz. O dado é o registro de um fato: foram vendidas 120 unidades na segunda semana.
 
-O primeiro cartão mostra o dado: o registro de 120 unidades de arroz vendidas na segunda semana. O segundo apresenta a informação: na primeira semana foram 80 unidades, e na segunda foram 120. A comparação mostra um aumento de 50%.
+Quando comparamos esse registro com as 80 unidades da primeira semana, temos uma informação: as vendas aumentaram 50%. Foram 40 unidades a mais em relação às 80 iniciais.
 
-O terceiro cartão apresenta o conhecimento, que envolve interpretar essa mudança considerando a promoção, o estoque e o prazo do fornecedor. A interpretação combina contexto, experiência e julgamento.
+O conhecimento aparece na interpretação. A equipe considera a promoção, o estoque e o prazo do fornecedor antes de planejar a próxima compra. O aumento mostra uma mudança, mas não explica sua causa sozinho.
 
-O bloco destacado resume os indicadores do nosso caso. Volume corresponde às unidades vendidas. Receita é o valor das vendas, obtido pela quantidade multiplicada pelo preço de cada item e pela soma desses valores. O resultado bruto desconta da receita o custo de aquisição dos produtos vendidos.
+Abaixo estão os três indicadores utilizados no trabalho. O volume mostra quantas unidades foram vendidas. A receita mostra o valor das vendas: multiplicamos a quantidade pelo preço de cada item e somamos os valores. O resultado bruto desconta da receita o custo de aquisição dos produtos vendidos.
 
-Nos blocos inferiores, o cálculo de 50% utiliza a primeira semana como base. Também aparece um cuidado importante: vender mais unidades não garante maior resultado bruto, porque o preço e o custo influenciam esse resultado.
+Esses indicadores precisam ser observados em conjunto. Uma promoção pode aumentar a quantidade vendida e reduzir o resultado bruto. Esse resultado simplificado também não é o lucro líquido, porque ainda existem outros valores a considerar, como as demais despesas.
 
-Um KPI é um indicador-chave associado a um objetivo. Ele precisa de fórmula, fonte, período e responsável definidos. O resultado bruto simplificado apresentado aqui ainda não corresponde ao lucro líquido.
+Quando um indicador está ligado a um objetivo relevante, ele pode ser usado como KPI, ou indicador-chave de desempenho. Para comparar os resultados, a empresa precisa manter os mesmos critérios de cálculo.
 
 O QUE MOSTRAR NA TELA
-Siga os três cartões, explique o bloco de indicadores e conclua com o cálculo e os critérios nos dois blocos inferiores.
+Acompanhe os três cartões na ordem. Depois explique os três indicadores e a mensagem de leitura em conjunto. O termo KPI aparece em Conceitos.
 
 TRANSIÇÃO
-Agora vamos acompanhar as etapas que transformam esses registros em apoio à decisão.
+Agora vamos acompanhar o caminho desses registros até a decisão.
 
 ---
 
@@ -80,27 +78,27 @@ Artur Teixeira · SLIDE 4 / 15
 TEMPO SUGERIDO: 2 min 0 s
 
 FALA SUGERIDA
-Esta tela mostra o caminho dos dados até a decisão em cinco etapas.
+Esta tela mostra o caminho de uma venda até a decisão em cinco etapas.
 
-A primeira etapa são as fontes. No supermercado, os registros vêm do caixa, do cadastro de produtos e do controle de estoque.
+Tudo começa nas fontes. O caixa registra a venda e o controle de estoque informa o saldo disponível.
 
-A segunda é a preparação. Os dados são padronizados, validados e integrados. Isso inclui relacionar o mesmo produto nas diferentes fontes e verificar registros duplicados.
+Na preparação, os registros são conferidos e relacionados. A empresa padroniza os campos, identifica o mesmo produto nas fontes e verifica duplicidades.
 
-A terceira etapa é o histórico. Os registros são organizados em uma base voltada à análise, permitindo comparar informações de diferentes períodos. Um data warehouse é uma base desse tipo e pode integrar diferentes fontes.
+Depois, o histórico permite guardar e comparar os registros de diferentes semanas e produtos.
 
-A quarta etapa é a análise. Os dados organizados são consultados e comparados para produzir informações sobre o desempenho do negócio.
+Na análise, esses registros são consultados para acompanhar volume, receita e resultado bruto, os indicadores que acabamos de apresentar.
 
-A quinta é a ação. A empresa utiliza a análise para decidir, acompanha os resultados e faz ajustes quando necessário.
+Na ação, o supermercado utiliza a análise para planejar a compra e acompanha o resultado para fazer ajustes.
 
-Na parte inferior aparecem os termos ETL e ELT. ETL significa extrair, transformar e carregar os dados. Em ELT, a ordem é extrair, carregar e depois transformar. Essa ordem depende da arquitetura utilizada. Os dois termos descrevem formas de organizar a movimentação e a preparação dos dados.
+Os dois blocos abaixo apresentam termos usados nesse processo. ETL significa extrair, transformar e carregar os dados. Em ELT, a carga ocorre antes da transformação. A escolha depende da estrutura adotada. Um data warehouse é uma base voltada à análise histórica e pode reunir diferentes fontes.
 
-O último bloco conecta esse processo à gestão da informação. Para que as etapas funcionem, a empresa precisa definir regras e responsáveis pelos registros. Esse cuidado será desenvolvido na próxima parte.
+Para esse caminho funcionar, a informação precisa ter regras, responsáveis e qualidade. Isso conecta os fundamentos de BI à gestão da informação.
 
 O QUE MOSTRAR NA TELA
-Revele as cinco etapas, explique ETL/ELT e data warehouse e use o bloco inferior para conectar a fala à gestão da informação.
+Revele as cinco etapas uma por vez. Depois explique os dois termos técnicos e conclua com a ligação à gestão da informação.
 
 TRANSIÇÃO
-Até aqui vimos como os dados apoiam a análise e a decisão. João Henrique vai continuar mostrando como pessoas, processos e tecnologia cuidam da informação ao longo desse caminho.
+João Henrique vai continuar explicando como pessoas, processos e tecnologia cuidam da informação ao longo desse processo.
 
 ---
 
