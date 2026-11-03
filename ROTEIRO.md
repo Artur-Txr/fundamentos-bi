@@ -1,6 +1,6 @@
 # Roteiro de apresentação
 
-**15 telas.** Artur: 1–4; João Henrique: 5–10; Pedro Mafra: 11–15. Estudo de caso: supermercado fictício.
+15 telas · Artur: 1–4; João Henrique: 5–10; Pedro Mafra: 11–15.
 
 ## 1. Abertura
 
@@ -28,21 +28,21 @@ Artur Teixeira · SLIDE 2 / 15
 TEMPO SUGERIDO: 1 min 40 s
 
 FALA SUGERIDA
-BI significa Business Intelligence, ou Inteligência de Negócios. A ideia é usar os dados da empresa para entender o que está acontecendo e tomar decisões com mais fundamento.
+BI é a sigla de Business Intelligence, ou Inteligência de Negócios. Na prática, ele combina os dados da empresa com a análise e o conhecimento de quem trabalha no negócio para apoiar decisões.
 
-No supermercado do nosso exemplo, começamos reunindo os registros de vendas, estoque, preços e custos. As vendas mostram o que saiu, e o estoque mostra o que ainda está disponível. Com esses registros juntos, a equipe consegue ter uma visão mais completa da situação.
+No supermercado fictício do nosso trabalho, a primeira aplicação é conhecer a situação. Para isso, a equipe relaciona vendas, estoque, preços e custos. No caso do arroz, por exemplo, ela observa quanto foi vendido e quanto ainda está disponível antes de planejar uma compra.
 
-Depois, os dados são analisados. A comparação entre produtos e períodos ajuda a perceber mudanças nas vendas. Para interpretar essas mudanças, também é preciso considerar fatores como preço e promoção.
+A segunda aplicação é interpretar os dados. A equipe compara produtos e períodos, levando em conta as condições de cada venda. Uma promoção pode aumentar a quantidade vendida, mas esse aumento precisa ser analisado junto com o preço e o custo para avaliar o resultado.
 
-Por último, a análise é usada para agir e acompanhar. Ela ajuda a planejar as compras e avaliar as promoções. Depois da decisão, a equipe verifica o resultado e faz ajustes.
+A terceira é orientar as ações. Com essa análise, o supermercado pode ajustar a reposição de acordo com a demanda e o estoque. Depois, acompanha o resultado para verificar se o ajuste foi adequado.
 
-Assim, o objetivo no supermercado é reduzir faltas e excessos e avaliar o resultado das vendas.
+O objetivo do nosso caso é reduzir faltas e excessos de produtos e avaliar o resultado das vendas. A análise ajuda a decidir, e a equipe considera o contexto antes de agir.
 
 O QUE MOSTRAR NA TELA
-Apresente a definição, siga os três cartões e conclua com o objetivo do supermercado.
+Explique a definição e siga os três cartões, usando o exemplo de cada um. Termine pelo objetivo destacado na parte inferior.
 
 TRANSIÇÃO
-A seguir, o exemplo do arroz vai mostrar como os registros se transformam em informação e indicadores.
+Na próxima tela, o exemplo do arroz mostra a diferença entre dado, informação e conhecimento e apresenta os indicadores usados na análise.
 
 ---
 
