@@ -40,31 +40,33 @@ O QUE MOSTRAR NA TELA
 Explique a definição e siga os três cartões, usando o exemplo de cada um. Termine pelo objetivo destacado na parte inferior.
 
 TRANSIÇÃO
-Agora vamos ver a diferença entre dado, informação e conhecimento.
+Agora vamos conhecer os indicadores e aplicar um KPI ao nosso exemplo.
 
 ---
 
-## 3. Dados e indicadores
+## 3. Indicadores e KPI
 
 Artur Teixeira · SLIDE 3 / 15
-TEMPO SUGERIDO: 1 min 15 s
+TEMPO SUGERIDO: 1 min 50 s
 
 FALA SUGERIDA
-Dado é o registro de um fato. No exemplo, foram vendidas 120 unidades de arroz na segunda semana.
+Indicadores são medidas que ajudam a acompanhar o desempenho da empresa. No nosso supermercado, usamos volume, receita e resultado bruto.
 
-Informação é esse dado organizado e comparado. Na primeira semana foram 80 unidades. Portanto, houve aumento de 50%.
+O volume é a quantidade vendida. No arroz, passou de 80 para 120 unidades, um aumento de 50%. A receita é o valor das vendas e passou de dois mil para dois mil seiscentos e quarenta reais.
 
-Conhecimento é interpretar essa mudança, considerando a promoção, o estoque e o prazo do fornecedor antes de decidir.
+Já o resultado bruto desconta da receita o custo de aquisição dos produtos vendidos. Ele caiu de 560 para 480 reais. Isso mostra que vender mais não garante um resultado bruto maior. Esse valor também não é o lucro líquido.
 
-Os indicadores ajudam nessa análise. Volume é a quantidade vendida. Receita é o valor das vendas. Resultado bruto é a receita menos o custo de aquisição dos produtos vendidos. Ele não é o lucro líquido.
+KPI significa indicador-chave de desempenho. É um indicador escolhido para acompanhar um objetivo importante.
 
-Por isso, vender mais unidades não garante um resultado bruto maior. Um KPI é um indicador ligado a um objetivo importante da empresa.
+Para aplicar no nosso exemplo, vamos considerar o objetivo de manter o resultado bruto semanal do arroz. A meta ilustrativa é alcançar pelo menos 560 reais, o valor da primeira semana. Na segunda, o resultado foi de 480 reais, ficando 80 reais abaixo da meta.
+
+Nesse caso, o resultado bruto funciona como KPI. O gerente pode acompanhá-lo toda semana, usando os registros de vendas e custos, e rever as condições da promoção.
 
 O QUE MOSTRAR NA TELA
-Siga Dado, Informação e Conhecimento. Depois explique o destaque e os dois blocos inferiores sobre indicadores. KPI pode ser consultado em Conceitos.
+Defina indicador, explique os três cartões e depois o significado de KPI. Percorra objetivo, meta ilustrativa, resultado e acompanhamento nos blocos inferiores.
 
 TRANSIÇÃO
-A próxima tela mostra o caminho dos dados até a decisão.
+A próxima tela mostra o caminho dos dados que permite calcular e acompanhar esses indicadores.
 
 ---
 

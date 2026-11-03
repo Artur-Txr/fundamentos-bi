@@ -27,7 +27,7 @@ const deck = [
     "body": "<div class=\"cards cols-3\"><article><span class=\"card-index\">01</span><h3>Conhecer a situação</h3><p>Relacionar vendas, estoque, preços e custos para entender a operação.</p><div class=\"card-foot\">Exemplo: conferir as vendas de arroz e o saldo disponível.</div></article><article><span class=\"card-index\">02</span><h3>Interpretar os dados</h3><p>Comparar produtos e períodos, considerando as condições de cada venda.</p><div class=\"card-foot\">Exemplo: analisar o efeito de uma promoção no volume e no resultado.</div></article><article><span class=\"card-index\">03</span><h3>Orientar as ações</h3><p>Usar a análise para planejar compras e acompanhar o resultado das decisões.</p><div class=\"card-foot\">Exemplo: ajustar a reposição conforme a demanda e o estoque.</div></article></div><div class=\"insight\"><span>OBJETIVO DO NOSSO CASO</span><p>Reduzir faltas e excessos de produtos e avaliar o resultado das vendas. A análise apoia a decisão; a equipe considera o contexto e acompanha seus efeitos.</p></div>",
     "speaker": 0,
     "chapter": "Inteligência de negócios",
-    "notes": "Artur Teixeira · SLIDE 2 / 15\nTEMPO SUGERIDO: 1 min 0 s\n\nFALA SUGERIDA\nBI significa Inteligência de Negócios. Ele usa os dados da empresa para entender o desempenho e ajudar nas decisões.\n\nNo nosso supermercado fictício, isso começa pela análise das vendas, do estoque, dos preços e dos custos. Esses registros mostram a situação dos produtos.\n\nDepois, a equipe compara os dados. Uma promoção pode aumentar as vendas, mas também é preciso observar o preço e o custo para avaliar o resultado.\n\nCom essa análise, o supermercado planeja as compras, ajusta a reposição e acompanha os resultados. O objetivo é reduzir faltas e excessos e avaliar o resultado das vendas.\n\nO QUE MOSTRAR NA TELA\nExplique a definição e siga os três cartões, usando o exemplo de cada um. Termine pelo objetivo destacado na parte inferior.\n\nTRANSIÇÃO\nAgora vamos ver a diferença entre dado, informação e conhecimento.",
+    "notes": "Artur Teixeira · SLIDE 2 / 15\nTEMPO SUGERIDO: 1 min 0 s\n\nFALA SUGERIDA\nBI significa Inteligência de Negócios. Ele usa os dados da empresa para entender o desempenho e ajudar nas decisões.\n\nNo nosso supermercado fictício, isso começa pela análise das vendas, do estoque, dos preços e dos custos. Esses registros mostram a situação dos produtos.\n\nDepois, a equipe compara os dados. Uma promoção pode aumentar as vendas, mas também é preciso observar o preço e o custo para avaliar o resultado.\n\nCom essa análise, o supermercado planeja as compras, ajusta a reposição e acompanha os resultados. O objetivo é reduzir faltas e excessos e avaliar o resultado das vendas.\n\nO QUE MOSTRAR NA TELA\nExplique a definição e siga os três cartões, usando o exemplo de cada um. Termine pelo objetivo destacado na parte inferior.\n\nTRANSIÇÃO\nAgora vamos conhecer os indicadores e aplicar um KPI ao nosso exemplo.",
     "reference": [
       "IBM · Inteligência de negócios",
       "https://www.ibm.com/think/topics/business-intelligence"
@@ -36,7 +36,7 @@ const deck = [
       "seconds": 60,
       "speech": "BI significa Inteligência de Negócios. Ele usa os dados da empresa para entender o desempenho e ajudar nas decisões.\n\nNo nosso supermercado fictício, isso começa pela análise das vendas, do estoque, dos preços e dos custos. Esses registros mostram a situação dos produtos.\n\nDepois, a equipe compara os dados. Uma promoção pode aumentar as vendas, mas também é preciso observar o preço e o custo para avaliar o resultado.\n\nCom essa análise, o supermercado planeja as compras, ajusta a reposição e acompanha os resultados. O objetivo é reduzir faltas e excessos e avaliar o resultado das vendas.",
       "cue": "Explique a definição e siga os três cartões, usando o exemplo de cada um. Termine pelo objetivo destacado na parte inferior.",
-      "transition": "Agora vamos ver a diferença entre dado, informação e conhecimento."
+      "transition": "Agora vamos conhecer os indicadores e aplicar um KPI ao nosso exemplo."
     },
     "terms": [
       [
@@ -47,37 +47,37 @@ const deck = [
   },
   {
     "id": 3,
-    "label": "Dados e indicadores",
-    "title": "Dados, informação<br>e indicadores.",
-    "intro": "O exemplo das vendas de arroz mostra como um registro pode ser comparado e interpretado antes de uma decisão.",
-    "body": "<div class=\"cards cols-3\"><article><span class=\"card-index\">01</span><h3>Dado</h3><p>120 unidades de arroz vendidas na segunda semana.</p><div class=\"card-foot\">Registro de um fato.</div></article><article><span class=\"card-index\">02</span><h3>Informação</h3><p>80 unidades na primeira semana e 120 na segunda: aumento de 50%.</p><div class=\"card-foot\">Comparação com a primeira semana.</div></article><article><span class=\"card-index\">03</span><h3>Conhecimento</h3><p>Interpretar o aumento junto com a promoção, o estoque e o prazo do fornecedor.</p><div class=\"card-foot\">Contexto e experiência para decidir.</div></article></div><div class=\"insight\"><span>INDICADORES</span><p>Vender mais unidades não garante maior resultado bruto. O resultado bruto simplificado não é lucro líquido.</p></div>",
+    "label": "Indicadores e KPI",
+    "title": "Indicadores e KPI<br>no nosso supermercado.",
+    "intro": "Indicadores são medidas usadas para acompanhar o desempenho. Um KPI é um indicador-chave escolhido para avaliar um objetivo importante do negócio.",
+    "body": "<div class=\"cards cols-3\"><article><span class=\"card-index\">01</span><h3>Volume</h3><p>Mostra quantas unidades foram vendidas no período.</p><div class=\"card-foot\">Arroz: 80 → 120 unidades (+50%).</div></article><article><span class=\"card-index\">02</span><h3>Receita</h3><p>Mostra o valor das vendas: soma de quantidade × preço.</p><div class=\"card-foot\">Arroz: R$ 2.000 → R$ 2.640.</div></article><article><span class=\"card-index\">03</span><h3>Resultado bruto</h3><p>Receita menos custo de aquisição dos produtos vendidos.</p><div class=\"card-foot\">Arroz: R$ 560 → R$ 480.</div></article></div><div class=\"insight\"><span>KPI · KEY PERFORMANCE INDICATOR</span><p>Indicador-chave de desempenho. Se o objetivo é manter o resultado bruto da promoção, esse indicador é escolhido para acompanhar a meta.</p></div>",
     "speaker": 0,
     "chapter": "Inteligência de negócios",
-    "notes": "Artur Teixeira · SLIDE 3 / 15\nTEMPO SUGERIDO: 1 min 15 s\n\nFALA SUGERIDA\nDado é o registro de um fato. No exemplo, foram vendidas 120 unidades de arroz na segunda semana.\n\nInformação é esse dado organizado e comparado. Na primeira semana foram 80 unidades. Portanto, houve aumento de 50%.\n\nConhecimento é interpretar essa mudança, considerando a promoção, o estoque e o prazo do fornecedor antes de decidir.\n\nOs indicadores ajudam nessa análise. Volume é a quantidade vendida. Receita é o valor das vendas. Resultado bruto é a receita menos o custo de aquisição dos produtos vendidos. Ele não é o lucro líquido.\n\nPor isso, vender mais unidades não garante um resultado bruto maior. Um KPI é um indicador ligado a um objetivo importante da empresa.\n\nO QUE MOSTRAR NA TELA\nSiga Dado, Informação e Conhecimento. Depois explique o destaque e os dois blocos inferiores sobre indicadores. KPI pode ser consultado em Conceitos.\n\nTRANSIÇÃO\nA próxima tela mostra o caminho dos dados até a decisão.",
+    "notes": "Artur Teixeira · SLIDE 3 / 15\nTEMPO SUGERIDO: 1 min 50 s\n\nFALA SUGERIDA\nIndicadores são medidas que ajudam a acompanhar o desempenho da empresa. No nosso supermercado, usamos volume, receita e resultado bruto.\n\nO volume é a quantidade vendida. No arroz, passou de 80 para 120 unidades, um aumento de 50%. A receita é o valor das vendas e passou de dois mil para dois mil seiscentos e quarenta reais.\n\nJá o resultado bruto desconta da receita o custo de aquisição dos produtos vendidos. Ele caiu de 560 para 480 reais. Isso mostra que vender mais não garante um resultado bruto maior. Esse valor também não é o lucro líquido.\n\nKPI significa indicador-chave de desempenho. É um indicador escolhido para acompanhar um objetivo importante.\n\nPara aplicar no nosso exemplo, vamos considerar o objetivo de manter o resultado bruto semanal do arroz. A meta ilustrativa é alcançar pelo menos 560 reais, o valor da primeira semana. Na segunda, o resultado foi de 480 reais, ficando 80 reais abaixo da meta.\n\nNesse caso, o resultado bruto funciona como KPI. O gerente pode acompanhá-lo toda semana, usando os registros de vendas e custos, e rever as condições da promoção.\n\nO QUE MOSTRAR NA TELA\nDefina indicador, explique os três cartões e depois o significado de KPI. Percorra objetivo, meta ilustrativa, resultado e acompanhamento nos blocos inferiores.\n\nTRANSIÇÃO\nA próxima tela mostra o caminho dos dados que permite calcular e acompanhar esses indicadores.",
     "reference": [
       "IBM · Inteligência de negócios",
       "https://www.ibm.com/think/topics/business-intelligence"
     ],
     "script": {
-      "speech": "Dado é o registro de um fato. No exemplo, foram vendidas 120 unidades de arroz na segunda semana.\n\nInformação é esse dado organizado e comparado. Na primeira semana foram 80 unidades. Portanto, houve aumento de 50%.\n\nConhecimento é interpretar essa mudança, considerando a promoção, o estoque e o prazo do fornecedor antes de decidir.\n\nOs indicadores ajudam nessa análise. Volume é a quantidade vendida. Receita é o valor das vendas. Resultado bruto é a receita menos o custo de aquisição dos produtos vendidos. Ele não é o lucro líquido.\n\nPor isso, vender mais unidades não garante um resultado bruto maior. Um KPI é um indicador ligado a um objetivo importante da empresa.",
-      "transition": "A próxima tela mostra o caminho dos dados até a decisão.",
-      "cue": "Siga Dado, Informação e Conhecimento. Depois explique o destaque e os dois blocos inferiores sobre indicadores. KPI pode ser consultado em Conceitos.",
-      "seconds": 75
+      "seconds": 110,
+      "speech": "Indicadores são medidas que ajudam a acompanhar o desempenho da empresa. No nosso supermercado, usamos volume, receita e resultado bruto.\n\nO volume é a quantidade vendida. No arroz, passou de 80 para 120 unidades, um aumento de 50%. A receita é o valor das vendas e passou de dois mil para dois mil seiscentos e quarenta reais.\n\nJá o resultado bruto desconta da receita o custo de aquisição dos produtos vendidos. Ele caiu de 560 para 480 reais. Isso mostra que vender mais não garante um resultado bruto maior. Esse valor também não é o lucro líquido.\n\nKPI significa indicador-chave de desempenho. É um indicador escolhido para acompanhar um objetivo importante.\n\nPara aplicar no nosso exemplo, vamos considerar o objetivo de manter o resultado bruto semanal do arroz. A meta ilustrativa é alcançar pelo menos 560 reais, o valor da primeira semana. Na segunda, o resultado foi de 480 reais, ficando 80 reais abaixo da meta.\n\nNesse caso, o resultado bruto funciona como KPI. O gerente pode acompanhá-lo toda semana, usando os registros de vendas e custos, e rever as condições da promoção.",
+      "cue": "Defina indicador, explique os três cartões e depois o significado de KPI. Percorra objetivo, meta ilustrativa, resultado e acompanhamento nos blocos inferiores.",
+      "transition": "A próxima tela mostra o caminho dos dados que permite calcular e acompanhar esses indicadores."
     },
     "terms": [
       [
         "KPI",
-        "Indicador-chave de desempenho, ligado a um objetivo, com fórmula, fonte, período e responsável definidos."
+        "Key Performance Indicator: indicador-chave de desempenho, escolhido para acompanhar um objetivo relevante."
       ]
     ],
     "support": [
       {
-        "title": "Volume e receita",
-        "text": "Volume é a soma das unidades vendidas. Receita é a soma de quantidade × preço de venda de cada item."
+        "title": "Aplicação: objetivo, meta e resultado",
+        "text": "Objetivo: preservar o resultado bruto semanal do arroz. Meta ilustrativa: pelo menos R$ 560, valor da semana 1. Na semana 2, foram R$ 480: R$ 80 abaixo da meta. A equipe deve rever preço, custo e condições da promoção."
       },
       {
-        "title": "Resultado bruto",
-        "text": "É a receita menos o custo de aquisição dos produtos vendidos. Neste exemplo, não inclui todas as despesas e não representa o lucro líquido."
+        "title": "Como acompanhar",
+        "text": "Fórmula: receita − custo dos produtos vendidos. Fonte: registros de vendas e custos. Frequência: semanal. Responsável sugerido: gerente. Os dados são fictícios; o resultado bruto não é lucro líquido."
       }
     ]
   },
