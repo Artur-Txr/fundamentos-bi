@@ -1,10 +1,10 @@
 # Roteiro de apresentação
 
-15 telas · Artur: 1–4; João Henrique: 5–10; Pedro Mafra: 11–15.
+12 telas · Artur Teixeira 1–4 · João Henrique 5–8 · Pedro Mafra 9–12.
 
 ## 1. Abertura
 
-Artur Teixeira · SLIDE 1 / 15
+Artur Teixeira · SLIDE 1 / 12
 TEMPO SUGERIDO: 0 min 55 s
 
 FALA SUGERIDA
@@ -24,7 +24,7 @@ A seguir, vamos apresentar o BI aplicado ao supermercado.
 
 ## 2. BI na prática
 
-Artur Teixeira · SLIDE 2 / 15
+Artur Teixeira · SLIDE 2 / 12
 TEMPO SUGERIDO: 1 min 20 s
 
 FALA SUGERIDA
@@ -48,7 +48,7 @@ Agora vamos conhecer os indicadores e aplicar um KPI ao nosso exemplo.
 
 ## 3. Indicadores e KPI
 
-Artur Teixeira · SLIDE 3 / 15
+Artur Teixeira · SLIDE 3 / 12
 TEMPO SUGERIDO: 1 min 30 s
 
 FALA SUGERIDA
@@ -72,7 +72,7 @@ A próxima tela mostra o caminho dos dados que permite calcular e acompanhar ess
 
 ## 4. Da fonte à decisão
 
-Artur Teixeira · SLIDE 4 / 15
+Artur Teixeira · SLIDE 4 / 12
 TEMPO SUGERIDO: 2 min 15 s
 
 FALA SUGERIDA
@@ -98,244 +98,143 @@ Agora João Henrique vai apresentar a gestão da informação.
 
 ## 5. Gestão da informação
 
-João Henrique · SLIDE 5 / 15
-TEMPO SUGERIDO: 1 min 20 s
+João Henrique · SLIDE 5 / 12
+TEMPO SUGERIDO: 1 min 15 s
 
 FALA SUGERIDA
-Agora vamos falar sobre gestão da informação. Não basta uma empresa ter muitos registros: eles precisam estar organizados, ter significado e chegar a quem precisa utilizá-los. Isso depende da combinação entre pessoas, processos e tecnologia.
+A gestão da informação reúne pessoas, processos e tecnologia. As pessoas assumem responsabilidades. Os processos definem como registrar e conferir os dados. A tecnologia ajuda a guardar, localizar e proteger esses registros.
 
-As pessoas definem o uso e a responsabilidade pela informação. Os processos estabelecem como cadastrar, validar, atualizar e compartilhar. A tecnologia oferece os recursos para executar essas atividades.
-
-Também precisamos distinguir governança e gestão. A governança define regras e responsabilidades; a gestão coloca essas regras em prática. Por exemplo: a regra pode exigir categoria em todo cadastro de produto. A rotina de cadastro verifica o preenchimento e encaminha a correção quando necessário.
-
-Um dicionário de dados ajuda a documentar o significado dos campos e indicadores. Assim, expressões como venda líquida e estoque disponível podem ser interpretadas da mesma forma entre os setores.
+No supermercado, uma regra pode exigir que todo produto tenha uma categoria. A governança define essa regra e quem responde por ela. A gestão aplica a regra no cadastro e corrige os registros incompletos. Um dicionário de dados ajuda os setores a usar o mesmo significado para termos como estoque disponível.
 
 O QUE MOSTRAR NA TELA
-Siga os três cartões e use a regra de categoria obrigatória para explicar governança e gestão. Aponte a referência ao dicionário de dados no texto inferior.
+Acompanhe os três cartões e use a categoria obrigatória como exemplo.
 
 TRANSIÇÃO
-Esse cuidado acompanha a informação ao longo de todo o seu ciclo de vida.
+Agora vamos acompanhar a informação ao longo do seu ciclo de vida.
 
 ---
 
 ## 6. Ciclo de vida
 
-João Henrique · SLIDE 6 / 15
+João Henrique · SLIDE 6 / 12
 TEMPO SUGERIDO: 1 min 15 s
 
 FALA SUGERIDA
-A informação percorre um ciclo, desde a coleta até sua revisão. Na coleta, registramos o fato com os campos necessários, como produto, quantidade, data e preço. Na organização, classificamos e relacionamos esses registros.
+Na coleta, o caixa registra produto, quantidade, data e preço. Na organização, os registros são relacionados ao cadastro. No armazenamento, os dados ficam guardados com controle de acesso.
 
-O armazenamento preserva os dados e controla o acesso. Na utilização, as pessoas consultam o histórico para responder a perguntas e planejar ações. Na revisão, verificamos a necessidade de atualizar, arquivar ou descartar informações, conforme os critérios e as regras aplicáveis.
-
-Essas etapas precisam de responsáveis. Alguém registra, alguém verifica e alguém define quem pode consultar. A qualidade e a proteção não acontecem só no fim.
-
-Um exemplo importante é o preço: o cadastro pode ser atualizado hoje, mas isso não deve alterar o preço praticado em uma venda antiga. Cuidar da informação também significa preservar o contexto histórico.
+Na utilização, a equipe consulta o histórico para analisar as vendas. Na revisão, decide o que precisa ser atualizado, arquivado ou descartado conforme as regras da empresa. O preço atual do arroz pode mudar no cadastro. O preço registrado numa venda antiga deve continuar sendo o da data da compra.
 
 O QUE MOSTRAR NA TELA
-Percorra as cinco etapas do ciclo. Ao chegar à revisão, explique a diferença entre atualizar um cadastro e preservar uma transação passada.
+Revele as etapas em ordem e termine com o exemplo do preço histórico.
 
 TRANSIÇÃO
-Mas como avaliar se esses registros são adequados para a análise? Para isso, usamos critérios de qualidade.
-
-REVELAÇÃO POR ETAPAS
-A primeira etapa aparece ao abrir a tela. Use Próxima etapa ou a seta para a direita para apresentar as partes seguintes. Mostrar tudo revela o diagrama completo. Após a última etapa, a seta avança para o slide seguinte.
+Com os registros organizados, podemos verificar sua qualidade.
 
 ---
 
 ## 7. Qualidade dos dados
 
-João Henrique · SLIDE 7 / 15
+João Henrique · SLIDE 7 / 12
+TEMPO SUGERIDO: 1 min 35 s
+
+FALA SUGERIDA
+Para conferir a qualidade, verificamos se os valores estão corretos, os campos completos, os códigos consistentes e os formatos válidos. Também verificamos se os registros estão atualizados e se cada venda aparece uma única vez.
+
+Na tabela, a venda V203, de 20 unidades, aparece duas vezes. O total fica em 140 unidades e R$ 3.080. Ao retirar a repetição, voltamos a 120 unidades e R$ 2.640. A diferença é de 20 unidades e R$ 440. Esse erro pode fazer o gerente comprar acima do necessário. Além de corrigir os dados, a equipe precisa investigar a origem da duplicidade.
+
+O QUE MOSTRAR NA TELA
+Mostre V203 no estado com duplicidade e compare com Dados corrigidos.
+
+TRANSIÇÃO
+Além de conferir os registros, precisamos protegê-los e garantir o acesso quando necessário.
+
+---
+
+## 8. Segurança e boas práticas
+
+João Henrique · SLIDE 8 / 12
+TEMPO SUGERIDO: 1 min 15 s
+
+FALA SUGERIDA
+Confidencialidade é permitir acesso apenas a pessoas autorizadas. No supermercado, o caixa precisa registrar vendas, e o acesso aos dados dos funcionários fica restrito a quem trabalha com eles.
+
+Integridade é manter registros corretos e controlar alterações. Para isso, usamos contas individuais, códigos padronizados e preservamos o preço praticado em cada venda. Disponibilidade é ter a informação acessível quando necessário. As cópias de segurança e os testes de restauração ajudam a recuperar os dados após uma falha.
+
+O QUE MOSTRAR NA TELA
+Explique os três cartões e relacione cada objetivo a uma prática da loja.
+
+TRANSIÇÃO
+Agora Pedro Mafra vai mostrar como o banco de dados organiza os registros do supermercado.
+
+---
+
+## 9. Banco de dados e tabelas
+
+Pedro Mafra · SLIDE 9 / 12
+TEMPO SUGERIDO: 1 min 35 s
+
+FALA SUGERIDA
+No supermercado, o banco guarda os registros da operação, e o SGBD permite cadastrar, consultar e administrar esses registros. O exemplo mostra três tabelas relacionadas.
+
+Produtos guarda o cadastro e o preço atual. Itens de venda registra o produto, a quantidade e o preço praticado. Vendas identifica a compra, com data, pagamento e status. Uma venda pode ter vários itens.
+
+A chave primária, ou PK, identifica cada registro. A chave estrangeira, ou FK, liga o item ao produto e à venda. Guardar o preço praticado no item permite calcular a receita antiga mesmo quando o preço do cadastro muda.
+
+O QUE MOSTRAR NA TELA
+Revele Produtos, Itens de venda e Vendas. Aponte as chaves e os dois campos de preço.
+
+TRANSIÇÃO
+Com os dados organizados, podemos usar SQL para consultar as vendas.
+
+---
+
+## 10. Consulta SQL
+
+Pedro Mafra · SLIDE 10 / 12
 TEMPO SUGERIDO: 1 min 25 s
 
 FALA SUGERIDA
-Qualidade dos dados significa avaliar se eles são adequados ao uso pretendido. Neste slide temos seis perguntas. Precisão verifica se o valor corresponde ao fato real. Completude avalia se os campos necessários foram preenchidos. Consistência verifica se as fontes usam definições compatíveis.
+SQL é uma linguagem usada para consultar bancos de dados. Aqui, queremos resumir as unidades vendidas na segunda semana. FROM indica a tabela usada. WHERE seleciona a semana 2. GROUP BY reúne os registros de cada produto, e SUM soma as quantidades. SELECT mostra o produto e seu total. ORDER BY organiza o resultado do maior para o menor.
 
-Validade pergunta se o registro respeita as regras. Unicidade verifica duplicidades. Atualidade avalia se a informação foi atualizada na frequência necessária à decisão.
-
-Esses critérios são diferentes. Uma data pode ter formato válido, mas representar o dia errado. Da mesma forma, uma base atualizada diariamente pode servir a um relatório mensal e ainda ser insuficiente para uma decisão que exige estoque imediato.
-
-Por isso, qualidade não é apenas um número ou um formato correto. Ela depende de entender o processo, o significado do registro e a necessidade de quem vai usar a informação.
+O arroz aparece com 120 unidades, o feijão com 75 e o café com 35. Esse resultado compara volume. Receita e resultado bruto precisam de preço e custo. A tabela vendas_demo é uma tabela didática usada para mostrar a consulta.
 
 O QUE MOSTRAR NA TELA
-Explique as seis perguntas em ordem, sem ler apenas os títulos. Dê destaque à diferença entre validade e precisão e ao exemplo da frequência de atualização.
+Acompanhe as cláusulas do código e confira os três resultados na tabela.
 
 TRANSIÇÃO
-Vamos ver agora como uma falha pode ser medida e como ela afeta uma decisão.
+Vamos comparar as duas semanas e observar como os indicadores mudaram.
 
 ---
 
-## 8. Do erro à consequência
+## 11. Comparação das semanas
 
-João Henrique · SLIDE 8 / 15
+Pedro Mafra · SLIDE 11 / 12
 TEMPO SUGERIDO: 1 min 30 s
 
 FALA SUGERIDA
-Agora podemos observar o efeito de uma duplicidade. A tabela reúne três registros fictícios de venda de arroz. A linha V203, de vinte unidades, aparece repetida. Se o relatório somar tudo, chegaremos a cento e quarenta unidades e a uma receita aparente de três mil e oitenta reais.
+Na primeira semana, foram vendidas 80 unidades de arroz a R$ 25. Com custo de R$ 18 por unidade, a receita foi de R$ 2.000 e o resultado bruto foi de R$ 560.
 
-Quando removemos a repetição, o total correto é de cento e vinte unidades e dois mil seiscentos e quarenta reais. A diferença é de vinte unidades e quatrocentos e quarenta reais. Ela existe no relatório, mas não representa uma nova venda.
+Na segunda semana, o preço caiu para R$ 22 e foram vendidas 120 unidades. A receita subiu para R$ 2.640. O resultado bruto caiu para R$ 480, porque sobraram R$ 4 por unidade depois do custo, em vez de R$ 7.
 
-Uma interpretação sem conferir a base poderia fazer o gerente acreditar que a demanda foi maior e comprar acima do necessário. Corrigir o relatório resolve o resultado imediato; investigar o cadastro e a integração ajuda a evitar que o erro se repita.
+Assim, o aumento de volume precisa ser analisado junto com preço e custo. O resultado bruto considera o custo dos produtos vendidos. O lucro líquido exige também os demais valores do resultado da empresa.
 
 O QUE MOSTRAR NA TELA
-Comece em Com duplicidade. Aponte V203 nas duas linhas e os totais. Clique em Dados corrigidos e compare as quantidades e a receita.
+Compare os cartões das semanas 1 e 2 e destaque a queda de R$ 560 para R$ 480.
 
 TRANSIÇÃO
-Além de corretas, as informações precisam estar protegidas e disponíveis.
+Para fechar, vamos reunir o que cada parte do trabalho acrescenta à decisão.
 
 ---
 
-## 9. Segurança
+## 12. Conclusão
 
-João Henrique · SLIDE 9 / 15
-TEMPO SUGERIDO: 1 min 15 s
-
-FALA SUGERIDA
-A segurança da informação envolve três objetivos complementares: confidencialidade, integridade e disponibilidade. Confidencialidade significa que apenas pessoas autorizadas acessam a informação. Integridade busca preservar registros corretos e alterações que sigam regras. Disponibilidade significa conseguir acessar a informação quando ela é necessária.
-
-No supermercado, o operador de caixa precisa registrar vendas, mas não precisa consultar todos os dados dos funcionários. As permissões devem acompanhar a função. Contas individuais e registros de alterações também ajudam a investigar o que aconteceu.
-
-Esses cuidados precisam de equilíbrio. Bloquear todo acesso impede o trabalho; liberar tudo aumenta a exposição. E o controle de acesso não substitui a recuperação após uma falha.
-
-Por isso, proteção inclui tanto limitar acessos e acompanhar alterações quanto preparar a continuidade da operação.
-
-O QUE MOSTRAR NA TELA
-Explique os três cartões e use o operador de caixa como exemplo. Mostre que acesso, alterações e recuperação são cuidados diferentes.
-
-TRANSIÇÃO
-Esses princípios precisam aparecer em práticas simples que a equipe consiga executar.
-
----
-
-## 10. Boas práticas
-
-João Henrique · SLIDE 10 / 15
-TEMPO SUGERIDO: 1 min 15 s
+Pedro Mafra · SLIDE 12 / 12
+TEMPO SUGERIDO: 1 min 5 s
 
 FALA SUGERIDA
-Para encerrar a parte de gestão da informação, temos quatro boas práticas. A primeira é padronizar o cadastro, com código único, campos essenciais e definições compartilhadas. Isso reduz confusões como registrar o mesmo produto com nomes diferentes.
+O banco de dados organiza os registros e preserva o histórico. A gestão da informação cuida da qualidade, das responsabilidades e do acesso. O BI usa esses dados para acompanhar o desempenho e orientar decisões.
 
-A segunda é controlar o acesso, usando contas individuais e permissões adequadas às funções. A terceira é preservar o histórico: o preço e as condições de uma venda precisam continuar representando o que aconteceu naquele momento.
-
-A quarta é testar a recuperação. Não basta afirmar que existe backup; é necessário verificar se as cópias e os procedimentos permitem restaurar as informações necessárias.
-
-Para que essas práticas funcionem, a organização precisa definir quem faz cada atividade, quando ela acontece e como será acompanhada. A qualidade depende de uma rotina consistente, não de uma correção isolada.
+No supermercado, vimos que vender mais unidades pode vir acompanhado de um resultado bruto menor. Para planejar as compras, a equipe precisa combinar vendas e estoque, considerar preço, custo e prazo de entrega e acompanhar o resultado depois da decisão. As referências e o QR code ficam disponíveis nesta tela. Obrigado pela atenção.
 
 O QUE MOSTRAR NA TELA
-Percorra as quatro práticas. Termine com backup e teste de restauração para mostrar que a recuperação deve ser verificada.
-
-TRANSIÇÃO
-Agora o Pedro Mafra vai mostrar como os bancos de dados dão estrutura a esses registros e como podemos consultá-los para apoiar uma análise.
-
----
-
-## 11. Banco e SGBD
-
-Pedro Mafra · SLIDE 11 / 15
-TEMPO SUGERIDO: 1 min 20 s
-
-FALA SUGERIDA
-Vamos começar diferenciando banco de dados e SGBD. O banco é o conjunto organizado de registros. O SGBD, ou sistema gerenciador de banco de dados, é o software que permite definir as estruturas, consultar, atualizar e administrar esse conjunto.
-
-O slide também compara dois usos. Na operação, registramos o presente: vendas, itens e movimentações frequentes. Na análise, usamos o histórico para comparar períodos, produtos e resultados. A estrutura precisa atender à finalidade pretendida.
-
-Outro conceito importante é transação. Uma venda pode exigir registrar os itens e atualizar o estoque. Essas operações precisam ser coordenadas para preservar as regras do sistema. Uma transação ajuda a tratá-las como uma unidade, concluindo ou desfazendo o conjunto quando necessário.
-
-Assim, o banco não serve apenas para guardar registros; sua organização e os recursos do gerenciador apoiam o funcionamento confiável da aplicação.
-
-O QUE MOSTRAR NA TELA
-Compare os dois blocos Operação e Análise. Use registrar a venda e dar baixa no estoque para explicar transação.
-
-TRANSIÇÃO
-No modelo relacional, essa organização aparece em tabelas que se conectam.
-
----
-
-## 12. Modelo relacional
-
-Pedro Mafra · SLIDE 12 / 15
-TEMPO SUGERIDO: 1 min 30 s
-
-FALA SUGERIDA
-Neste modelo simplificado do supermercado fictício, temos três tabelas. Vou apresentá-las na ordem em que aparecem. Primeiro, Produtos guarda o cadastro, com identificador, nome, categoria e preço atual.
-
-Depois, Itens de venda registra o produto vendido, sua quantidade e o preço praticado. Essa tabela faz a ligação entre o produto e a venda à qual ele pertence.
-
-Por último, Vendas registra o evento da compra, com identificador, data, forma de pagamento e status. Uma venda pode ter vários itens; um produto pode aparecer em itens de muitas vendas.
-
-A chave primária, indicada por PK, identifica cada linha. A chave estrangeira, indicada por FK, referencia um registro relacionado. Quando a restrição está configurada, ela pode impedir que um item aponte para um produto inexistente.
-
-Também preservamos o preço praticado no item. Se o preço atual do cadastro mudar, a receita de uma venda passada não deve ser recalculada com o novo valor. Isso mantém o histórico coerente.
-
-O QUE MOSTRAR NA TELA
-Comece pela tabela Produtos, à esquerda. Ao terminar de explicar seu cadastro, clique em Próxima etapa para revelar Itens de venda, no centro. Explique a ligação com o produto e revele Vendas, à direita. Com as três tabelas visíveis, siga as duas relações 1 para N, aponte PK e FK e compare preco_atual com preco_praticado. A ordem de revelação é Produtos → Itens de venda → Vendas.
-
-TRANSIÇÃO
-Com os registros organizados, podemos fazer uma consulta para resumir as vendas.
-
-REVELAÇÃO POR ETAPAS
-A primeira etapa aparece ao abrir a tela. Use Próxima etapa ou a seta para a direita para apresentar as partes seguintes. Mostrar tudo revela o diagrama completo. Após a última etapa, a seta avança para o slide seguinte.
-
----
-
-## 13. A consulta SQL
-
-Pedro Mafra · SLIDE 13 / 15
-TEMPO SUGERIDO: 1 min 30 s
-
-FALA SUGERIDA
-A pergunta deste slide é: quais produtos tiveram mais unidades vendidas na semana dois? A consulta transforma os registros em um resumo por produto.
-
-SELECT indica o que será exibido: o produto e a soma das quantidades. FROM indica a tabela consultada. WHERE filtra os registros da semana dois. GROUP BY reúne as linhas de cada produto. A função SUM soma as quantidades desses grupos. Por fim, ORDER BY organiza o resultado do maior para o menor total.
-
-À direita, vemos o resultado esperado: arroz com 120 unidades, feijão com 75 e café com 35. Esse ranking responde sobre quantidade, não sobre receita ou lucro. Para avaliar esses resultados, precisaríamos de outras informações e cálculos.
-
-A tabela vendas_demo é didática e separada do modelo anterior. A consulta é ilustrativa; o painel do site funciona com dados locais em JavaScript, sem consultar um banco real.
-
-O QUE MOSTRAR NA TELA
-Leia a pergunta antes do código. Explique cada cláusula de cima para baixo e, depois, confira as três linhas do resultado.
-
-TRANSIÇÃO
-Agora vamos transformar esse resumo em um painel e comparar as duas semanas.
-
----
-
-## 14. Painel interativo
-
-Pedro Mafra · SLIDE 14 / 15
-TEMPO SUGERIDO: 1 min 50 s
-
-FALA SUGERIDA
-PARTE 1 — SEMANA DE REFERÊNCIA
-Na semana um, foram vendidas 80 unidades de arroz. Cada unidade custava 25 reais, e o custo de aquisição era de 18 reais. A receita foi de 2.000 reais, calculada por 80 vezes 25. O resultado bruto simplificado foi de 560 reais: 80 unidades multiplicadas pela diferença de sete reais entre preço e custo.
-
-PARTE 2 — SEMANA DE PROMOÇÃO
-Na semana dois, o preço caiu para 22 reais e as vendas subiram para 120 unidades. Isso representa aumento de 50% no volume. A receita passou a 2.640 reais, uma alta de 32%. Mesmo assim, o resultado bruto caiu para 480 reais, porque a diferença entre preço e custo passou a ser de quatro reais por unidade.
-
-A comparação mostra por que não podemos avaliar a promoção olhando somente para a quantidade. As despesas e os tributos não entram nesse cálculo; portanto, nenhum desses valores representa lucro líquido.
-
-O QUE MOSTRAR NA TELA
-Comece na vista Comparar. Mostre a Semana 1 no cartão esquerdo e a Semana 2 no direito. As opções de semana permitem dar foco a um período. A comparação financeira se refere apenas ao arroz; o gráfico também exibe feijão e café.
-
-TRANSIÇÃO
-A comparação mostra que vender mais não garante um resultado melhor. Vamos concluir retomando como os três fundamentos ajudam o supermercado a decidir.
-
----
-
-## 15. Conclusão
-
-Pedro Mafra · SLIDE 15 / 15
-TEMPO SUGERIDO: 1 min 10 s
-
-FALA SUGERIDA
-Para concluir, os três temas deste trabalho se complementam. O banco de dados organiza os registros, as relações e o histórico. A gestão da informação cuida do significado, da qualidade, do acesso e das responsabilidades. O BI usa esses dados para analisar o desempenho e acompanhar decisões.
-
-No estudo de caso do supermercado fictício, vimos que vender mais não significa necessariamente obter um resultado melhor. Para comprar melhor, o gerente precisa conferir vendas e estoque, analisar preço e custo, considerar validade e prazo do fornecedor e acompanhar o efeito da ação. O exemplo mostra quais informações sustentam a decisão; não determina uma quantidade de compra.
-
-As referências estão nesta tela, e o QR code permite acessar a apresentação pelo celular, sem cadastro. Quem quiser pode consultar o material depois. Obrigado pela atenção. Podemos responder às perguntas.
-
-O QUE MOSTRAR NA TELA
-Retome os três cartões e as quatro verificações do encerramento do caso. Mostre o QR code e indique as referências antes de agradecer e abrir para perguntas.
-
-ENCERRAMENTO
-Agradecer e abrir para perguntas.
+Retome os três temas, destaque a conclusão do supermercado e mostre o QR code.

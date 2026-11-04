@@ -2,23 +2,23 @@
 
 Apresentação de **Artur Teixeira, João Henrique e Pedro Mafra** em 04/11/2026.
 
-[Abrir apresentação](https://artur-txr.github.io/fundamentos-bi/?v=30#1)
+[Abrir apresentação](https://artur-txr.github.io/fundamentos-bi/?v=31#1)
 
 ## Organização
 
-15 telas. O caso central é um **supermercado fictício**, com dados didáticos.
+12 telas. O caso central é um **supermercado fictício**, com dados didáticos.
 
 | Integrante | Telas | Assunto |
 | --- | --- | --- |
 | Artur Teixeira | 1–4 | BI, dados e informação, indicadores e processo de análise |
-| João Henrique | 5–10 | Gestão da informação, ciclo de vida, qualidade e segurança |
-| Pedro Mafra | 11–15 | Bancos de dados, modelo relacional, SQL, painel e conclusão |
+| João Henrique | 5–8 | Gestão da informação, ciclo de vida, qualidade e segurança |
+| Pedro Mafra | 9–12 | Bancos de dados, modelo relacional, SQL, painel e conclusão |
 
-A parte de Artur foi condensada em capa e três telas de conteúdo, com roteiro direto.
+Cada integrante apresenta quatro telas. O roteiro está disponível no botão Roteiro e no arquivo ROTEIRO.md.
 
 ## Controles
 
-- Setas ou Page Up/Down: navegar. Nos diagramas das telas 4, 6 e 12, as setas percorrem as etapas antes de mudar de tela.
+- Setas ou Page Up/Down: navegar. Nos diagramas das telas 4, 6 e 9, as setas percorrem as etapas antes de mudar de tela.
 - Home / End: capa e conclusão.
 - P ou Apresentar: reduzir os controles auxiliares.
 - N ou Roteiro: consultar a fala na mesma tela.
@@ -28,9 +28,9 @@ A parte de Artur foi condensada em capa e três telas de conteúdo, com roteiro 
 
 ## Recursos mantidos
 
-- Tela 8: simulação de venda duplicada. Com erro: 140 unidades e R$ 3.080; corrigido: 120 unidades e R$ 2.640.
-- Tela 14: comparação das semanas lado a lado, com foco opcional em cada período.
-- Tela 15: conclusão ligada ao caso, referências e QR code.
+- Tela 7: simulação de venda duplicada. Com erro: 140 unidades e R$ 3.080; corrigido: 120 unidades e R$ 2.640.
+- Tela 11: comparação das semanas lado a lado, com foco opcional em cada período.
+- Tela 12: conclusão ligada ao caso, referências e QR code.
 - Termos destacados: definições breves.
 - Diagramas: revelação por etapas ou Mostrar tudo.
 
