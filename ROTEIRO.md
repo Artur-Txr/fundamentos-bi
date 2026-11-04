@@ -232,12 +232,12 @@ Pedro Mafra · SLIDE 12 / 13
 TEMPO SUGERIDO: 45 s
 
 FALA SUGERIDA
-O banco de dados organiza os registros e preserva o histórico. A gestão da informação cuida da qualidade, do acesso e das responsabilidades. O BI usa esses dados para acompanhar o desempenho e orientar decisões.
+O banco de dados preserva o histórico das vendas. A gestão da informação cuida da qualidade dos registros, e o BI usa esses dados para comparar o desempenho.
 
-No supermercado, o volume de vendas do arroz aumentou, mas o resultado bruto caiu. Esse exemplo mostra por que precisamos analisar preço, custo e quantidade em conjunto.
+No nosso exemplo, o supermercado vendeu 40 unidades a mais de arroz, mas o resultado bruto caiu de 560 para 480 reais. Antes de aumentar a reposição ou repetir a promoção, a equipe precisa conferir o estoque e analisar quanto vendeu, a que preço e com qual custo.
 
 O QUE MOSTRAR NA TELA
-Conclua com a comparação do arroz e avance para as referências.
+Destaque a diferença entre o aumento das vendas e a queda do resultado bruto. Encerre com a decisão de compra.
 
 TRANSIÇÃO
 As fontes usadas no trabalho estão na próxima tela.

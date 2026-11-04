@@ -301,19 +301,19 @@ const deck = [
   {
     "id": 12,
     "label": "Conclusão",
-    "title": "Conclusão",
-    "intro": "Banco de dados, gestão da informação e BI trabalham juntos para transformar registros em decisões mais bem fundamentadas.",
-    "body": "<div class=\"insight\"><span>ESTUDO DE CASO</span><p>No supermercado, o volume de vendas do arroz aumentou e o resultado bruto caiu. A comparação mostra por que preço, custo e quantidade precisam ser analisados em conjunto.</p></div>",
+    "title": "Dos registros<br>à decisão de compra.",
+    "intro": "O banco de dados preserva o histórico. A gestão da informação garante a qualidade dos registros. O BI usa esses registros para comparar resultados e orientar decisões.",
+    "body": "<div class=\"definition\"><span>RESULTADO DO CASO</span><p>O supermercado vendeu 40 unidades a mais de arroz, mas o resultado bruto caiu de R$ 560 para R$ 480.</p></div><div class=\"insight\"><span>DECISÃO DE COMPRA</span><p>Antes de aumentar a reposição ou repetir a promoção, a equipe precisa conferir o estoque e analisar a quantidade vendida junto com o preço e o custo.</p></div>",
     "speaker": 2,
     "chapter": "Banco de dados",
-    "notes": "Pedro Mafra · SLIDE 12 / 13\nTEMPO SUGERIDO: 45 s\n\nFALA SUGERIDA\nO banco de dados organiza os registros e preserva o histórico. A gestão da informação cuida da qualidade, do acesso e das responsabilidades. O BI usa esses dados para acompanhar o desempenho e orientar decisões.\n\nNo supermercado, o volume de vendas do arroz aumentou, mas o resultado bruto caiu. Esse exemplo mostra por que precisamos analisar preço, custo e quantidade em conjunto.\n\nO QUE MOSTRAR NA TELA\nConclua com a comparação do arroz e avance para as referências.\n\nTRANSIÇÃO\nAs fontes usadas no trabalho estão na próxima tela.",
+    "notes": "Pedro Mafra · SLIDE 12 / 13\nTEMPO SUGERIDO: 45 s\n\nFALA SUGERIDA\nO banco de dados preserva o histórico das vendas. A gestão da informação cuida da qualidade dos registros, e o BI usa esses dados para comparar o desempenho.\n\nNo nosso exemplo, o supermercado vendeu 40 unidades a mais de arroz, mas o resultado bruto caiu de 560 para 480 reais. Antes de aumentar a reposição ou repetir a promoção, a equipe precisa conferir o estoque e analisar quanto vendeu, a que preço e com qual custo.\n\nO QUE MOSTRAR NA TELA\nDestaque a diferença entre o aumento das vendas e a queda do resultado bruto. Encerre com a decisão de compra.\n\nTRANSIÇÃO\nAs fontes usadas no trabalho estão na próxima tela.",
     "reference": [
       "PostgreSQL · Conceitos relacionais",
       "https://www.postgresql.org/docs/current/tutorial-concepts.html"
     ],
     "script": {
-      "speech": "O banco de dados organiza os registros e preserva o histórico. A gestão da informação cuida da qualidade, do acesso e das responsabilidades. O BI usa esses dados para acompanhar o desempenho e orientar decisões.\n\nNo supermercado, o volume de vendas do arroz aumentou, mas o resultado bruto caiu. Esse exemplo mostra por que precisamos analisar preço, custo e quantidade em conjunto.",
-      "cue": "Conclua com a comparação do arroz e avance para as referências.",
+      "speech": "O banco de dados preserva o histórico das vendas. A gestão da informação cuida da qualidade dos registros, e o BI usa esses dados para comparar o desempenho.\n\nNo nosso exemplo, o supermercado vendeu 40 unidades a mais de arroz, mas o resultado bruto caiu de 560 para 480 reais. Antes de aumentar a reposição ou repetir a promoção, a equipe precisa conferir o estoque e analisar quanto vendeu, a que preço e com qual custo.",
+      "cue": "Destaque a diferença entre o aumento das vendas e a queda do resultado bruto. Encerre com a decisão de compra.",
       "transition": "As fontes usadas no trabalho estão na próxima tela.",
       "seconds": 45
     }
@@ -322,8 +322,8 @@ const deck = [
     "id": 13,
     "label": "Referências",
     "title": "Referências",
-    "intro": "",
-    "body": "<section class=\"sources\" aria-label=\"Referências bibliográficas\"><ol><li><a target=\"_blank\" rel=\"noopener\" href=\"https://www.ibm.com/think/topics/business-intelligence\">IBM · Business intelligence</a></li><li><a target=\"_blank\" rel=\"noopener\" href=\"https://www.ibm.com/think/topics/data-management\">IBM · Data management</a></li><li><a target=\"_blank\" rel=\"noopener\" href=\"https://www.ibm.com/think/topics/data-quality\">IBM · Data quality</a></li><li><a target=\"_blank\" rel=\"noopener\" href=\"https://www.postgresql.org/docs/current/tutorial-concepts.html\">PostgreSQL · Conceitos relacionais</a></li><li><a target=\"_blank\" rel=\"noopener\" href=\"https://www.postgresql.org/docs/current/tutorial-fk.html\">PostgreSQL · Chaves estrangeiras</a></li><li><a target=\"_blank\" rel=\"noopener\" href=\"https://www.postgresql.org/docs/current/tutorial-transactions.html\">PostgreSQL · Transações</a></li></ol></section>",
+    "intro": "Fontes utilizadas para os conceitos de BI, gestão da informação e bancos de dados.",
+    "body": "<div class=\"split-notes\"><div><h3>Inteligência de negócios e gestão da informação</h3><section class=\"sources\" aria-label=\"Leituras da IBM\"><ol><li><a target=\"_blank\" rel=\"noopener\" href=\"https://www.ibm.com/think/topics/business-intelligence\">IBM · Business intelligence</a></li><li><a target=\"_blank\" rel=\"noopener\" href=\"https://www.ibm.com/think/topics/data-management\">IBM · Data management</a></li><li><a target=\"_blank\" rel=\"noopener\" href=\"https://www.ibm.com/think/topics/data-quality\">IBM · Data quality</a></li></ol></section></div><div><h3>Bancos de dados relacionais</h3><section class=\"sources\" aria-label=\"Documentação do PostgreSQL\"><ol><li><a target=\"_blank\" rel=\"noopener\" href=\"https://www.postgresql.org/docs/current/tutorial-concepts.html\">PostgreSQL · Conceitos relacionais</a></li><li><a target=\"_blank\" rel=\"noopener\" href=\"https://www.postgresql.org/docs/current/tutorial-fk.html\">PostgreSQL · Chaves estrangeiras</a></li><li><a target=\"_blank\" rel=\"noopener\" href=\"https://www.postgresql.org/docs/current/tutorial-transactions.html\">PostgreSQL · Transações</a></li></ol></section></div></div>",
     "speaker": 2,
     "chapter": "Referências",
     "appendix": true,
