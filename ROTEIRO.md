@@ -232,7 +232,7 @@ Pedro Mafra · SLIDE 12 / 12
 TEMPO SUGERIDO: 35 s
 
 FALA SUGERIDA
-O banco de dados preserva o histórico das vendas. A gestão da informação cuida da qualidade dos registros, e o BI usa esses dados para orientar decisões. No supermercado, a equipe pode combinar dados de vendas, estoque, preço e custo para planejar as compras. As fontes usadas no trabalho estão nesta tela. Obrigado pela atenção.
+O banco de dados preserva o histórico das vendas. A gestão da informação cuida da qualidade dos registros, e o BI usa esses dados para orientar decisões. Na prática, o BI reúne dados de diferentes áreas e acompanha indicadores. No supermercado, comparar vendas, estoque e custos ajuda a entender o que mudou e avaliar o resultado das ações. As fontes usadas no trabalho estão nesta tela. Obrigado pela atenção.
 
 O QUE MOSTRAR NA TELA
 Retome os três conceitos, indique as referências e agradeça.
