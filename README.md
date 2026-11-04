@@ -2,11 +2,11 @@
 
 Apresentação de **Artur Teixeira, João Henrique e Pedro Mafra** em 04/11/2026.
 
-[Abrir apresentação](https://artur-txr.github.io/fundamentos-bi/?v=33#1)
+[Abrir apresentação](https://artur-txr.github.io/fundamentos-bi/?v=34#1)
 
 ## Organização
 
-13 telas, com quatro telas por integrante e uma tela final de referências. O caso central é um **supermercado fictício**, com dados didáticos.
+12 telas, com quatro telas por integrante. O caso central é um **supermercado fictício**, com dados didáticos.
 
 | Integrante | Telas | Assunto |
 | --- | --- | --- |
@@ -19,7 +19,7 @@ Cada integrante apresenta quatro telas. O roteiro está disponível no botão Ro
 ## Controles
 
 - Setas ou Page Up/Down: navegar. Nos diagramas das telas 4, 6 e 9, as setas percorrem as etapas antes de mudar de tela.
-- Home / End: capa e referências.
+- Home / End: capa e conclusão.
 - P ou Apresentar: reduzir os controles auxiliares.
 - N ou Roteiro: consultar a fala na mesma tela.
 - Cores: escolher azul, claro, verde ou violeta. A preferência fica salva neste navegador.
@@ -30,8 +30,7 @@ Cada integrante apresenta quatro telas. O roteiro está disponível no botão Ro
 
 - Tela 7: simulação de venda duplicada. Com erro: 140 unidades e R$ 3.080; corrigido: 120 unidades e R$ 2.640.
 - Tela 11: comparação das semanas lado a lado, com foco opcional em cada período.
-- Tela 12: conclusão do caso.
-- Tela 13: referências.
+- Tela 12: conclusão e referências.
 - Termos destacados: definições breves.
 - Diagramas: revelação por etapas ou Mostrar tudo.
 
