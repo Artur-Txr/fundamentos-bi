@@ -1,10 +1,10 @@
 # Roteiro de apresentação
 
-12 telas · Artur Teixeira 1–4 · João Henrique 5–8 · Pedro Mafra 9–12.
+Artur Teixeira 1–4 · João Henrique 5–8 · Pedro Mafra 9–12 · Referências na tela 13.
 
 ## 1. Abertura
 
-Artur Teixeira · SLIDE 1 / 12
+Artur Teixeira · SLIDE 1 / 13
 TEMPO SUGERIDO: 0 min 55 s
 
 FALA SUGERIDA
@@ -24,7 +24,7 @@ A seguir, vamos apresentar o BI aplicado ao supermercado.
 
 ## 2. BI na prática
 
-Artur Teixeira · SLIDE 2 / 12
+Artur Teixeira · SLIDE 2 / 13
 TEMPO SUGERIDO: 1 min 20 s
 
 FALA SUGERIDA
@@ -48,7 +48,7 @@ Agora vamos conhecer os indicadores e aplicar um KPI ao nosso exemplo.
 
 ## 3. Indicadores e KPI
 
-Artur Teixeira · SLIDE 3 / 12
+Artur Teixeira · SLIDE 3 / 13
 TEMPO SUGERIDO: 1 min 30 s
 
 FALA SUGERIDA
@@ -72,7 +72,7 @@ A próxima tela mostra o caminho dos dados que permite calcular e acompanhar ess
 
 ## 4. Da fonte à decisão
 
-Artur Teixeira · SLIDE 4 / 12
+Artur Teixeira · SLIDE 4 / 13
 TEMPO SUGERIDO: 2 min 15 s
 
 FALA SUGERIDA
@@ -98,7 +98,7 @@ Agora João Henrique vai apresentar a gestão da informação.
 
 ## 5. Gestão da informação
 
-João Henrique · SLIDE 5 / 12
+João Henrique · SLIDE 5 / 13
 TEMPO SUGERIDO: 1 min 15 s
 
 FALA SUGERIDA
@@ -116,7 +116,7 @@ Agora vamos acompanhar a informação ao longo do seu ciclo de vida.
 
 ## 6. Ciclo de vida
 
-João Henrique · SLIDE 6 / 12
+João Henrique · SLIDE 6 / 13
 TEMPO SUGERIDO: 1 min 15 s
 
 FALA SUGERIDA
@@ -134,7 +134,7 @@ Com os registros organizados, podemos verificar sua qualidade.
 
 ## 7. Qualidade dos dados
 
-João Henrique · SLIDE 7 / 12
+João Henrique · SLIDE 7 / 13
 TEMPO SUGERIDO: 1 min 35 s
 
 FALA SUGERIDA
@@ -152,7 +152,7 @@ Além de conferir os registros, precisamos protegê-los e garantir o acesso quan
 
 ## 8. Segurança e boas práticas
 
-João Henrique · SLIDE 8 / 12
+João Henrique · SLIDE 8 / 13
 TEMPO SUGERIDO: 1 min 15 s
 
 FALA SUGERIDA
@@ -170,7 +170,7 @@ Agora Pedro Mafra vai mostrar como o banco de dados organiza os registros do sup
 
 ## 9. Banco de dados e tabelas
 
-Pedro Mafra · SLIDE 9 / 12
+Pedro Mafra · SLIDE 9 / 13
 TEMPO SUGERIDO: 1 min 35 s
 
 FALA SUGERIDA
@@ -190,7 +190,7 @@ Com os dados organizados, podemos usar SQL para consultar as vendas.
 
 ## 10. Consulta SQL
 
-Pedro Mafra · SLIDE 10 / 12
+Pedro Mafra · SLIDE 10 / 13
 TEMPO SUGERIDO: 1 min 25 s
 
 FALA SUGERIDA
@@ -208,7 +208,7 @@ Vamos comparar as duas semanas e observar como os indicadores mudaram.
 
 ## 11. Comparação das semanas
 
-Pedro Mafra · SLIDE 11 / 12
+Pedro Mafra · SLIDE 11 / 13
 TEMPO SUGERIDO: 1 min 30 s
 
 FALA SUGERIDA
@@ -228,13 +228,24 @@ Para fechar, vamos reunir o que cada parte do trabalho acrescenta à decisão.
 
 ## 12. Conclusão
 
-Pedro Mafra · SLIDE 12 / 12
-TEMPO SUGERIDO: 1 min 5 s
+Pedro Mafra · SLIDE 12 / 13
+TEMPO SUGERIDO: 45 s
 
 FALA SUGERIDA
-O banco de dados organiza os registros e preserva o histórico. A gestão da informação cuida da qualidade, das responsabilidades e do acesso. O BI usa esses dados para acompanhar o desempenho e orientar decisões.
+O banco de dados organiza os registros e preserva o histórico. A gestão da informação cuida da qualidade, do acesso e das responsabilidades. O BI usa esses dados para acompanhar o desempenho e orientar decisões.
 
-No supermercado, vimos que vender mais unidades pode vir acompanhado de um resultado bruto menor. Para planejar as compras, a equipe precisa combinar vendas e estoque, considerar preço, custo e prazo de entrega e acompanhar o resultado depois da decisão. As referências e o QR code ficam disponíveis nesta tela. Obrigado pela atenção.
+No supermercado, o volume de vendas do arroz aumentou, mas o resultado bruto caiu. Esse exemplo mostra por que precisamos analisar preço, custo e quantidade em conjunto.
 
 O QUE MOSTRAR NA TELA
-Retome os três temas, destaque a conclusão do supermercado e mostre o QR code.
+Conclua com a comparação do arroz e avance para as referências.
+
+TRANSIÇÃO
+As fontes usadas no trabalho estão na próxima tela.
+
+---
+
+## 13. Referências
+
+SLIDE 13 / 13
+
+Aqui estão as fontes usadas no trabalho. Obrigado pela atenção.

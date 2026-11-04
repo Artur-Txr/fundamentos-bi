@@ -12,7 +12,8 @@ function render(){current=selectedIndex();const s=deck[current];const isCover=cu
 $('stage').innerHTML=isCover?`<section class="slide cover" aria-label="Slide 1">${s.body}</section>`:`<section class="slide" aria-label="Slide ${current+1}"><div class="slide-heading"><span class="overline">${String(s.id).padStart(2,'0')} / ${s.label}</span><span class="slide-chapter">${String(s.speaker+1).padStart(2,'0')}</span></div><h1 class="slide-title">${s.title}</h1><p class="slide-intro">${s.intro}</p>${termBlock(s)}<div class="slide-body">${s.body}</div>${supportBlock(s)}</section>`;
 if(isCover)$('cover-people').textContent=presenters.join(' / ');
 $('chapter-label').innerHTML=`<span class="chapter-dot"></span> CAPÍTULO 0${s.speaker+1} <b>/</b> ${s.chapter}`;
-$('presenter-name').textContent=presenters[s.speaker];$('avatar').textContent=initials[s.speaker];$('presenter-range').textContent=`${deck.filter(x=>x.speaker===s.speaker).findIndex(x=>x.id===s.id)+1} de ${deck.filter(x=>x.speaker===s.speaker).length} slides · ${s.chapter}`;
+$('presenter-name').textContent=presenters[s.speaker];$('avatar').textContent=initials[s.speaker];const speakerSlides = deck.filter(slide => slide.speaker === s.speaker && !slide.appendix);
+$('presenter-range').textContent = s.appendix ? 'Fontes do trabalho' : `${speakerSlides.findIndex(slide => slide.id === s.id) + 1} de ${speakerSlides.length} slides · ${s.chapter}`;
 $('page-count').innerHTML=`<strong>${String(current+1).padStart(2,'0')}</strong><span>/ ${deck.length}</span>`;
 $('prev').disabled=current===0;$('next').disabled=current===deck.length-1;
 $('reading-progress').style.width=`${(current+1)/deck.length*100}%`;
