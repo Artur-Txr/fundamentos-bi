@@ -22,7 +22,7 @@ const deck = [
   {
     "id": 2,
     "label": "BI na prática",
-    "title": "Inteligência de negócios<br>aplicada ao supermercado.",
+    "title": "BI aplicada<br>ao supermercado.",
     "intro": "BI significa Business Intelligence, ou Inteligência de Negócios. É a combinação de dados, análise e conhecimento da empresa para decidir com mais fundamento.",
     "body": "<div class=\"cards cols-3\"><article><span class=\"card-index\">01</span><h3>Conhecer a situação</h3><p>Reunir o que foi vendido, o que ainda está no estoque e os preços e custos dos produtos.</p><div class=\"card-foot\">No arroz: comparar as vendas com o saldo disponível.</div></article><article><span class=\"card-index\">02</span><h3>Entender o resultado</h3><p>Comparar períodos e considerar fatores como promoção, preço e custo.</p><div class=\"card-foot\">Mais vendas podem vir acompanhadas de um resultado bruto menor.</div></article><article><span class=\"card-index\">03</span><h3>Decidir e acompanhar</h3><p>Planejar a reposição e observar o resultado da decisão para fazer ajustes.</p><div class=\"card-foot\">A compra considera demanda, estoque e prazo de entrega.</div></article></div><div class=\"insight\"><span>OBJETIVO DO BI NO SUPERMERCADO</span><p>Apoiar as decisões de compra e reposição, combinando vendas, estoque, preços e custos para reduzir faltas e excessos de produtos e avaliar o resultado das promoções.</p></div>",
     "speaker": 0,
